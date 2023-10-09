@@ -7,6 +7,44 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2023-10-09
+
+### Updates
+- REMINDER: Back up your Xaero's folders and your options.txt file just in case! Also, if you start the game and you have like 3 different things bound to the "R" key, my custom keybinds probably didn't apply for you. You can find them in /config/defaultoptions!
+- Added PlayCDU's server.
+- Classes now have passive skills. You get 1 point every 2 levels and they are allocated in the Classes GUI.
+- Buffed totem spells.
+- New Lightning Totem spell in the Shaman tree.
+- New Ritardando spell in the Minstrel tree.
+- Greatly improved server-side performance.
+- Improved Classes GUI.
+- Ender Dragon has more HP now so it should be able to spawn.
+- Increased summon mob health scaling per level.
+- You can now interact with crafting tables in claims.
+- Increased the frequency of some structure spawns (especially Pillager Outposts).
+- Removed fish weight.
+- Changed the first Illager quest to something even MORE manageable than last time.
+
+### Fixes
+- Fixed mobs reflecting a bunch of damage even without Reflect affix (disabled Zombie Bite).
+- Fixed spell tooltip support slot not updating properly.
+- Fixed issues where players could allocate points into the negative.
+- Fixed issues where some spells were not casting properly (Hymns).
+- Actually fixed mob spawns this time.
+- Fixed Summon Zombie spell datapack not applying.
+- Fixed a mistyped stat for a lightning mob affix.
+- Fixed an issue where you could have multiple of the same Support Gem equipped.
+- Fixed some missing localization.
+
+### Mod Updates
+- Updated Mine and Slash, Citadel, Supermartijn Core Lib, Supplementaries, Embeddium.
+- Added Server Core.
+- Added Beautified Chat.
+- Removed APTweaks Spawn.
+- Removed DynView.
+- Removed FallingTree.
+- Removed Timestamp Chat.
+
 ## [0.1.2] - 2023-10-08
 
 ### Updates

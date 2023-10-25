@@ -9,8 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.2.0] - 2023-10-XX
 
+### Reminders
+- Back up your Xaero's folders and your options.txt file just in case! Also, if you start the game and you have like 3 different things bound to the "R" key, my custom keybinds probably didn't apply for you. You can find them in /config/defaultoptions!
+
 ### Updates
-- REMINDER: Back up your Xaero's folders and your options.txt file just in case! Also, if you start the game and you have like 3 different things bound to the "R" key, my custom keybinds probably didn't apply for you. You can find them in /config/defaultoptions!
 - Added PlayCDU's server.
 - Completely revamped the Talent Tree. It's now much larger and has 6 different starting points.
 - Classes now have passive skills. You get 1 point every 2 levels and they are allocated in the Classes GUI.
@@ -56,6 +58,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - You can receive Ambergris from Bountiful bounties now.
 - Colonies citizens now do more damage.
 - Colonists no longer require potions or Cuisine Delight foods to recruit.
+- Various new quests and quest updates.
+- Some Mine and Slash dungeons have been made less harsh.
+- Disabled Incendium and Stellarity special weapons from dropping.
 
 ### Fixes
 - Fixed mobs reflecting a bunch of damage even without Reflect affix (disabled Zombie Bite).
@@ -74,6 +79,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Hammers can be used for spell casting now.
 - Fixed an issue where Chorundrum was considered an axe.
 - Reduced experience gain slightly.
+- Mine and Slash packs have been fixed.
+- Fixed profession blocks not being dropped when destroyed.
 
 ### Mod Updates
 - Updated Mine and Slash, Citadel, Supermartijn Core Lib, Supplementaries, Embeddium, Library of Exile, Moonlight, Domum Ornamentum, Easy NPC, FootprintParticles, ModernFix, Simple Magnets, MineColonies, APT, BlockUI, Bookshelf, CreativeCore, Cupboard, DeeperDarker, Domum, Dungeons Arise, Embeddium, Enhanced Visuals, Friendly Fire, Friends&Foes, Goblin Tradaers, Handcrafted, InsaneLib, Jade, NBTac, Resourceful Lib, Should Surfing, Sophisticated mods, Structurize, Supplementaries, Xaero's, Lightman's Currency, AmbientSounds, Curios, IPN, Polymorph, FTB Quests.

@@ -7,16 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.0] - 2023-10-09
+## [0.2.0] - 2023-10-XX
 
 ### Updates
 - REMINDER: Back up your Xaero's folders and your options.txt file just in case! Also, if you start the game and you have like 3 different things bound to the "R" key, my custom keybinds probably didn't apply for you. You can find them in /config/defaultoptions!
 - Added PlayCDU's server.
+- Completely revamped the Talent Tree. It's now much larger and has 6 different starting points.
 - Classes now have passive skills. You get 1 point every 2 levels and they are allocated in the Classes GUI.
 - Buffed totem spells.
+- Skill damage has been lowered across the board.
+- Doubled mana on hit from basic attacks.
+- Increased base damage on weapons.
+- Lowered base energy regen slightly.
 - New Lightning Totem spell in the Shaman tree.
+- Ice Shard now pierces enemies.
 - New Ritardando spell in the Minstrel tree.
+- Gong Strike stun has been lowered to 0.25s instead of 3s.
+- Gong Strike health scaling has been reduced.
+- Maps are now available starting at level 45. You need a Dragon Head to craft the Teleporter.
 - Greatly improved server-side performance.
+- Increased mob stats and damage per level scaling.
 - Improved Classes GUI.
 - Ender Dragon has more HP now so it should be able to spawn.
 - Increased summon mob health scaling per level.
@@ -24,6 +34,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased the frequency of some structure spawns (especially Pillager Outposts).
 - Removed fish weight.
 - Changed the first Illager quest to something even MORE manageable than last time.
+- Increased Spice of Life food queue for diversity from 32 to 64 foods.
+- Increased gem drop rate (the socketable ones).
+- Rebalanced support gems.
+- Spell mana costs have been rebalanced and now go up per level instead of down. The mana cost at max level is about the same as it was before, so it should be much easier early game.
+- Players have 25% more base mana regen.
+- Added modded ores to Mine and Slash mining experience table.
+- Added pumpkin and modded crops to Mine and Slash farming experience table.
+- Map rewards have been nerfed.
+- Totems and Chilling Field no long knockback.
+- Updated some FLAN default permissions. 
+- Warp Stones now have a longer cooldown.
+- Lowered recipe cost of the Disenchanter.
+- Reduced rewards from Shiraz Palace and Keep Kayra.
+- Trading with players now requires players to be closer to each other.
+- Forgotten Guardian quest is now passable temporarily as we investigate why it's not spawning.
+- Seagulls can no longer steal your lunchboxes.
+- Chocobos, wolves, horses, and various other passive mobs can now be caged.
+- Levels are now shown by default on any server in the scoreboard. Thanks to RickieGamer for the datapack!
+- Lootr chests are now breakable by default (except on official server).
+- You can receive Ambergris from Bountiful bounties now.
+- Colonies citizens now do more damage.
+- Colonists no longer require potions or Cuisine Delight foods to recruit.
 
 ### Fixes
 - Fixed mobs reflecting a bunch of damage even without Reflect affix (disabled Zombie Bite).
@@ -35,15 +67,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed a mistyped stat for a lightning mob affix.
 - Fixed an issue where you could have multiple of the same Support Gem equipped.
 - Fixed some missing localization.
+- Fixed some side quest issues.
+- Disabled Necromancers from raids, and disabled their spawn.
+- Fixed an issue where custom Bountiful bounties were not applying.
+- Neptunium Axe is now considered an axe.
+- Hammers can be used for spell casting now.
+- Fixed an issue where Chorundrum was considered an axe.
+- Reduced experience gain slightly.
 
 ### Mod Updates
-- Updated Mine and Slash, Citadel, Supermartijn Core Lib, Supplementaries, Embeddium.
+- Updated Mine and Slash, Citadel, Supermartijn Core Lib, Supplementaries, Embeddium, Library of Exile, Moonlight, Domum Ornamentum, Easy NPC, FootprintParticles, ModernFix, Simple Magnets, MineColonies, APT, BlockUI, Bookshelf, CreativeCore, Cupboard, DeeperDarker, Domum, Dungeons Arise, Embeddium, Enhanced Visuals, Friendly Fire, Friends&Foes, Goblin Tradaers, Handcrafted, InsaneLib, Jade, NBTac, Resourceful Lib, Should Surfing, Sophisticated mods, Structurize, Supplementaries, Xaero's, Lightman's Currency, AmbientSounds, Curios, IPN, Polymorph, FTB Quests.
 - Added Server Core.
 - Added Beautified Chat.
+- Added Air Hop - adds an enchantment that lets you jump multiple times.
+- Added Comforts - portable beds!
+- Added Refined Cooking - adds blocks that allow Refined Storage and Cooking for Blockheads to interact with each other.
+- Added Nature's Aura - test run of a new magic-based tech mod.
+- Added Saturn.
+- Added No Telemetry.
+- Re-added Neruina.
 - Removed APTweaks Spawn.
 - Removed DynView.
 - Removed FallingTree.
 - Removed Timestamp Chat.
+- Removed Staaack.
+- Removed Lootbeams (for now).
 
 ## [0.1.2] - 2023-10-08
 

@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.0] - 2023-10-XX
+## [0.2.0] - 2023-11-XX
 
 ### Reminders
 - Back up your Xaero's folders and your options.txt file just in case! Also, if you start the game and you have like 3 different things bound to the "R" key, my custom keybinds probably didn't apply for you. You can find them in /config/defaultoptions!
@@ -15,7 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - Added PlayCDU's server.
 - Completely revamped the Talent Tree. It's now much larger and has 6 different starting points.
+- Starting icons are much more noticeable and have their own icon now.
 - Classes now have passive skills. You get 1 point every 2 levels and they are allocated in the Classes GUI.
+- Revamped Act III quest line - explore the Deep Ocean as part of the quest line!
+- Revamped Mine and Slash professions. A lot of the recipes have been reworked to use lesser, medium, and greater resources more appropriately, and experience has been increased for higher rarity crafts.
 - Buffed totem spells.
 - Skill damage has been lowered across the board.
 - Doubled mana on hit from basic attacks.
@@ -50,7 +53,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Lowered recipe cost of the Disenchanter.
 - Reduced rewards from Shiraz Palace and Keep Kayra.
 - Trading with players now requires players to be closer to each other.
-- Forgotten Guardian quest is now passable temporarily as we investigate why it's not spawning.
 - Seagulls can no longer steal your lunchboxes.
 - Chocobos, wolves, horses, and various other passive mobs can now be caged.
 - Levels are now shown by default on any server in the scoreboard. Thanks to RickieGamer for the datapack!
@@ -59,10 +61,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Colonies citizens now do more damage.
 - Colonists no longer require potions or Cuisine Delight foods to recruit.
 - Various new quests and quest updates.
-- Some Mine and Slash dungeons have been made less harsh.
+- Some Mine and Slash dungeons have been made less harsh - thanks Michu!
 - Disabled Incendium and Stellarity special weapons from dropping.
+- Increased Chocobo health to make them less prone to accidental deaths.
+- Re-enabled the Demagnetization Coils.
+- Dodge rolling now has some invulnerability frames. You get 6 ticks of invulnerability out of the 8 tick roll.
+- Rebalanced some of the existing uniques.
 
 ### Fixes
+- Fixed Steady Hand giving crit damage twice.
 - Fixed mobs reflecting a bunch of damage even without Reflect affix (disabled Zombie Bite).
 - Fixed spell tooltip support slot not updating properly.
 - Fixed issues where players could allocate points into the negative.
@@ -81,9 +88,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced experience gain slightly.
 - Mine and Slash packs have been fixed.
 - Fixed profession blocks not being dropped when destroyed.
+- The pack now comes prepackaged with Complimentary shaders.
+- Fixed fishing now dropping lesser/medium/greater fish.
+- Fixed salvaging profession giving no experience.
 
 ### Mod Updates
-- Updated Mine and Slash, Citadel, Supermartijn Core Lib, Supplementaries, Embeddium, Library of Exile, Moonlight, Domum Ornamentum, Easy NPC, FootprintParticles, ModernFix, Simple Magnets, MineColonies, APT, BlockUI, Bookshelf, CreativeCore, Cupboard, DeeperDarker, Domum, Dungeons Arise, Embeddium, Enhanced Visuals, Friendly Fire, Friends&Foes, Goblin Tradaers, Handcrafted, InsaneLib, Jade, NBTac, Resourceful Lib, Should Surfing, Sophisticated mods, Structurize, Supplementaries, Xaero's, Lightman's Currency, AmbientSounds, Curios, IPN, Polymorph, FTB Quests.
+- Updated Mine and Slash, Citadel, Supermartijn Core Lib, Supplementaries, Embeddium, Library of Exile, Moonlight, Domum Ornamentum, Easy NPC, FootprintParticles, ModernFix, Simple Magnets, MineColonies, APT, BlockUI, Bookshelf, CreativeCore, Cupboard, DeeperDarker, Domum, Dungeons Arise, Embeddium, Enhanced Visuals, Friendly Fire, Friends&Foes, Goblin Traders, Handcrafted, InsaneLib, Jade, NBTac, Resourceful Lib, Should Surfing, Sophisticated mods, Structurize, Supplementaries, Xaero's, Lightman's Currency, AmbientSounds, Curios, IPN, Polymorph, FTB Quests, CraftPresence, Terralith, Rubidium Extra, Collective, Combat Roll, choiceTheorem's Overhauled Village, GeckoLib, Incendium, Let Me Despawn, Puzzles Lib, Customizable Elytra.
 - Added Server Core.
 - Added Beautified Chat.
 - Added Air Hop - adds an enchantment that lets you jump multiple times.
@@ -92,6 +102,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Nature's Aura - test run of a new magic-based tech mod.
 - Added Saturn.
 - Added No Telemetry.
+- Added Aquamirae.
+- Added Oculus.
+- Added Quickstack.
 - Re-added Neruina.
 - Removed APTweaks Spawn.
 - Removed DynView.

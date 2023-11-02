@@ -89,7 +89,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mine and Slash packs have been fixed.
 - Fixed profession blocks not being dropped when destroyed.
 - The pack now comes prepackaged with Complimentary shaders.
-- Fixed fishing now dropping lesser/medium/greater fish.
+- Fixed fishing not dropping lesser/medium/greater fish.
 - Fixed salvaging profession giving no experience.
 
 ### Mod Updates

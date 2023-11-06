@@ -67,8 +67,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Re-enabled the Demagnetization Coils.
 - Dodge rolling now has some invulnerability frames. You get 6 ticks of invulnerability out of the 8 tick roll.
 - Rebalanced some of the existing uniques.
+- Mining profession now gives ore blocks rather than the ingots straight up. They now require smelting or blasting (compatibility with Create).
+- Minecolonies mining lucky ore chance now has a chance to give Mine and Slash mining profession resources and Create Zinc Ores.
+- Added Mine and Slash items to almost every vanilla chest loot table!
+- Changed Mine and Slash Profession station recipes.
 
 ### Fixes
+- Fixed Stoneborn not spawning frequently enough in The Undergarden.
 - Fixed Steady Hand giving crit damage twice.
 - Fixed mobs reflecting a bunch of damage even without Reflect affix (disabled Zombie Bite).
 - Fixed spell tooltip support slot not updating properly.
@@ -93,7 +98,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed salvaging profession giving no experience.
 
 ### Mod Updates
-- Updated Mine and Slash, Citadel, Supermartijn Core Lib, Supplementaries, Embeddium, Library of Exile, Moonlight, Domum Ornamentum, Easy NPC, FootprintParticles, ModernFix, Simple Magnets, MineColonies, APT, BlockUI, Bookshelf, CreativeCore, Cupboard, DeeperDarker, Domum, Dungeons Arise, Embeddium, Enhanced Visuals, Friendly Fire, Friends&Foes, Goblin Traders, Handcrafted, InsaneLib, Jade, NBTac, Resourceful Lib, Should Surfing, Sophisticated mods, Structurize, Supplementaries, Xaero's, Lightman's Currency, AmbientSounds, Curios, IPN, Polymorph, FTB Quests, CraftPresence, Terralith, Rubidium Extra, Collective, Combat Roll, choiceTheorem's Overhauled Village, GeckoLib, Incendium, Let Me Despawn, Puzzles Lib, Customizable Elytra.
+- Updated Mine and Slash, Citadel, Supermartijn Core Lib, Supplementaries, Embeddium, Library of Exile, Moonlight, Domum Ornamentum, Easy NPC, FootprintParticles, ModernFix, Simple Magnets, MineColonies, APT, BlockUI, Bookshelf, CreativeCore, Cupboard, DeeperDarker, Domum, Dungeons Arise, Embeddium, Enhanced Visuals, Friendly Fire, Friends&Foes, Goblin Traders, Handcrafted, InsaneLib, Jade, NBTac, Resourceful Lib, Should Surfing, Sophisticated mods, Structurize, Supplementaries, Xaero's, Lightman's Currency, AmbientSounds, Curios, IPN, Polymorph, FTB Quests, CraftPresence, Terralith, Rubidium Extra, Collective, Combat Roll, choiceTheorem's Overhauled Village, GeckoLib, Incendium, Let Me Despawn, Puzzles Lib, Customizable Elytra, AttributeFix, Axes Are Weapons, Create, Illager Invasion, Item Filters, Kobolds, Refined Storage, Steam Rails, The Undergarden, Tips, Iceberg.
 - Added Server Core.
 - Added Beautified Chat.
 - Added Air Hop - adds an enchantment that lets you jump multiple times.

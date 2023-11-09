@@ -15,11 +15,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - Added PlayCDU's server.
 - Completely revamped the Talent Tree. It's now much larger and has 6 different starting points.
-- Starting icons are much more noticeable and have their own icon now.
+- You can now earn Talent Points from certain quests as a reward! It is possible to get 25 Talent Points this way.
 - Classes now have passive skills. You get 1 point every 2 levels and they are allocated in the Classes GUI.
+- Added a completely new Act IV, check out the Everbright and Everdawn and their mobs and dungeons!
 - Revamped Act III quest line - explore the Deep Ocean as part of the quest line!
-- Revamped Mine and Slash professions. A lot of the recipes have been reworked to use lesser, medium, and greater resources more appropriately, and experience has been increased for higher rarity crafts.
+- Revamped Mine and Slash professions. A lot of the recipes have been reworked to use lesser, medium, and greater resources more appropriately, and experience has been increased for higher rarity crafts. Gathering skills are also more streamlined, no more needing to be level 41 to get max benefits out of mining Copper ore...
+- Added 26 new unique items: 1 ring, 2 tomes, 1 axe, 2 spears, 3 daggers, 3 hammers, 2 shields, 2 totems, 3 bows, 2 crossbows, 1 sword, 2 boots, 1 necklace, 1 helmet. One of these items is very rare and powerful...
 - Buffed totem spells.
+- Starting icons are much more noticeable and have their own icon now.
 - Skill damage has been lowered across the board.
 - Doubled mana on hit from basic attacks.
 - Increased base damage on weapons.
@@ -27,18 +30,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New Lightning Totem spell in the Shaman tree.
 - Ice Shard now pierces enemies.
 - New Ritardando spell in the Minstrel tree.
+- Increased cost of crafted Waystones slightly.
 - Gong Strike stun has been lowered to 0.25s instead of 3s.
 - Gong Strike health scaling has been reduced.
 - Maps are now available starting at level 45. You need a Dragon Head to craft the Teleporter.
 - Greatly improved server-side performance.
 - Increased mob stats and damage per level scaling.
 - Improved Classes GUI.
-- Ender Dragon has more HP now so it should be able to spawn.
 - Increased summon mob health scaling per level.
+- Lowered Pillager damage by 20%.
 - You can now interact with crafting tables in claims.
 - Increased the frequency of some structure spawns (especially Pillager Outposts).
 - Removed fish weight.
 - Changed the first Illager quest to something even MORE manageable than last time.
+- A bunch of new Majrusz's Accessories have been added.
 - Increased Spice of Life food queue for diversity from 32 to 64 foods.
 - Increased gem drop rate (the socketable ones).
 - Rebalanced support gems.
@@ -48,7 +53,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added pumpkin and modded crops to Mine and Slash farming experience table.
 - Map rewards have been nerfed.
 - Totems and Chilling Field no long knockback.
-- Updated some FLAN default permissions. 
+- Updated some FLAN default permissions.
+- It takes 10s instead of 15s to get a FLAN block.
+- FLAN depth is now set to 20 (note that the depth changes dynamically as you dig).
 - Warp Stones now have a longer cooldown.
 - Lowered recipe cost of the Disenchanter.
 - Reduced rewards from Shiraz Palace and Keep Kayra.
@@ -65,12 +72,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disabled Incendium and Stellarity special weapons from dropping.
 - Increased Chocobo health to make them less prone to accidental deaths.
 - Re-enabled the Demagnetization Coils.
-- Dodge rolling now has some invulnerability frames. You get 6 ticks of invulnerability out of the 8 tick roll.
+- Dodge rolling now has some invulnerability frames. You get 4 ticks of invulnerability out of the 8 tick roll.
 - Rebalanced some of the existing uniques.
 - Mining profession now gives ore blocks rather than the ingots straight up. They now require smelting or blasting (compatibility with Create).
 - Minecolonies mining lucky ore chance now has a chance to give Mine and Slash mining profession resources and Create Zinc Ores.
 - Added Mine and Slash items to almost every vanilla chest loot table!
 - Changed Mine and Slash Profession station recipes.
+- Minecolonies Supply Camps and Ships no longer spawn in chests.
 
 ### Fixes
 - Fixed Stoneborn not spawning frequently enough in The Undergarden.
@@ -96,10 +104,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The pack now comes prepackaged with Complimentary shaders.
 - Fixed fishing not dropping lesser/medium/greater fish.
 - Fixed salvaging profession giving no experience.
+- Fixed Totem of Illusion being useable in maps.
+- Fixed Ender Dragon not spawning.
 
 ### Mod Updates
-- Updated Mine and Slash, Citadel, Supermartijn Core Lib, Supplementaries, Embeddium, Library of Exile, Moonlight, Domum Ornamentum, Easy NPC, FootprintParticles, ModernFix, Simple Magnets, MineColonies, APT, BlockUI, Bookshelf, CreativeCore, Cupboard, DeeperDarker, Domum, Dungeons Arise, Embeddium, Enhanced Visuals, Friendly Fire, Friends&Foes, Goblin Traders, Handcrafted, InsaneLib, Jade, NBTac, Resourceful Lib, Should Surfing, Sophisticated mods, Structurize, Supplementaries, Xaero's, Lightman's Currency, AmbientSounds, Curios, IPN, Polymorph, FTB Quests, CraftPresence, Terralith, Rubidium Extra, Collective, Combat Roll, choiceTheorem's Overhauled Village, GeckoLib, Incendium, Let Me Despawn, Puzzles Lib, Customizable Elytra, AttributeFix, Axes Are Weapons, Create, Illager Invasion, Item Filters, Kobolds, Refined Storage, Steam Rails, The Undergarden, Tips, Iceberg.
+- Updated Mine and Slash, Citadel, Supermartijn Core Lib, Supplementaries, Embeddium, Library of Exile, Moonlight, Domum Ornamentum, Easy NPC, FootprintParticles, ModernFix, Simple Magnets, MineColonies, APT, BlockUI, Bookshelf, CreativeCore, Cupboard, DeeperDarker, Domum, Dungeons Arise, Embeddium, Enhanced Visuals, Friendly Fire, Friends&Foes, Goblin Traders, Handcrafted, InsaneLib, Jade, NBTac, Resourceful Lib, Should Surfing, Sophisticated mods, Structurize, Supplementaries, Xaero's, Lightman's Currency, AmbientSounds, Curios, IPN, Polymorph, FTB Quests, CraftPresence, Terralith, Rubidium Extra, Collective, Combat Roll, choiceTheorem's Overhauled Village, GeckoLib, Incendium, Let Me Despawn, Puzzles Lib, Customizable Elytra, AttributeFix, Axes Are Weapons, Create, Illager Invasion, Item Filters, Kobolds, Refined Storage, Steam Rails, The Undergarden, Tips, Iceberg, CraftTweaker.
 - Added Server Core.
+- Added Blue Skies.
+- Added Structure Gel API.
+- Added Doggy Talents Next.
 - Added Beautified Chat.
 - Added Air Hop - adds an enchantment that lets you jump multiple times.
 - Added Comforts - portable beds!
@@ -116,6 +129,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed FallingTree.
 - Removed Timestamp Chat.
 - Removed Staaack.
+- Removed YUNG's Better End Island.
+- Removed RevampedWolf.
 - Removed Lootbeams (for now).
 
 ## [0.1.2] - 2023-10-08

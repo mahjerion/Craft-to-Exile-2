@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - You can now earn Talent Points from certain quests as a reward! It is possible to get 25 Talent Points this way.
 - Classes now have passive skills. You get 1 point every 2 levels and they are allocated in the Classes GUI.
 - Added a completely new Act IV, check out the Everbright and Everdawn and their mobs and dungeons!
-- Revamped Act III quest line - explore the Deep Ocean as part of the quest line!
+- Revamped Act III quest line - explore the Deep Ocean (enhanced by Aquamirae) as part of the quest line!
 - Revamped Mine and Slash professions. A lot of the recipes have been reworked to use lesser, medium, and greater resources more appropriately, and experience has been increased for higher rarity crafts. Gathering skills are also more streamlined, no more needing to be level 41 to get max benefits out of mining Copper ore...
 - Added 26 new unique items: 1 ring, 2 tomes, 1 axe, 2 spears, 3 daggers, 3 hammers, 2 shields, 2 totems, 3 bows, 2 crossbows, 1 sword, 2 boots, 1 necklace, 1 helmet. One of these items is very rare and powerful...
 - Buffed totem spells.
@@ -33,7 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased cost of crafted Waystones slightly.
 - Gong Strike stun has been lowered to 0.25s instead of 3s.
 - Gong Strike health scaling has been reduced.
-- Maps are now available starting at level 45. You need a Dragon Head to craft the Teleporter.
+- Maps are now available starting at level 60. You need a Dragon Head to craft the Teleporter.
 - Greatly improved server-side performance.
 - Increased mob stats and damage per level scaling.
 - Improved Classes GUI.

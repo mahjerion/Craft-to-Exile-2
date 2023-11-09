@@ -34,6 +34,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Gong Strike stun has been lowered to 0.25s instead of 3s.
 - Gong Strike health scaling has been reduced.
 - Maps are now available starting at level 60. You need a Dragon Head to craft the Teleporter.
+- Added a persistent trader available in the pack via the shop block (see quest in Act II). You can buy things such as some hard-to-find quest items, Profession's materials, basic blocks, etc.
+- Added the ability to gamble away Netherite coins for a random unique (unlocked later in Campaign).
 - Greatly improved server-side performance.
 - Increased mob stats and damage per level scaling.
 - Improved Classes GUI.

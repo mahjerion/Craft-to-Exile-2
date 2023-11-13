@@ -7,10 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.0] - 2023-11-XX
+## [0.2.0] - 2023-11-13
 
 ### Reminders
-- Back up your Xaero's folders and your options.txt file just in case! Also, if you start the game and you have like 3 different things bound to the "R" key, my custom keybinds probably didn't apply for you. You can find them in /config/defaultoptions!
+- Back up your Xaero's folders and your options.txt file just in case!
+- If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options.txt"!
 
 ### Updates
 - Added PlayCDU's server.
@@ -18,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - You can now earn Talent Points from certain quests as a reward! It is possible to get 25 Talent Points this way.
 - Classes now have passive skills. You get 1 point every 2 levels and they are allocated in the Classes GUI.
 - Added a completely new Act IV, check out the Everbright and Everdawn and their mobs and dungeons!
+- Campaign bosses now have unique stats to them. For example, the Wildfire in Act II has 50% of its Physical Damage converted to Fire Damage. You can see these stats in the relevant quests!
 - Revamped Act III quest line - explore the Deep Ocean (enhanced by Aquamirae) as part of the quest line!
 - Revamped Mine and Slash professions. A lot of the recipes have been reworked to use lesser, medium, and greater resources more appropriately, and experience has been increased for higher rarity crafts. Gathering skills are also more streamlined, no more needing to be level 41 to get max benefits out of mining Copper ore...
 - Added 26 new unique items: 1 ring, 2 tomes, 1 axe, 2 spears, 3 daggers, 3 hammers, 2 shields, 2 totems, 3 bows, 2 crossbows, 1 sword, 2 boots, 1 necklace, 1 helmet. One of these items is very rare and powerful...
@@ -29,7 +31,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Lowered base energy regen slightly.
 - New Lightning Totem spell in the Shaman tree.
 - Ice Shard now pierces enemies.
-- New Ritardando spell in the Minstrel tree.
+- New Ritardando spell in the Minstrel tree - a slow moving projectile that deals a lot of damage upon hit. Also slows enemies.
+- New Prestissimo spell in the Minstrel tree - increase nearby allies attack speed, cooldown reduction, and energy regeneration.
+- Song buffs now last 15s instead of 30s.
+- New Protection spell in the Fighter tree - increase nearby allies armor and elemental resists.
+- New Power Surge spell in the Shaman tree - increase your cast speed and critical damage.
 - Increased cost of crafted Waystones slightly.
 - Gong Strike stun has been lowered to 0.25s instead of 3s.
 - Gong Strike health scaling has been reduced.
@@ -81,6 +87,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Mine and Slash items to almost every vanilla chest loot table!
 - Changed Mine and Slash Profession station recipes.
 - Minecolonies Supply Camps and Ships no longer spawn in chests.
+- Plate and Leather armor now give a small boost to health.
+- The following changes are a bit of a refresh to existing negative and beneficial effects, as well as my first passthrough for improving class identity. This time, I've focues on the Mage, giving a bit more reason to go Fire vs. Frost other than RP. I will eventually go through other classes too.
+- Wounds effect reduces healing received rather than healing dealt.
+- Charm effect has been buffed.
+- Blind no longer reduces attack damage and speed by 100%. It now reduces accuracy by 33% and attack speed by 25%.
+- Slow effect attack speed reduction has been increased from -10% to -25%.
+- Frost skills now apply Slow effect. The duration varies depending on the skill.
+- Fire Skills now apply Elemental Weakness effect. The duration varies depending on the skill.
+- Elemental Weakness effect reduces elemental (not Chaos) resistance by 10%.
 
 ### Fixes
 - Fixed Stoneborn not spawning frequently enough in The Undergarden.
@@ -108,12 +123,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed salvaging profession giving no experience.
 - Fixed Totem of Illusion being useable in maps.
 - Fixed Ender Dragon not spawning.
+- Fixed a bug where some Mine and Slash effects were modifying Vanilla stats by 100x the amount they should have been (eg. 2000% attack speed instead of 20%).
 
 ### Mod Updates
-- Updated Mine and Slash, Citadel, Supermartijn Core Lib, Supplementaries, Embeddium, Library of Exile, Moonlight, Domum Ornamentum, Easy NPC, FootprintParticles, ModernFix, Simple Magnets, MineColonies, APT, BlockUI, Bookshelf, CreativeCore, Cupboard, DeeperDarker, Domum, Dungeons Arise, Embeddium, Enhanced Visuals, Friendly Fire, Friends&Foes, Goblin Traders, Handcrafted, InsaneLib, Jade, NBTac, Resourceful Lib, Should Surfing, Sophisticated mods, Structurize, Supplementaries, Xaero's, Lightman's Currency, AmbientSounds, Curios, IPN, Polymorph, FTB Quests, CraftPresence, Terralith, Rubidium Extra, Collective, Combat Roll, choiceTheorem's Overhauled Village, GeckoLib, Incendium, Let Me Despawn, Puzzles Lib, Customizable Elytra, AttributeFix, Axes Are Weapons, Create, Illager Invasion, Item Filters, Kobolds, Refined Storage, Steam Rails, The Undergarden, Tips, Iceberg, CraftTweaker.
+- Updated Mine and Slash, Citadel, Supermartijn Core Lib, Supplementaries, Embeddium, Library of Exile, Moonlight, Domum Ornamentum, Easy NPC, FootprintParticles, ModernFix, Simple Magnets, MineColonies, APT, BlockUI, Bookshelf, CreativeCore, Cupboard, DeeperDarker, Domum, Dungeons Arise, Embeddium, Enhanced Visuals, Friendly Fire, Friends&Foes, Goblin Traders, Handcrafted, InsaneLib, Jade, NBTac, Resourceful Lib, Should Surfing, Sophisticated mods, Structurize, Supplementaries, Xaero's, Lightman's Currency, AmbientSounds, Curios, IPN, Polymorph, FTB Quests, CraftPresence, Terralith, Rubidium Extra, Collective, Combat Roll, choiceTheorem's Overhauled Village, GeckoLib, Incendium, Let Me Despawn, Puzzles Lib, Customizable Elytra, AttributeFix, Axes Are Weapons, Create, Illager Invasion, Item Filters, Kobolds, Refined Storage, Steam Rails, The Undergarden, Tips, Iceberg, CraftTweaker, AmbientSounds, Village Spawn Point, Death Backup, Chat Heads, Bells and Whistles, Crabber's Delight.
 - Added Server Core.
 - Added Blue Skies.
 - Added Structure Gel API.
+- Added Easy Magic - improves Enchantment Table.
 - Added Doggy Talents Next.
 - Added Beautified Chat.
 - Added Air Hop - adds an enchantment that lets you jump multiple times.

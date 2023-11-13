@@ -4,7 +4,7 @@
 
 ### Reminders
 - Back up your Xaero's folders and your options.txt file just in case!
-- If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options.txt"!
+- If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
 
 ### Updates
 - Added PlayCDU's server.

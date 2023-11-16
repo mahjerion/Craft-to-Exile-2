@@ -1,5 +1,56 @@
 # Changelog
 
+## [0.2.1] - 2023-11-16
+
+### Reminders
+- Back up your Xaero's folders and your options.txt file just in case!
+- If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
+
+### Updates
+- Reduced the projectile speed of Poison Blast, Ice Shard, and Boomerang by 25%.
+- Reduced the projectile life ticks of Poison Blast and Boomerang by about 40%.
+- Lowered the drop rates of some Majrusz Accessories.
+- Changed Enhanced Visuals values to be less intrusive and also changed the textures to something more Vanilla-friendly.
+- Reimplemented the Gamechanger Talent True Hit.
+- Added Nature's Aura weapon compat with Mine and Slash.
+- Reduced instances of Cast Speed.
+- Updated some Alchemy recipes to use more of the farming materials. Healing potions are also generally easier to craft now since they no longer need Nether Wart.
+- Gateway implicit buffs per wave to mobs has been reduced DRASTICALLY. Instead of having twice as much health and damage by wave 4, it's now 1.2x.
+- Introduced new Illager and Ice Gateway Pearls that can be used to summon the Invoker and certain mobs from Aquamirae for Act I and Act III.
+- Some Gateway Pearls are now provided in the Campaign.
+- Cheapened the crafting cost of Gateway Pearls.
+- Added some particle effects to the negative Mine and Slash effects. Also made existing ones more obvious.
+- Mob scaling has increased greatly.
+- Changed Act III Maze Mother quest area. You no longer need to kill the Maze Mother to continue the quest line.
+- Split Act III Waystones quest into Warp Stone (Act I) and Waystone (Act III).
+- Updated some Act IV quest descriptions.
+- New Traveler's Titles.
+- Doubled the pool of available map affixes and rebalanced some of them.
+- Slightly reduced spawn rate of Dungeons Arise structures.
+- Updated the description of the Alchemist quest in Act IV explaining the projectiles immunity.
+- Changed Handcrafted Plate and Sheet recipes, and Sophisticated Backpack's Restock Upgrade to avoid recipe conflicts.
+- Cheapened the Sophisticated Backpack and Storage upgrades by an entire Stone rarity.
+
+### Fixes
+- Fixed some misleading descriptions in the Prologue quests, and added some warnings for some of them.
+- Fixed starting perks missing names.
+- Fixed missing icons for Shatter and Shock Proc Chance Talents.
+- Fixed the starting area for The Staff, The Bow, The Axe, and The Spear in the Talent Tree. I missed some early connection points.
+- Fixed a passive skill increasing mana cost instead of reducing it.
+- Fixed a missing connection to an AOE node in the top left.
+- Fixed X per Y Gamechanger Talents being backwards.
+- Fixed Quickstack having keybinds which messed with some other keybinds.
+- Fixed some incorrect Alchemy recipe quests.
+- Fixed none of the Enhanced AI configs applying. The config location changed...
+- Fixed Maze Mother and Maze Captain drops.
+- Fixed Mining and Farming not granting any XP.
+- Fixed Frost Flower not using correct scaling.
+
+### Mod Updates
+- Updated Moonlight, Nature's Aura, Supplementaries, Textrues Embeddium Options, Aggro Indicator, Doggy Talents Next, Farsight, Kotlin for Forge, libIPN, MineColonies.
+- Downgraded Majruszs Library and Accessories as there was a mixin conflict with Mine and Slash - some of the items will disappear.
+- Added Not Enough Animations.
+
 ## [0.2.0] - 2023-11-13
 
 ### Reminders

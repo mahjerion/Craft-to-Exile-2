@@ -20,7 +20,7 @@
 - Some Gateway Pearls are now provided in the Campaign.
 - Cheapened the crafting cost of Gateway Pearls.
 - Added some particle effects to the negative Mine and Slash effects. Also made existing ones more obvious.
-- Mob scaling has increased greatly.
+- Mob scaling has increased greatly, but damage has been lowered early on.
 - Changed Act III Maze Mother quest area. You no longer need to kill the Maze Mother to continue the quest line.
 - Split Act III Waystones quest into Warp Stone (Act I) and Waystone (Act III).
 - Updated some Act IV quest descriptions.
@@ -45,9 +45,10 @@
 - Fixed Maze Mother and Maze Captain drops.
 - Fixed Mining and Farming not granting any XP.
 - Fixed Frost Flower not using correct scaling.
+- Quest item reward tooltips missing has been fixed.
 
 ### Mod Updates
-- Updated Moonlight, Nature's Aura, Supplementaries, Textrues Embeddium Options, Aggro Indicator, Doggy Talents Next, Farsight, Kotlin for Forge, libIPN, MineColonies.
+- Updated Moonlight, Nature's Aura, Supplementaries, Textrues Embeddium Options, Aggro Indicator, Doggy Talents Next, Farsight, Kotlin for Forge, libIPN, MineColonies, Cuisine Delight, FTB Quests, Kobolds, Placebo, Crabber's Delight.
 - Downgraded Majruszs Library and Accessories as there was a mixin conflict with Mine and Slash - some of the items will disappear.
 - Added Not Enough Animations.
 

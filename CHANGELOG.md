@@ -1,18 +1,24 @@
 # Changelog
 
-## [0.2.1] - 2023-11-XX
+## [0.2.1] - 2023-11-21
 
 ### Reminders
 - Back up your Xaero's folders and your options.txt file just in case!
 - If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
 
 ### Updates
+- Core stat slight rework:
+- Strength now provides Weapon Damage, Summon Health, Critical Damage, Health Regen, Armor instead of Weapon Damage, Health Regen, Armor.
+- Intelligence now provides Spell Damage (NOT SKILL DAMAGE), Health Strength, Summon Damage, Mana Regen, Magic Shield instead of Mana, Mana Regen, Magic Shield, Magic Shield Regen.
+- Dexterity now provides Projectile Damage, Attack Speed, Critical Hit, Energy Regen, Dodge instead of Energy, Energy Regen, Dodge.
+- Increased base Magic Shield Regeneration stat by 60%.
 - Reduced the projectile speed of Poison Blast, Ice Shard, and Boomerang by 25%.
 - Reduced the projectile life ticks of Poison Blast and Boomerang by about 40%.
 - Lowered the drop rates of some Majrusz Accessories.
 - Changed Enhanced Visuals values to be less intrusive and also changed the textures to something more Vanilla-friendly.
 - Reimplemented the Gamechanger Talent True Hit.
 - Added Nature's Aura weapon compat with Mine and Slash.
+- Gong Strike stun is now 0.5s instead of 0.25s.
 - Reduced instances of Cast Speed.
 - Updated some Alchemy recipes to use more of the farming materials. Healing potions are also generally easier to craft now since they no longer need Nether Wart.
 - Gateway implicit buffs per wave to mobs has been reduced DRASTICALLY. Instead of having twice as much health and damage by wave 4, it's now 1.2x.
@@ -26,10 +32,32 @@
 - Updated some Act IV quest descriptions.
 - New Traveler's Titles.
 - Doubled the pool of available map affixes and rebalanced some of them.
+- Added new Mob affix Evasive.
 - Slightly reduced spawn rate of Dungeons Arise structures.
 - Updated the description of the Alchemist quest in Act IV explaining the projectiles immunity.
 - Changed Handcrafted Plate and Sheet recipes, and Sophisticated Backpack's Restock Upgrade to avoid recipe conflicts.
 - Cheapened the Sophisticated Backpack and Storage upgrades by an entire Stone rarity.
+- Upped Lemurian spawns.
+- Quintupled Mutant Mob spawns.
+- Reduced Magma Cube EXP and loot drops.
+- Added new Persistent Trader items.
+- Adjusted Profession material drop rates to be slightly higher.
+- Increased energy cost of bows/crossbows.
+- Increased mana recovery of bows/crossbows.
+- Quests now only show when startable rather than having their dependencies visible.
+- Effects that modify Vanilla stats like attack speed or movement speed no longer override eachother.
+- New Attack Speed stat.
+- Added some new Attack Speed affixes.
+- Warrior now has an Attack Speed passive instead of Armor Penetration.
+- Added some Attack Speed nodes to the Talent Tree.
+- Doubled Block Energy cost.
+- You can no longer find Adventurer's Guides in chests (I don't know if there are any other sources).
+- Improved Skill and Spell tooltips. FYI Skills are all actives on the Classes tree, whereas Spells are only "magic" Skills such as Fireball, Meteor, Magma Totem, etc.
+- Improved Puzzle Dungeon loot table greatly.
+- Reset Potions are now brewed via Alchemy Profession rather than normal crafting. They have also been added to the Professions quest line.
+- Runes that provide resource on hit for the weapon slot have been changed. The Mana one now gives Magic Find, Health gives Gear's Weapon Damage, and Energy gives Attack Speed instead.
+- Reduced base weapon damage.
+- Increased basic attack damage multiplier on weapons.
 
 ### Fixes
 - Fixed some misleading descriptions in the Prologue quests, and added some warnings for some of them.
@@ -46,9 +74,15 @@
 - Fixed Mining and Farming not granting any XP.
 - Fixed Frost Flower not using correct scaling.
 - Quest item reward tooltips missing has been fixed.
+- Fixed Runeword search crash.
+- Fixed lanterns bugging out when placed as wall lanterns.
+- Fixed Wraithlord unique giving 1% more maximum summons instead of +1.
+- Fixed a Ultiminer quest not auto giving EXP.
+- Ice Shard and Lightning Spear not doing damage should be fixed.
+- Fixed some Skills being mislabeled as Spell, Ranged, or Melee.
 
 ### Mod Updates
-- Updated Moonlight, Nature's Aura, Supplementaries, Textrues Embeddium Options, Aggro Indicator, Doggy Talents Next, Farsight, Kotlin for Forge, libIPN, MineColonies, Cuisine Delight, FTB Quests, Kobolds, Crabber's Delight.
+- Updated Moonlight, Nature's Aura, Supplementaries, Textrues Embeddium Options, Aggro Indicator, Doggy Talents Next, Farsight, Kotlin for Forge, libIPN, MineColonies, Cuisine Delight, FTB Quests, Kobolds, Crabber's Delight, serverCore, AmbientSounds, Better Archeaology, BlockUI, Chat Heads, Connectivity, CraftTweaker, FLAN, Placebo, Rubidium Extra, Should Surfing, Supplementaries, Smooth Chunk.
 - Downgraded Majruszs Library and Accessories as there was a mixin conflict with Mine and Slash - some of the items will disappear.
 - Added Not Enough Animations.
 

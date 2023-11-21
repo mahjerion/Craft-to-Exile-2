@@ -1,5 +1,33 @@
 # Changelog
 
+## [0.2.2] - 2023-11-21
+
+### Reminders
+- Back up your Xaero's folders and your options.txt file just in case!
+- If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
+
+### Updates
+- Changed Strength to provide Weapon Damage % instead of flat.
+- Increased Frozen Orb tick rate and lowered damage to compensate.
+- Increased Frozen Orb cooldown.
+- Changed default Spear to the Vanilla Trident.
+- Started Supporter Gems are now uncommon.
+- Reverted Quest visibility change.
+- Removed Diamond and Netherite Coin rewards from Bountiful.
+- Increased rarity of higher tier Coins in Bounties.
+- Increased experience penalty when over or under leveled. Before, a 5 level difference meant getting 25% less experience. You now get 50% less experience.
+
+### Fixes
+- Fixed Prestissimo, Power Surge, and Protection have a max level of 1.
+- "Fixed" Frozen Orb not working properly. It was technically working but it was moving so fast that it wasn't working as intended.
+- Disabled Explorer's Compass working in Blue Skies due to memory leak.
+- Disabled Blister Bombs in maps.
+- Fixed custom Support Gem, Aura Gem, and Map Affixes not applying...
+- Fixed broken Bounties causing players to have tens of tasks for some Diamond Coins.
+
+### Mod Updates
+- Updated Clickable Advancements, Mine and Slash.
+
 ## [0.2.1] - 2023-11-21
 
 ### Reminders

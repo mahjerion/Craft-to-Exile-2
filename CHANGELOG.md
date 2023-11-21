@@ -82,7 +82,7 @@
 - Fixed some Skills being mislabeled as Spell, Ranged, or Melee.
 
 ### Mod Updates
-- Updated Moonlight, Nature's Aura, Supplementaries, Textrues Embeddium Options, Aggro Indicator, Doggy Talents Next, Farsight, Kotlin for Forge, libIPN, MineColonies, Cuisine Delight, FTB Quests, Kobolds, Crabber's Delight, serverCore, AmbientSounds, Better Archeaology, BlockUI, Chat Heads, Connectivity, CraftTweaker, FLAN, Placebo, Rubidium Extra, Should Surfing, Supplementaries, Smooth Chunk.
+- Updated Moonlight, Nature's Aura, Supplementaries, Textrues Embeddium Options, Aggro Indicator, Doggy Talents Next, Farsight, Kotlin for Forge, libIPN, MineColonies, Cuisine Delight, FTB Quests, Kobolds, Crabber's Delight, serverCore, AmbientSounds, Better Archeaology, BlockUI, Chat Heads, Connectivity, CraftTweaker, FLAN, Rubidium Extra, Should Surfing, Supplementaries, Smooth Chunk, FerriteCore, Login Protection, Neruina, PuzzlesLib, Sophisticated mods, Structure Essentials, YUNG's Better Ocean Monuments.
 - Downgraded Majruszs Library and Accessories as there was a mixin conflict with Mine and Slash - some of the items will disappear.
 - Added Not Enough Animations.
 

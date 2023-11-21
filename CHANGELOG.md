@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.2.2] - 2023-11-21
+## [0.2.1b] - 2023-11-21
 
 ### Reminders
 - Back up your Xaero's folders and your options.txt file just in case!

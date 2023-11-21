@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.1c] - 2023-11-21
+
+### Reminders
+- Back up your Xaero's folders and your options.txt file just in case!
+- If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
+
+### Fixes
+- Fixed Mine and Slash serverconfig error.
+
 ## [0.2.1b] - 2023-11-21
 
 ### Reminders

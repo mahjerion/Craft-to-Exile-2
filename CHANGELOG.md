@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.3.0] - 2023-11-XX
+## [0.3.0] - 2023-12-XX
 
 ### Reminders
 - Mine and Slash damage code went through a bit of a refactor, so if you notice anything please let us know!

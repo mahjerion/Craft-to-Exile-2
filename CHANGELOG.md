@@ -8,7 +8,7 @@
 - If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
 
 ### Updates
-- New Class: introducing the Rogue. Rogues are speedy, sneaky, and can pack a big punch. Alternatively, they can many small punches???
+- New Class: introducing the Rogue. Rogues are speedy, sneaky, and can pack a big punch. Alternatively, they can throw many small punches???
 - 4 new Support Gems: Accuracy (Lv. 10), Swift Affliction (Lv. 30), Brutality (Lv. 30), and Reduced Projectile Speed (Lv. 30). The quest Support Gem shops have been updated.
 - Certain Uniques now have custom models/textures. Huge thanks to Nozium for this!
 - Updated Mine and Slash UI - basically an overhaul. Huge thanks to Skullbushi for this!

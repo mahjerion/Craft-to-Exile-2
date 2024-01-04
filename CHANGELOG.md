@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.3.0b] - 2024-01-04
+
+### Reminders
+- Mine and Slash damage code went through a bit of a refactor, so if you notice anything please let us know!
+- Back up your Xaero's folders and your options.txt file just in case!
+- If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
+
+### Fixes
+- Fixed Fighter Gong Strike and Stance Skills being incorrect level.
+- Fixed some missing Runeword localization.
+- Fixed a server-side crash.
+- Fixed some Mine and Slash datapack errors.
+- Fixed an issue regarding the Persistent Traders.
+- Fixed Overworldian Nights Gateway failing on Creeper explosion.
+- Removed an unused legacy Quest regarding accessories.
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [0.3.0] - 2024-01-04
 
 ### Reminders

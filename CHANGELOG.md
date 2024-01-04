@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.3.0] - 2023-12-XX
+## [0.3.0] - 2024-01-04
 
 ### Reminders
 - Mine and Slash damage code went through a bit of a refactor, so if you notice anything please let us know!
@@ -8,73 +8,144 @@
 - If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
 
 ### Updates
-- New Class: introducing the Rogue. Rogues are speedy, sneaky, and can pack a big punch. Alternatively, they can throw many small punches???
-- 4 new Support Gems: Accuracy (Lv. 10), Swift Affliction (Lv. 30), Brutality (Lv. 30), and Reduced Projectile Speed (Lv. 30). The quest Support Gem shops have been updated.
-- Certain Uniques now have custom models/textures. Huge thanks to Nozium for this!
-- Updated Mine and Slash UI - basically an overhaul. Huge thanks to Skullbushi for this!
-- New custom assets are being used for cloth/leather/plate armors so they don't all look the same anymore.
-- Added over 20 new Uniques.
-- Added over 10 new Runewords.
-- Greater Mana Cost and Greater Cooldown Reduction Support Gems are no longer available in the shop. They are also now level 40 gems and are fairly rare.
-- Cooldown Reduction Support Gem mana cost multi has been reduced from 1.2 to 1.1.
-- Shred skill now rapidly thrashes 3 times. Damage has been lowered to compensate.
-- Shred effect which reduces armor and elemental resists has been reduced to compensate for above change. One cast of Shred should apply all 3 stacks of the effect if none miss.
-- Master Bag is now cheaper to craft.
-- Added Nethers Delight Machetes compat with MNS.
+#### Mine and Slash General Updates
+- New EXPERIMENTAL Character Loadout feature! You can now have multiple characters saved on your account. You can switch between them through the Hub.
+- Mine and Slash maps now have rollable tiers from 1-100. At higher tiers, more powerful Uniques will drop, and monsters will be more difficult and rewarding. The rarity of the map determines the rarity of map that can drop in the map. For instance, only Rare, Epic, and Legendary maps can drop in Epic maps.
+- Map experience in lower tiers is reduced greatly. You will find better items and get more experience in higher tier maps (by a lot).
+- Upped Map drop rates by 20%.
+- Dual-wielding weapons is now official supported. Weapons in the offhand provide 25% of their stats and will increase your attack speed by 20%. I have made a quest to explain this.
+- Spears are now two-handed. Their base stats have been buffed to compensate.
+- Increased Spear attack range from 3.5 to 4.0.
+- Reduced Energy costs of basic attacks for all weapons except Staff and Dagger.
+- Gear implicits have changed drastically. Each type of weapon can now roll different implicits.
+- Bosses now always spawn at Rare rarity, with the exception of Blue Skies bosses and the Ender Dragon which always spawn at Common.
+- Blue Skies bosses have 20% less HP. They also now take double damage from spells and staff hits (in this case, any non-projectile spell should damage them). This change doesn't fix it, but hopefully helps in the meantime.
+- Nerfed the Starlit Crusher walls to always be common and spawn with half health.
 - Upped mob damage early on.
+- Ender Dragon is apparently hurtable by Skills so I have increased its Health and given it stats.
+- Added Nethers Delight Machetes compat with MNS.
 - Updated Lifesteal and Manasteal descriptions to be more accurate.
-- Buffed Mantra Gamechanger.
 - Nerfed Mob Evasive affix.
 - Armor/Magic Shield/Dodge prefixes have been changed back to Gear's Defense stats. The percent values have been readjusted (increased) since they won't be global anymore.
+- Elemental Spell Damage stat has now been changed to Elemental Skill Damage so it should affect any Skill, not just Int-tagged ones.
+- Nerfed Block Chance multiplier sources (not flat sources).
 - Increased player's base Health, Mana, and Energy.
 - Increased player's base Mana and Health Regen.
 - Increased Mana Regen and Health Regen per point from Int and Str stats.
-- Lowered rollable Gear's Weapon Damage percent stats.
 - Added a new stat for boots that provides Move Speed.
-- Cosmic Foxes are now cageable.
-- Increased the spawn rate of some Alex's Mobs.
-- Increased Spear attack range from 3.5 to 4.0.
-- Added a new Quake Skill in the Warrior tree which deals physical damage in subsequent explosions.
-- Added a new Explode Minions Skill in the Warlock tree.
-- Replaced Execute in the Warrior tree with Quake.
-- Most Skills have had their resource costs rebalanced (mostly lowered).
-- Some Skills have been changed to cost Energy instead of Mana: Arrow Barrage, Boomerang, Pull, Recoil Shot, Shred, Whirlwind.
-- Some Skills have been changed to cost Energy in ADDITION to Mana: Explosive Arrow, Flame Strike, Wind Slasher, Gong Strike, Meteor Arrow, Tidal Strike, Charged Bolt.
-- Execute, Arrow Storm, Black Hole, Summon Skeletal Army are no longer "long cooldown ultimate Skills". They're just moderate cooldown skills and have been toned down a bit.
-- Wind Slasher no longer has egregious amounts of knockback,
-- Rejuvenating and Astral Totem Health and Mana heal amounts have increased drastically.
 - Summon damage per level has increased.
 - Summon health at lower levels has increased.
 - Summons no longer chase neutral mobs.
 - Summon Energy Cost on hit has reduced by 60%.
-- Increased Trap Skill damage.
-- Magma Totem has been reworked to deal AOE damage to the nearest enemy rather than an AOE in an area around itself.
-- Flame Strike now also shoots out a small Fireball upon swing, which also explodes and deals damage.
-- Flame and Tidal Strike visuals have been improved.
-- Bard Skills have had their visuals and sounds improved.
-- Chain Lightning and Boomerang travel more slowly.
-- Increased Chain Lightning damage and mana scaling.
-- Increased Lightning Nova mana scaling.
-- Gong Strike health scaling has increased.
-- Reduced Totem spell damage. Lightning Totem is much weaker now.
-- Particle effects for many projectile spells have been improved (more splashy).
+- Summons can now leech resources.
 - Crits can now apply to DoTs too. As in, the DoT can crit.
 - Added some leeway with experience penalties when mob is a different level. If they are within 2 levels, you will get the full experience. That also means at 3+ level difference the drop off may seem harder.
-- Lowered Mining Profession EXP.
-- Lowered Combat to Profession rested EXP.
 - You can now rank down Profession Materials through recipe for a 1:1 exchange rate.
 - Gems now combine into the next tier via crafting recipe instead of the clicks.
-- Changed chat name colour to something brighter.
-- Bosses now always spawn at Rare rarity, with the exception of Blue Skies bosses and the Ender Dragon which always spawn at Common.
-- Blue Skies bosses have 20% less HP. They also now take double damage from spells and staff hits (in this case, any non-projectile spell should damage them). This change doesn't fix it, but hopefully helps in the meantime.
-- Reduced Energy costs of basic attacks for all weapons except Staff and Dagger.
-- Buffed a lot of Uniques defense/damage.
+- Running out of Energy is a little more punishing now. You will also receive Hunger for a short duration.
+- Updated some quest descriptions regarding Professions benches being tied to players and also for Runewords.
+
+#### Mine and Slash Talent Tree Updates
+- You can now search nodes in the Talent Tree!
+- Buffed Mantra Gamechanger.
+- Guardian Support has been changed to give Block Chance multiplier and Health percent rather than flat Block Chance.
+
+#### Mine and Slash Crafting Updates
+- You can now obtain Soul modifiers that make your soul item always create a type of armor (cloth/leather/plate).
+- Lowered rollable Gear's Weapon Damage percent stats.
+- Lowered Mining Profession EXP.
+- Lowered Combat to Profession rested EXP.
 - Enchanting Profession EXP has increased by 50%.
-- Upped Map drop rates from by 20%.
-- New Anvil Upgrade for Sophisticated Backpacks.
+- Increased the chances of getting Mine and Slash Profession materials from the Miner.
+- Better Mine and Slash Profession materials from the Miner are now available in the pool.
+- Mine and Slash Fishing materials can now be earned from the Fisherman.
+- Mine and Slash Lesser/Medium/Greater materials can now be earned from the Enchanter.
+- Mine and Slash items can be earned from the Nether Miner/Worker.
+- Mine and Slash Farming materials can now be earned randomly from dirt blocks.
+
+#### Mine and Slash Item Updates
+- Sockets have been reworked a bit. All gear can roll multiple sockets up to a max rather than just 1. Lower rarities have higher max sockets. Runewords can be crafted on any rarity, as long as it has the necessary sockets. Note that Uniques and Mythics can only roll a max of 1 socket.
+- 7 new Support Gems: Accuracy (Lv. 10), Summon Health (Lv. 10), Effect Duration (Lv. 20), Threat (Lv. 20), Minion Threat (Lv. 20), Swift Affliction (Lv. 30), Brutality (Lv. 30), and Reduced Projectile Speed (Lv. 30). The quest Support Gem shops have been updated.
+- Added over 30 new uniques: 2 axes, 2 bows, 2 crossbows, 1 spear, 1 hammer, 2 daggers, 4 swords, 3 staves, 5 helmets, 2 rings, 3 amulets, 5 boots, 3 chestplates.
+- Added over 20 new Runewords.
+- Greater Mana Cost and Greater Cooldown Reduction Support Gems are no longer available in the shop. They are also now level 40 gems and are fairly rare.
+- Cooldown Reduction Support Gem mana cost multi has been reduced from 1.2 to 1.1.
+- New Plus to Skill level stats have been introduced.
+- Master Bag is now cheaper to craft.
+- Buffed a lot of Uniques defense/damage.
+- Runewords are no longer "crafted" through the Rune GUI. Instead they act similarly to Diablo II, where you socket them into gear.
+- Gem stats now scale to level.
+
+#### UI Overhauls
+- Certain Uniques now have custom models/textures. Huge thanks to Nozium for this!
+- Updated Mine and Slash UI - basically an overhaul. Huge thanks to Skullbushi for this!
+- Vanilla GUI has been updated. Thanks again to Skullbushi! You can overwrite this still with your own custom resource pack if you want.
+- New custom assets are being used for cloth/leather/plate armors so they don't all look the same anymore.
+- Mine and Slash GUI elements have been updated. You can now see effects on mobs in their health bars, and MnS effects are also separate from Vanilla effects on the player GUI.
 - Moved some stats around in Main Hub so hopefully less instances of stats being cutoff in the tooltips will occur.
-- Elemental Spell Damage stat has now been changed to Elemental Skill Damage so it should affect any Skill, not just Int-tagged ones.
+
+#### Mine and Slash Class & Spell Updates
+- Particle effects for many projectile spells have been improved (more splashy).
+- Some Skills have been changed to cost Energy instead of Mana: Arrow Barrage, Boomerang, Pull, Recoil Shot, Shred, Whirlwind.
+- Some Skills have been changed to cost Energy in ADDITION to Mana: Explosive Arrow, Flame Strike, Wind Slasher, Gong Strike, Meteor Arrow, Tidal Strike, Charged Bolt.
+- Skill Tags have been updated.
+- Most Skills have had their resource costs rebalanced (mostly lowered).
+- Execute, Arrow Storm, Black Hole, Summon Skeletal Army are no longer "long cooldown ultimate Skills". They're just moderate cooldown skills and have been toned down a bit.
+- Chain Lightning and Boomerang travel more slowly.
+- Spells that chain now deal less damage each chain.
+- Lowered spell projectile tracking range for spells that track.
+- Buffed Song and Curse effects.
+- Added a new Armageddon Skill in the Sorcerer tree which summons 3 comets in a concentrated area that deal AOE damage.
+- Meteor and Ice Comet fall faster now.
+- Frozen Orb explosion damage and area has been reduced substantially.
+- Mage Circle no longer teleports you.
+- Fighters have 2 new Skills: Fighter Stance and Defender Stance. Fighter Stance increases movement and attack speed, but increases damage taken. Defender Stance does the opposite, and also periodically taunts nearby enemies while active. Additionally, each Stance augments Fighter Skills. Fighter Stance will augment them to be more offensive, and Defensive Stance will augment them to be more defensive/utility.
+- Gong Strike health scaling has increased.
+- Added a new Quake Skill in the Warrior tree which deals physical damage in subsequent explosions.
+- Flame Strike now also shoots out a small Fireball upon swing, which also explodes and deals damage.
+- Flame and Tidal Strike visuals have been improved.
+- Shred skill now rapidly thrashes 3 times. Damage has been lowered to compensate.
+- Shred effect which reduces armor and elemental resists has been reduced to compensate for above change. One cast of Shred should apply all 3 stacks of the effect if none miss.
+- Wind Slasher no longer has egregious amounts of knockback.
+- Replaced Execute in the Warrior tree with Quake.
+- Fighter Skill Taunt has been removed.
+- Warlocks Skills have been reworked a bit. Certain Skills can generate Soul stacks which last 5s. At max stacks, other Skills will become more powerful for as long as you keep up the stacks. For instance, Chilling Touch, Poison Ball, and the Curses can generate stacks. At max (5) stacks, Explode Minions will also deal Chaos damage in addition to the regular Fire damage, or Black Hole's AOE for the suction will double.
+- Added a new Explode Minions Skill in the Warlock tree which explodes your minions to deal damage.
+- Shaman Lightning Skills and Charged Arrow now apply a stack of Static to nearby allies upon cast. Each stack of Static provides percent Critical Hit chance and flat Mana Regeneration. You can have up to 10 stacks of Static.
+- Increased Chain Lightning damage and mana scaling.
+- Increased Lightning Nova mana scaling.
+- Added a new Garden of Thorns Skill in the Shaman tree which damages nearby enemies based on your Energy, and also applies stacks of Thorns. Basic attack an enemy to expend a stack of Thorns to deal extra damage. Using the Skill also applies Inner Calm on self which increase Mana Regen.
+- Reduced Totem spell damage. Lightning Totem is much weaker now.
+- Rejuvenating and Astral Totem Health and Mana heal amounts have increased drastically.
+- Magma Totem has been reworked to deal AOE damage to the nearest enemy rather than an AOE in an area around itself.
+- Fire, Frost, and Poison Traps now apply Enflamed, Encased, and Entrenched, respectively. These effects trigger on basic attacks and deal damage in an area. They also apply their own unique effects.
+- Increased Trap Skill damage.
+- Bard Skills have had their visuals and sounds somewhat improved.
+
+#### Quest Updates
+- Updating starting armor set from the Prologue quest line to be level 3 instead of 1, and gave them slightly more useful stats.
+
+#### Other Updates
 - New Gateway Pearls have replaced the "per mob" Pearls. Quests have been updated to reflect this.
+- Added a bunch of new Gateway Pearls. There is a new type of Gateaway that introduces "endless" waves. You will be able to craft them. Currently, there's an endless Blaze Pearl, Deeper Darker Pearl, and Undergarden Pearl.
+- It is now possible to get certain enchantments on other items. Eg. Infinity on bows, Looting on Staves, etc. It is also possible to enchant shields and horse armor.
+- Changed chat name colour to something brighter.
+- Cosmic Foxes are now cageable.
+- Increased the spawn rate of some Alex's Mobs.
+- New Anvil Upgrade for Sophisticated Backpacks.
+- Feather Falling now prevents farmland trampling
+- Looting enchant also affects Vanilla experience.
+- Infinity no longer requires a single arrow (tbh I don't know if it already is like this).
+- Mimicream can no longer be used to duplicate items.
+- Minecolonists should be able to kill passive animals more easily now.
+- You can now teleport between Waystones with pets.
+- Supplementaries Cages can now capture more animals (mostly from Alex's Mobs) and the failure message has been updated to make more sense.
+- Money Mending cost has increased from 1 copper to 4.
+- Advancements now how all criteria.
+- Updated some sleep messages.
+- Persistent Shop prices have been updated to better reflect rarity.
+- Create Pressing and Cutting can now be done on stacks in bulk.
+- Schematic Cannon delay has been tripled.
 
 ### Fixes
 - Fixed Looming Shade giving more instead of flat.
@@ -103,13 +174,32 @@
 - Disabled Stellarity Altar crafting for now.
 - Miner Mobs should no longer be able to break blocks in Maps.
 - Fixed stats centering weirdly in GUI. Might affect Item Tooltip centering too, but that's okay.
+- Fixed Sweet Lance being a sword.
+- Polymorph is fixed.
+- Gateways not giving proper experience has a workaround.
+- Fixed an issue where X per Y stats like from Diamond Will/Diamond Grip were not applying properly.
+- Totem Duration stat is fixed.
+- Cases where EXP was not earned due to anti-cheese mod has been fixed.
+- Movement Speed stat crash has been fixed.
+- Picking a hotbar spell now returns you to Skill Gem screen.
+- Fixed Maps showing up as ???.
+- Fixed an issue with Villagers not working properly from far away.
+- Removed Sculk Transmitter from chest in Deeper Darker as it was causing crashes.
 
 ### Mod Updates
-- Updated Mine and Slash, AmbientSounds, Embeddium, Kotlin, Patchouli, Gateways to Eternity, Chunk Sending, Moonlight Lib, AttributeFix, Collective, CraftPresence, Create Additions, Curios, Enchantment Descriptions, Enhanced AI, Friends and Foes, Kobolds, MineColonies, Resourceful Lib, Structure Gel API, Stylecolonies, Placebo, Highlighter, Curios, CraftTweaker, Mutant Monsters, Sophisticated mods, Supplementaries, Supplementaries Squared.
+- Updated Mine and Slash, AmbientSounds, Embeddium, Kotlin, Patchouli, Gateways to Eternity, Chunk Sending, Moonlight Lib, AttributeFix, Collective, CraftPresence, Create Additions, Curios, Enchantment Descriptions, Enhanced AI, Friends and Foes, Kobolds, MineColonies, Resourceful Lib, Structure Gel API, Stylecolonies, Placebo, Highlighter, Curios, CraftTweaker, Mutant Monsters, Sophisticated mods, Supplementaries, Supplementaries Squared, Aquaculture, FLAN, FTB Quests, GeckoLib, ModernFix, Puzzles Lib, Supermartijn's Core Lib, Xaero's, and a bunch more...
 - Added Torchmaster.
 - Added Apothic Attributes.
-- Removed Majruszs Accessories.
+- Added Universal Enchants.
+- Added Waystones Teleport Pets.
+- Added Packet Fixer.
+- Added Better Chunk Loading.
+- Added Not Enough Recipe Book - removes recipe book for performance.
+- Removed Majruszs Accessories - has a mixin issue with Mine and Slash, messing with Professions.
 - Removed Easy NPC.
+- Removed World Border.
+- Removed TownTalk.
+- Removed Giacomo's HUD Configurator.
 
 ## [0.2.1c] - 2023-11-21
 
@@ -206,6 +296,8 @@
 - Runes that provide resource on hit for the weapon slot have been changed. The Mana one now gives Magic Find, Health gives Gear's Weapon Damage, and Energy gives Attack Speed instead.
 - Reduced base weapon damage.
 - Increased basic attack damage multiplier on weapons.
+- Chocobos can once again fly.
+- You can no longer use Endersoul Hand in Maps.
 
 ### Fixes
 - Fixed some misleading descriptions in the Prologue quests, and added some warnings for some of them.

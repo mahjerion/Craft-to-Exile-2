@@ -1,5 +1,47 @@
 # Changelog
 
+## [0.3.0c] - 2024-01-05
+
+### Reminders
+- Mine and Slash damage code went through a bit of a refactor, so if you notice anything please let us know!
+- Back up your Xaero's folders and your options.txt file just in case!
+- If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
+
+### Updates
+- Added missing updated textures for Sophisticated mods. Thanks Skullbushi!
+- Changed number of sockets based on item rarity. Common to Rare can spawn up to 2 sockets, Epic to Unique can only spawn up to 1. A new type of Runed item can spawn with a minimum of 2 and a max of 6.
+- Buffed the damage scaling of almost all Skills.
+- Increased the area of Fire and Frost Nova to more appropriately match the visuals.
+- Fighter Stances now have a cast time of 0, and last 30 minutes instead of 3.
+- Increased the Magic Shield you get from Tomes drastically.
+- Changed Mana and Energy Regen from Int/Dex to be percent rather than flat.
+- Increased base Energy Regen substantially due to above change.
+- Lowered Energy cost of basic attacks.
+- Changed Garden of Thorns to apply 1 stack per cast instead of 3. I did not realize it cast 5 times.
+- Added a few more Gateway Pearls throughout the Acts as quest rewards.
+- Changed the First Weapon quest weapon rewards to Rare Lv. 3 weapons instead of Common Lv. 1.
+- Lowered starting resist and subsequent resist bonuses/penalties by a flat -25%.
+- Reduced the amount of particles from Fighter Stances.
+- Fighter Stance (the offensive one) penalty to damage taken is less penalizing.
+
+### Fixes
+- Fixed Summon Skills not working properly.
+- Fixed Tridents not being considered Spears.
+- Fixed missing Gateway recipes and localization.
+- Hopefully fixed a crash related to Canary.
+- Fixed an incorrect dependency requirement in Act I.
+- Fixed Salvaging and Cooking Stations using incorrect textures.
+- Fixed localization error with Of the Yeti and Of the Storm.
+- Fixed incorrect armor/pant textures for Rare Plate gear.
+- Fixed Shred not doing damage in Defender Stance.
+- Fixed Garden of Thorns not casting properly.
+- Fixed missing Gateway Pearl rewards.
+- Fixed Stat Souls still showing the question mark.
+- Removed Illusioner Totem drops. It has been causing issues.
+
+### Mod Updates
+- Updated Better Archeology, Not Enough Animations, Shoulder Surfing, CTE2 Essentials, Puzzles Lib, Blue Skies.
+
 ## [0.3.0b] - 2024-01-04
 
 ### Reminders

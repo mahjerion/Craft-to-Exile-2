@@ -1,5 +1,68 @@
 # Changelog
 
+## [0.3.1] - 2024-01-09
+
+### Reminders
+- Mine and Slash damage code went through a bit of a refactor, so if you notice anything please let us know!
+- Back up your Xaero's folders and your options.txt file just in case!
+- If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
+
+### Updates
+- Large update to the gear affix pool. Offhands now have many more interesting affixes, weapons have new + Skills affixes, and custom weapon types like Hammers, Daggers, and Spears get some more love. 
+- Added 3 new Support Gems: Physical To Fire/Cold/Lightning (Lv. 20).
+- New Lv. 30 Sorcerer Skill: Blizzard - deal damage in a large area.Each cast of Steam Cloud increases the effect stack by 1, further increasing the damage of Steam Cloud.
+- Minstrel Skills can now be used with any weapon type.
+- Reduced Mana and Energy Regen per Int/Dex point.
+- Reduced base regeneration values by a hefty amount. I did not realize that regeneration was happening every second instead of every 3 seconds. Please let me know if I've overdone the nerf though.
+- Buffed Regen passives in Class trees.
+- Lightning Spear no longer applies Static.
+- Lowered Mana cost of Lightning and Frost Nova slightly.
+- Static buffs have been nerfed to be percent rather than flat.
+- Reduced Suffix sources of Str/Int/Dex.
+- Nerfed On Hit support gems.
+- There is a new Status Effect entry in the Hub Wiki.
+- When you get hurt with Magic Shield, a sound will now play.
+- Sleep percentage required is now 25% of players instead of 50%.
+- Experience from Slimes has greatly reduced.
+- Renamed Minion Explosion Gamechanger since there's now a Skill with the same name.
+- Increased the penalty from multiple projectile support gems.
+- Increased PVP damage factor.
+- Reduced the duration of the Hymn buffs but also reduced their cooldown.
+- Gateway end of wave rewards have been nerfed. Too much loot!
+- Changed default M&S HUD to be bottom centered rather than top left.
+- Defender Stance no longer periodically taunts nearby mobs. I've upped the Threat Generated stat from it by a lot to compensate.
+- Added a new Suffix that increases Str/Int/Dex by percent.
+- Changed Grief and Cure Rune order to prevent overlap.
+- You will now be alerted why you can't cast a Skill.
+- Increased the recipe cost of Extractor.
+- Updated default UI a bit.
+- Changed loot weights for the simple dungeon chests.
+- Rune minimum level req. is now lower across the board.
+- Mid-level Runes are now a bit more rare, higher level Runes should be mostly unaffected.
+- Mob level variance has been introduced, mobs now spawn +/- 1 levels.
+- Item drop level variance has been reduced from 3 to 1.
+- Pretty substantial optimization changes on the back-end which should improve server performance and performance in Maps.
+- Blacklisted Maps from AmbientSounds, should greatly improve performance in the dimension.
+
+### Fixes
+- Blue Skies bosses should take damage from Mine and Slash stuff now.
+- Fixed Chaos Resist being 25% higher than it should have been.
+- Fixed a suffix incorrectly posing as a prefix.
+- Fixed Damage Received showing red when negative.
+- Fixed custom weapons using incorrect Stat Soul textures.
+- Fixed Anvil Upgrade recipe for backpacks.
+- Fixed the Acrobat Gamechanger.
+- Fixed Gateway of Darkness recipe being extremely difficult.
+- Souls modifiers can no longer be used on non-armors.
+- Healing no longer applies Threat.
+- Fixed some weird instances of Runed rarity items when they shouldn't have been Runed.
+
+### Mod Updates
+- Updated Mine and Slash, Better Archeology, Canary, CraftTweaker, Embeddium++, Enchantment Descriptions, EnhancedAI, Friends and Foes, Minecolonies, Moonlight, Smoothboot, Supplementaries, Resourceful Config, Saturn.
+- Removed GML.
+- Removed Variable Spawner Hardness.
+- Removed Enhanced Visuals - causing issues with Mine and Slash.
+
 ## [0.3.0c] - 2024-01-05
 
 ### Reminders

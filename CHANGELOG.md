@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.3.1b] - 2024-01-09
+
+### Reminders
+- Mine and Slash damage code went through a bit of a refactor, so if you notice anything please let us know!
+- Back up your Xaero's folders and your options.txt file just in case!
+- If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
+
+### Fixes
+- Fixed broken Gateway of Darkness recipe.
+- Fixed missing localization.
+- Fixed an affix causing players to brick.
+- Fixed errored Gateways (the rest of them).
+
+### Mod Updates
+- Updated Skin Layers.
+
 ## [0.3.1] - 2024-01-09
 
 ### Reminders
@@ -10,7 +26,7 @@
 ### Updates
 - Large update to the gear affix pool. Offhands now have many more interesting affixes, weapons have new + Skills affixes, and custom weapon types like Hammers, Daggers, and Spears get some more love. 
 - Added 3 new Support Gems: Physical To Fire/Cold/Lightning (Lv. 20).
-- New Lv. 30 Sorcerer Skill: Blizzard - deal damage in a large area. Each cast of Steam Cloud increases the effect stack by 1, further increasing the damage of Steam Cloud.
+- New Lv. 30 Sorcerer Skill: Blizzard - deal damage in a large area.Each cast of Steam Cloud increases the effect stack by 1, further increasing the damage of Steam Cloud.
 - Minstrel Skills can now be used with any weapon type.
 - Reduced Mana and Energy Regen per Int/Dex point.
 - Reduced base regeneration values by a hefty amount. I did not realize that regeneration was happening every second instead of every 3 seconds. Please let me know if I've overdone the nerf though.

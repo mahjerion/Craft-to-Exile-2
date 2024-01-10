@@ -10,7 +10,7 @@
 ### Updates
 - Large update to the gear affix pool. Offhands now have many more interesting affixes, weapons have new + Skills affixes, and custom weapon types like Hammers, Daggers, and Spears get some more love. 
 - Added 3 new Support Gems: Physical To Fire/Cold/Lightning (Lv. 20).
-- New Lv. 30 Sorcerer Skill: Blizzard - deal damage in a large area.Each cast of Steam Cloud increases the effect stack by 1, further increasing the damage of Steam Cloud.
+- New Lv. 30 Sorcerer Skill: Blizzard - deal damage in a large area. Each cast of Steam Cloud increases the effect stack by 1, further increasing the damage of Steam Cloud.
 - Minstrel Skills can now be used with any weapon type.
 - Reduced Mana and Energy Regen per Int/Dex point.
 - Reduced base regeneration values by a hefty amount. I did not realize that regeneration was happening every second instead of every 3 seconds. Please let me know if I've overdone the nerf though.

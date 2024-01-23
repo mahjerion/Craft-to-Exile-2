@@ -1,5 +1,141 @@
 # Changelog
 
+## [0.4.0] - 2024-01-XX
+
+### Reminders
+- Mine and Slash damage code went through a bit of a refactor, so if you notice anything please let us know!
+- Back up your Xaero's folders and your options.txt file just in case!
+- If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
+
+### Updates
+- Added a new PATREON-designed Unique! Thanks to quad01man for your support! The Written Word. This Unique Tome grants the user a new Skill called Grand Cross and provides the user with stats that would benefit a healer. If you would like to support me on Patreon, please visit https://www.patreon.com/crafttoexile!
+- Added a new Necklace Runeword: Rain - a low-mid level Runeword for Totem users.
+- New Skill: Grand Cross - deals Lightning damage in an area and heals allies around the caster 3 times.
+- Added a new Hammer/Spear Runeword: Call to Arms - this Runeword grants you access to a new buff Skill, Battle Orders!
+- New Skill: Battle Orders - increases nearby allies' Skill Damage, Health, and Magic Shield for a short duration. Higher levels increase the duration.
+- Added 6 more new Uniques! Cloak of Defiance makes damage taken go to Mana instead of Health. Also find the Genji set (Helmet, Chest, Leggings, Boots) and receive a boost to your melee damage. Each piece of the set gives you a 25% chance to trigger the new Skill, Slice on each hit! This skill can only trigger once off cooldown. Lastly, also added Martyr's Blade which takes advantage of the Terrible Sword's self-damaging mechanic to do tons of damage!
+- New Skill: Slice - deal Physical damage in an area around you.
+- New Skill: Splinter - linked to Chilling Touch, summon hits can proc this Skill.
+- The Terrible Sword is no longer craftable.
+- Elemental Weakness effect has been buffed. It's now -25% Elemental Resist instead of -10%.
+- Increased scaling of resources with damaging Skills, such as Gong Strike, Chain Lightning, etc.
+- New Lv. 15 Shaman Skill: Galvanic Blade - imbue your weapon, converting your Physical damage into Lightning damage. Also gives your critical Lightning damage a chance to cast Discharge, which does Lightning damage in a small area around the struck enemy.
+- New Lv. 25 Shaman Skill: Battery Fusillade - fire out a stream of Lightning orbs to wreak havoc on your foes. These orbs scale highly with Mana, and the Skill intrinsically provides Critical Damage boost.
+- Changed Magma and Frost Totem placement to behave more like other totems.
+- Lightning Nova has been reworked into Charged Bomb. Throw out a ball of lightning which explodes upon impact, dealing Lightning damage in an area.
+- Improved Shaman Lightning Skill visuals.
+- New Lv. 20 Sorcerer Skill: Steam Cloud - provides the user with a stack of Heat that deals AOE Fire Damage every 0.5s around the caster. Each cast of Steam Cloud increases the effect stack by 1, further increasing the damage and area of Steam Cloud.
+- New Lv. 15 Sorcerer Skill: Frost Armor - buffs the user, increasing their Magic Shield. Also causes Cold Damage on Frozen enemies to have a chance of casting Bone Shatter, which deals Cold and Physical damage in an area around the enemy.
+- Fire Nova has been reworked into Magma Orb. Summon a fire orb at your position which pulsates every second, dealing fire damage in an area. After 3s, the orb explodes, dealing more damage in a larger area.
+- Explosive Arrow, Meteor, Armageddon and Meteor Arrow no longer apply Elemental Weakness. Only the new Magma Orb, Fireball, Fire Trap, Flame Strike, and Magma Totem do.
+- Fireball now has increased Burn Damage that scales with the Skill's level.
+- Blizzard now has increased Freeze Chance that scales with the Skill's level.
+- Frozen Orb damage has been reduced by about 30% at higher levels.
+- Heart of Ice has been reworked to give Magic Shield for 10s to nearby allies, and also provide a huge boost to Magic Shield for 5s.
+- At max level, Fighter and Defender Stance penalties are 0. Buffs have been toned down to compensate.
+- Melee Skills' damage scaling has increased by about 10% across the board.
+- Undying Will damage reduction has been reduced slightly.
+- Pull is now called Grapple, and targets enemies in front rather than around. It now also taunts enemies if you're in Defender Stance.
+- New Lv. 15 Warlock Skill: Putrid Breath - lay waste to enemies in front of you with slow-moving clouds that deal Chaos damage upon impact. This skill has increased Poison Chance.
+- Poison Cloud now has increased Poison Chance that scales with the Skill's level.
+- Reworked Chilling Touch. It's still a melee Skill that causes your summons to attack the struck enemies, but now it also applies a debuff that gives your summon hits a chance to proc Splinter, which deals physical damage in a small AOE.
+- Reduced the Mana cost of Explode Minions.
+- Reduced the Mana cost of Summon Skills by 25%.
+- Reduced the cooldown of Return Summons from 15s to 6s.
+- Return Summons no longer attempts to stun, slow, or damage your pets.
+- Ritardando Slow has increased in duration by 66%.
+- Resonance now fires 3 projectiles and travels very quickly.
+- Resonance damage scaling has been increased. Technically, the damage scaling should have been lowered to compensate for the above, but it turns out I forgot to buff this Skill during one of my earlier buffs so the damage was lacking THAT much.
+- Doubled the speed at which Trap Skills are sent out at, thereby increasing their distance.
+- Increased Explosive Arrow's area by 50% and increase damage scaling slightly. It also no longer applies a slow.
+- Added a new Draw Speed stat that can be found on Bows and Crossbows. The stat increases the rate at which you prepare your arrow.
+- Added new implicit Bow and Crossbow types that have Draw Speed.
+- Talent Tree Attack Speed nodes now also provide Draw Speed.
+- Added a new rarer Pickaxe stat: Block Reach - increases the range at which you can mine/interact with blocks.
+- Changed most instances of flat Critical Hit to increased.
+- Player base Critical Hit is now 5% instead of 1%.
+- Buffed Accuracy Support Gem.
+- Changed Accuracy Support Gem to Lv. 1.
+- New Lv. 10 Support Gem: Faster Cast Support Gem.
+- New Lv. 40 Support Gem: Magic Find Support Gem.
+- The above Support Gems have been added to their respective shops. Magic Find Support Gem is a high level rare drop-only Support Gem.
+- Mine and Slash armor crafting now costs 4 Stones instead of 2, since we now have the type modifiers.
+- Mob Affixes have been reworked completely, we have over 10 new mob affixes and some have been changed to suffixes.
+- Reduced sources of core stats.
+- Due to a bug with regen being double what it should have been, I have buffed Increased Mana/Energy Regen per point of Int/Dex, Increased Mana Regen from Static, Passive Skills, etc.
+- Spice of Life rewards have been revamped. Rewards are slightly easier to reach, and you can get new bonuses such as Block Reach, Movement Speed, and Combat Roll Distance!
+- Moved the quest from Culinary Delights regarding Spice of Life to Act II for more visibility.
+- Mine and Slash food and potion buffs have been changed slightly.
+- Reduced Dodge from mob affix Evasive.
+- Acrobat now gives flat Spell Dodge and reduces armor.
+- Mana Battery damage reduction has been reduced from 50% to 35%.
+- Mana Battery no longer gives Lightning Resist and now instead reduces max Energy.
+- Increased Gateway contribution towards anti-farming experience and drop penalty by 33%.
+- Endless Gateways have been turned into non-endless Gateways.
+- Gateway drops have been reworked slightly. You'll no longer get useless discs, saddles, horse armor, etc. The drops have also been reduced a bit and weighted more heavily towards Mine and Slash items.
+- Hellish Fortress Gateway boss is now a Wildfire rather than a buffed Piglin Brute.
+- Increased experience gain from kills by 150%.
+- Increased Favor loss on death by 100%.
+- Maps now start dropping at level 55 instead of 60.
+- Increased Map difficulty.
+- Reduced Map experience penalty for lower rarities.
+- Slightly increased Map sizes and pack size.
+- Added a new option once you reach Act IV to reset your quest progress.
+- Quests not found in the main Acts now provide experience scaled to your level. It's not a percentage, as it would be too strong at higher levels (people could just horde % rewards till 99), but it should tremendously help the leveling experience and reward players for doing non-M&S things.
+- Diving Kit and Three-Bolt Helmet quests in Act III have been properly reassigned as Main Quests.
+- Professions quests now also provide experience.
+- Reduced experience rewards from Quests in the main Acts slightly.
+- Made some changes to streamline quest progression. Also highlighted the Professions quest tab in a Prologue quest.
+- Basic Attacks no longer cost Energy.
+- Lowered Basic Attack damage of Bows and Crossbows to compensate for the above.
+- Increased base Mana Regen substantially. After the double tick bug is taken into account, it's still a 25% increase from before.
+- Increased base Energy Regen, but after the double tick bug is taken into account, it's about a 30-40% decrease from before. As Energy is now only really used for Skills and Blocking, it should be okay. Some item sources of Energy Regen are still slightly higher than Mana.
+- Axe and Hammer Basic Attack damage multipliers have been swapped because apparently Axes are slower.
+- We now have a Target Dummy that displays your DPS dynamically!
+- Set GUI back to what it was previously. The GUI at the bottom is too difficult to see.
+- Runed rarity items are now a bit more rare.
+- Added the Mods button to the UI.
+- There is now a 10% experience boost for each character you have that's above your current character.
+- Rare items can no longer roll 2 sockets.
+- Added Mine and Slash items to some custom mod loot tables. Notably, Farmer's Delight loot tables and Terralith loot tables.
+- General performance improvements.
+- Updated the Disassembler's Learning Method's recipe to make more sense.
+- Potentially removed useless enchantments on certain weapons. Such as Sharpness and Sweeping Edge. They may still be obtainable, but most sources (incl. enchanting) should be removed.
+- Anti-mob farm doesn't apply to some drops now.
+- Updated some UI descriptions.
+
+### Fixes
+- Another attempt at fixing the Blue Skies bosses (seemed to actually fix it this time).
+- Fixed incorrect information panel in Class GUI.
+- Moved the default Inventory HUD to bottom right.
+- Fixed incorrect or missing localization.
+- Fixed an issue where Pull (now Grapple) would sometimes not apply Shred or Stun.
+- Fixed a bug where Wood Staves weren't able to roll Looting.
+- Fixed a stat sync issue.
+- Fixed an bug where player tick events were happening twice as many times as they should have. This means if you had 30 Mana Regen, you'd regen 60 every second...
+- Some Stat Soul bugs should be fixed.
+- Fixed right-clicking with Hoe not harvesting.
+- Jewels no longer generate as Runed.
+- Souls/Runed issues should be resolved.
+- Fixed a bug where Unique items could roll 2 sockets.
+- Resonance no longer mistakenly applies Charm to enemies upon hit.
+- Disabled Eye of the Blaze/Shulker/Pillager from Nature's Aura as they were causing crashes. They're also kind of obselete due to Explorer's Compass.
+
+### Mod Updates
+- Updated Air Hop, Ambient Sounds, Better Chunk Loading, BlockUI, Canary, Combat Roll, CreativeCore, Doggy Talents, Embeddium, Embeddium++, FancyMenu, Farmer's Delight, FTB Library, FTB Quests, GeckoLib, JadeColonies, Kiwi, Konkrete, Mine and Slash, MineColonies, ModernFix, Moonlight Lib, PuzzlesLib, Structurize, StyleColonies, Supplementaries.
+- Added MmmMmmMmmMmm (Target Dummy).
+- Added Chat Colours - text formatting in chat.
+- Added Ender Trigon - revamps the Ender Dragon boss fight.
+- Added Jump Boat - you can now jump while boating.
+- Added What Are They Up To - see what other players are doing.
+- Added Damage Vignette.
+- Added Forge Config Screens - lets you modify configs from in-game.
+- Added FTB Quests and Achievements Optimizer.
+- Added Inventory Essentials.
+- Added Inventory Sorter.
+- Removed Chess mod. I mean... yeah.
+- Removed Inventory Profiles Next.
+
 ## [0.3.1b] - 2024-01-09
 
 ### Reminders
@@ -166,7 +302,7 @@
 - Ender Dragon is apparently hurtable by Skills so I have increased its Health and given it stats.
 - Added Nethers Delight Machetes compat with MNS.
 - Updated Lifesteal and Manasteal descriptions to be more accurate.
-- Nerfed Mob Evasive affix.
+- Evasive mob affix has been nerfed, but now also grants mobs some Spell Dodge.
 - Armor/Magic Shield/Dodge prefixes have been changed back to Gear's Defense stats. The percent values have been readjusted (increased) since they won't be global anymore.
 - Elemental Spell Damage stat has now been changed to Elemental Skill Damage so it should affect any Skill, not just Int-tagged ones.
 - Nerfed Block Chance multiplier sources (not flat sources).

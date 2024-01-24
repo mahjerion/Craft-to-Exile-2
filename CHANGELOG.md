@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.4.1] - 2024-01-XX
+## [0.4.1] - 2024-01-24
 
 ### Reminders
 - Mine and Slash damage code went through a bit of a refactor, so if you notice anything please let us know!

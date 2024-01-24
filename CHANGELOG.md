@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.4.1] - 2024-01-XX
+
+### Reminders
+- Mine and Slash damage code went through a bit of a refactor, so if you notice anything please let us know!
+- Back up your Xaero's folders and your options.txt file just in case!
+
+### Fixes
+- Fixed Hellish Gateway not showing up.
+- Fixed Chain Lightning using way too many particles.
+- Fixed Magma Orb crashing clients on servers.
+- Fixed Talent Point reward for Wither kill.
+- Fixed missing Open to Lan button.
+
+### Mod Updates
+- Updated Illager Invasion, PuzzlesLib, Structurize.
+
 ## [0.4.0] - 2024-01-24
 
 ### Reminders

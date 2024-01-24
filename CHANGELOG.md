@@ -1,11 +1,10 @@
 # Changelog
 
-## [0.4.0] - 2024-01-XX
+## [0.4.0] - 2024-01-24
 
 ### Reminders
 - Mine and Slash damage code went through a bit of a refactor, so if you notice anything please let us know!
 - Back up your Xaero's folders and your options.txt file just in case!
-- If you start the game and you have like 3 different things bound to the "R" key, the custom keybinds probably didn't apply for you. You can get them by resetting your keys in the keybind menu, or you can find them in /config/defaultoptions as "options_default.txt"!
 
 ### Updates
 - Added a new PATREON-designed Unique! Thanks to quad01man for your support! The Written Word. This Unique Tome grants the user a new Skill called Grand Cross and provides the user with stats that would benefit a healer. If you would like to support me on Patreon, please visit https://www.patreon.com/crafttoexile!
@@ -17,23 +16,25 @@
 - New Skill: Slice - deal Physical damage in an area around you.
 - New Skill: Splinter - linked to Chilling Touch, summon hits can proc this Skill.
 - The Terrible Sword is no longer craftable.
-- Elemental Weakness effect has been buffed. It's now -25% Elemental Resist instead of -10%.
 - Increased scaling of resources with damaging Skills, such as Gong Strike, Chain Lightning, etc.
 - New Lv. 15 Shaman Skill: Galvanic Blade - imbue your weapon, converting your Physical damage into Lightning damage. Also gives your critical Lightning damage a chance to cast Discharge, which does Lightning damage in a small area around the struck enemy.
 - New Lv. 25 Shaman Skill: Battery Fusillade - fire out a stream of Lightning orbs to wreak havoc on your foes. These orbs scale highly with Mana, and the Skill intrinsically provides Critical Damage boost.
 - Changed Magma and Frost Totem placement to behave more like other totems.
 - Lightning Nova has been reworked into Charged Bomb. Throw out a ball of lightning which explodes upon impact, dealing Lightning damage in an area.
 - Improved Shaman Lightning Skill visuals.
+- Chain Lightning projectile now lasts a bit longer.
+- Lightning Spear projectile now lasts a bit shorter.
 - New Lv. 20 Sorcerer Skill: Steam Cloud - provides the user with a stack of Heat that deals AOE Fire Damage every 0.5s around the caster. Each cast of Steam Cloud increases the effect stack by 1, further increasing the damage and area of Steam Cloud.
 - New Lv. 15 Sorcerer Skill: Frost Armor - buffs the user, increasing their Magic Shield. Also causes Cold Damage on Frozen enemies to have a chance of casting Bone Shatter, which deals Cold and Physical damage in an area around the enemy.
 - Fire Nova has been reworked into Magma Orb. Summon a fire orb at your position which pulsates every second, dealing fire damage in an area. After 3s, the orb explodes, dealing more damage in a larger area.
 - Explosive Arrow, Meteor, Armageddon and Meteor Arrow no longer apply Elemental Weakness. Only the new Magma Orb, Fireball, Fire Trap, Flame Strike, and Magma Totem do.
+- Elemental Weakness effect has been buffed. It's now -25% Elemental Resist instead of -10%.
 - Fireball now has increased Burn Damage that scales with the Skill's level.
 - Blizzard now has increased Freeze Chance that scales with the Skill's level.
 - Frozen Orb damage has been reduced by about 30% at higher levels.
 - Heart of Ice has been reworked to give Magic Shield for 10s to nearby allies, and also provide a huge boost to Magic Shield for 5s.
 - At max level, Fighter and Defender Stance penalties are 0. Buffs have been toned down to compensate.
-- Melee Skills' damage scaling has increased by about 10% across the board.
+- Melee Skills' damage scaling has increased by about 10% across the board (except Quake).
 - Undying Will damage reduction has been reduced slightly.
 - Pull is now called Grapple, and targets enemies in front rather than around. It now also taunts enemies if you're in Defender Stance.
 - New Lv. 15 Warlock Skill: Putrid Breath - lay waste to enemies in front of you with slow-moving clouds that deal Chaos damage upon impact. This skill has increased Poison Chance.
@@ -47,6 +48,7 @@
 - Resonance now fires 3 projectiles and travels very quickly.
 - Resonance damage scaling has been increased. Technically, the damage scaling should have been lowered to compensate for the above, but it turns out I forgot to buff this Skill during one of my earlier buffs so the damage was lacking THAT much.
 - Doubled the speed at which Trap Skills are sent out at, thereby increasing their distance.
+- Added Weapon Skill tag to some Skills that were missing (such as some Ranged Skills).
 - Increased Explosive Arrow's area by 50% and increase damage scaling slightly. It also no longer applies a slow.
 - Added a new Draw Speed stat that can be found on Bows and Crossbows. The stat increases the rate at which you prepare your arrow.
 - Added new implicit Bow and Crossbow types that have Draw Speed.
@@ -79,8 +81,9 @@
 - Maps now start dropping at level 55 instead of 60.
 - Increased Map difficulty.
 - Reduced Map experience penalty for lower rarities.
+- Buffed Map Mob Affixes for Elemental Damage.
 - Slightly increased Map sizes and pack size.
-- Added a new option once you reach Act IV to reset your quest progress.
+- Added a new option once you reach Act IV to reset your Campaign quest progress. This is mostly useful for players looking to make new characters on the same world. This will NOT reset any Talent Point rewards you've earned.
 - Quests not found in the main Acts now provide experience scaled to your level. It's not a percentage, as it would be too strong at higher levels (people could just horde % rewards till 99), but it should tremendously help the leveling experience and reward players for doing non-M&S things.
 - Diving Kit and Three-Bolt Helmet quests in Act III have been properly reassigned as Main Quests.
 - Professions quests now also provide experience.
@@ -91,6 +94,11 @@
 - Increased base Mana Regen substantially. After the double tick bug is taken into account, it's still a 25% increase from before.
 - Increased base Energy Regen, but after the double tick bug is taken into account, it's about a 30-40% decrease from before. As Energy is now only really used for Skills and Blocking, it should be okay. Some item sources of Energy Regen are still slightly higher than Mana.
 - Axe and Hammer Basic Attack damage multipliers have been swapped because apparently Axes are slower.
+- Lowered sources of Block Chance or changed them to percent rather than flat.
+- Shields now have innate Block Chance stat.
+- Block Chance stat has been renamed to Passive Block Chance and the description has been updated.
+- Guardian Aura has been renamed to Vitality Aura since we have 2 Guardian Auras...
+- Updated Quest rewards to reflect above changes.
 - We now have a Target Dummy that displays your DPS dynamically!
 - Set GUI back to what it was previously. The GUI at the bottom is too difficult to see.
 - Runed rarity items are now a bit more rare.
@@ -112,6 +120,7 @@
 - Fixed an issue where Pull (now Grapple) would sometimes not apply Shred or Stun.
 - Fixed a bug where Wood Staves weren't able to roll Looting.
 - Fixed a stat sync issue.
+- Sorting inventory no longer causes Mine and Slash items to auto-insert/apply.
 - Fixed an bug where player tick events were happening twice as many times as they should have. This means if you had 30 Mana Regen, you'd regen 60 every second...
 - Some Stat Soul bugs should be fixed.
 - Fixed right-clicking with Hoe not harvesting.
@@ -120,9 +129,10 @@
 - Fixed a bug where Unique items could roll 2 sockets.
 - Resonance no longer mistakenly applies Charm to enemies upon hit.
 - Disabled Eye of the Blaze/Shulker/Pillager from Nature's Aura as they were causing crashes. They're also kind of obselete due to Explorer's Compass.
+- Fixed some localization.
 
 ### Mod Updates
-- Updated Air Hop, Ambient Sounds, Better Chunk Loading, BlockUI, Canary, Combat Roll, CreativeCore, Doggy Talents, Embeddium, Embeddium++, FancyMenu, Farmer's Delight, FTB Library, FTB Quests, GeckoLib, JadeColonies, Kiwi, Konkrete, Mine and Slash, MineColonies, ModernFix, Moonlight Lib, PuzzlesLib, Structurize, StyleColonies, Supplementaries.
+- Updated Air Hop, AmbientSounds, Better Chunk Loading, BlockUI, Canary, Combat Roll, CreativeCore, Doggy Talents, Embeddium, Embeddium++, FancyMenu, Farmer's Delight, FTB Library, FTB Quests, GeckoLib, JadeColonies, Kiwi, Konkrete, Mine and Slash, MineColonies, ModernFix, Moonlight Lib, PuzzlesLib, Structurize, StyleColonies, Supplementaries.
 - Added MmmMmmMmmMmm (Target Dummy).
 - Added Chat Colours - text formatting in chat.
 - Added Ender Trigon - revamps the Ender Dragon boss fight.

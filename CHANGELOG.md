@@ -1,5 +1,149 @@
 # Changelog
 
+## [0.5.0] - 2024-02-08
+
+### Reminders
+- Mine and Slash damage code went through a bit of a refactor, so if you notice anything please let us know!
+- Back up your Xaero's folders and your options.txt file just in case!
+
+### Updates
+- Added a BRAND NEW CLASS: The Rogue - the Rogue can specialize in quick movements to overwhelm the enemies, or focus on devastating blows. With the Rogue, you can empower your Basic Attacks to deal tons of damage, or go invisible to strike your enemies with a critical back stab. Don't want to get too close? Keep your distance with high-speed movement options and Crossbow Skills!
+- Added 1 new PATREON-designed Unique and 1 new PATREON-designed Runeword! Thanks to Captain Clogs and Namsic for your continued support! If you would like to support me on Patreon, please visit https://www.patreon.com/crafttoexile!
+- PATREON-designed Unique (Captain Clogs): Oathbreaker - This Unique Hammer grants large bonuses to Curse users, at the expensive of their own Health...
+- PATREON-designed Runeword (Namsic): Tempest - This Hammer Runeword augments Galvanic Blade's Discharge, giving hits from Discharge a 50% chance of casting a new Skill, Lightning Bolt (see below), and large bonuses to Basic Attack Damage and Speed.
+- New Skill: Lightning Bolt - strike the enemy with a quick bolt of lightning, dealing high amounts of Lightning Damage to the target.
+- Added a new low-level Necklace Runeword: Impedement - reduces your experience gain to 0.
+- Added a new mid-level Ring Runeword: Prism - provides Elemental Resistances and a bit of Health.
+- Added 7 new Runes that can only be found from Bosses in dimensions. Each Rune is associated with a dimension. For example, the new Owd rune can only drop from Hermit Abysswalkers or the Invoker.
+- Regarding above, Quest descriptions for the Bosses have been updated, and a new Quest explaining this has been added in Act I.
+- Some existing Runewords have had their required Runes updated to incorporate the above change.
+- Added 4 new Uniques with custom assets (Thanks Nozium!) that drop in Map Tier 80+ - Last Tracker Uniques which comes in a set of 4 (Helmet, Chest, Legs, Boots). This set of Uniques increases Critical and Energy stats and provides a bunch of speed! It also converts Energy into Physical Damage...
+- Dexterity now provides a bit of Draw Speed as well.
+- Critical Damage nodes on the Talent Tree have been buffed.
+- Critical Hit passives have been buffed.
+- Resource on Hit Support Gems have been converted to Steal gems (Lifesteal + Spell Lifesteal, Spell Manasteal, Energysteal). They have also been converted to Lv. 20 Support Gems. Note that besides now also being Lv. 20, Magic Shield On Hit Support Gem remains unchanged.
+- Totem Damage and Cooldown Support gem has been reworked to give much more CDR but now reduces damage.
+- Added 2 new Support Gems: Cluster Traps Support Gem (Lv. 30) and Trap Damage Support Gem (Lv. 10).
+- Quest rewards and shops have been updated to reflect the above.
+- Player base resource regen has been reduced by 20%.
+- Lowered Proc Skills Bone Shatter and Discharge cooldowns from 2s to 1s.
+- Skill cooldowns is now minimum of 2s instead of 1s. This basically affects spammables.
+- Mage Circle has been buffed. It now has a radius of 4 rather than 2. The buff also lasts 5s instead of 1s, so you can leave the circle temporarily and retain the buff. Mage Circle cooldown has also been reduced from 30s to 15s.
+- Refresh and Mage Circle no longer cost Mana.
+- Fire and Frost Golem Basic Attacks now deal their respective element.
+- Blizzard, Frozen Orb, and Chilling Field no longer apply Bone Chill.
+- Frost Armor is now called Mage Armor.
+- Bone Shatter has been renamed to Elemental Burst.
+- Elemental Burst now deals Cold and Fire damage, rather than Cold and Physical.
+- Elemental Weakness has been renamed to Scorched. The effect remains the same.
+- Mage Armor now grants the caster the ability to trigger Elemental Burst (instead of Bone Shatter) on certain spells only (Blizzard, Frozen Orb, and Chilling Field) if the target has the Bone Chill effect.
+- Mage Armor now also grants the caster the ability to trigger Elemental Burst on certain spells (Armageddon, Steam Cloud, Meteor) if the target has the Scorched effect.
+- Skill Tooltips have been updated to reflect the above.
+- Frost Nova now heals nearby allies.
+- Frost Golem Summon Damage per level has increased from 2-20% to 4-40%.
+- Lowered Frost Nova's radius from 7 to 6.
+- Chilling Field cooldown is now 10s instead of 1s (oversight).
+- Magma Orb damage has been reduced by about 15%.
+- New Lv. 5 Fighter Skill: Leap - jump forwards to quickly reposition yourself.
+- Undying Will no longer costs Mana.
+- Grapple now has a 6 second cooldown.
+- Improved Grapple visuals.
+- Wind Slasher Mana Cost has increased.
+- Wind Slasher weapon scaling per level has decreased slightly.
+- Summon Skeletal Army summons now last 12s instead of 10s.
+- New Lv. 20 Minstrel Skill: Ensnaring Melody - play an alluring song which affects an area and deals Physical Damage to enemies each second. Charmed enemies are also slowed and dealt additional damage. The Skill also has innate Spell Lifesteal.
+- Prestissimo no longer costs Mana but now lasts 10s instead of 15s.
+- Prestissimo now also increases Draw Speed.
+- Shooting Star is now called Mending Ostinato. It now chains as well.
+- New Lv. 25 Shaman Skill: Lightning Warp - quickly teleport yourself forward. Leveling up this skill reduces the Mana Cost and cooldown.
+- New Lv. 10 Shaman Skill: Cyclone - send out a torrential gust of wind, dealing damage quickly to enemies caught in the projectile's path.
+- Improved Lightning Skill visuals.
+- Lowered Astral Totem Mana recovery per second by about 40%.
+- Increased Thorn consumption damage by 200% (tripled).
+- New Lv. 10 Hunter Skill: Hunter's Mark - fire an arrow that marks the first enemy struck. Marked enemies take extra damage, and are targeted by your Summons.
+- Doubled the Weapon Damage scaling of Enflamed, Envenomed, and Encased from the Ranger Traps.
+- Poison Trap has been renamed to Death Trap, and now additionally pulls enemies into its position upon activation.
+- Arrow Storm has been reworked to be more Arrow Storm-like.
+- Improved Charged Bolt visuals.
+- Quickdraw now provides a buff that increases Draw Speed rather than instant arrow shooting.
+- Quickdraw now lasts 8 seconds instead of 6 seconds.
+- Craft Arrows no longer costs Mana.
+- Disabled WATUT sounds.
+- In addition to Paragliders, we now have Heart Containers and Stamina Vessels from the Paraglider mod. Heart Containers increase your Health by 2. You can get a maximum of +200 BASE Health from Heart Containers (that's flat Health btw!). Stamina Vessels increase your Stamina by 100. You start with 1000 Stamina and have a cap of 3000 Stamina. You can find Spirit Orbs randomly in chests which can be used at Goddess Statues to exchange for these Containers/Vessels. You can also sometimes earn Heart Containers from killing Bosses!
+- Running and Swimming now consume Stamina.
+- Added new Prologue and Act I quests for the above.
+- Lowered SOL bonuses to Move Speed.
+- Updated some misleading stat names such as Melee Damage (which is now Melee Skill Damage).
+- Due to the found bug, reduced Map Tier difficult multiplier from 25% to 10% per Tier.
+- Added a new Quest explaining Character Resistances in Act III and how it drops as you level.
+- Moved Campaign Gem and Unique Shops to a separate Quest tab.
+- Mobs have a little bit of innate Accuracy and Dodge now.
+- The Forgotten Guardian now spawns at level 35 instead of 40.
+- Increased Profession Lesser/Medium/Greater resource drop rates by 100%.
+- Increased Husbandry Profession drop rates by 75-100% (total of 200% increase for the Lesser/Medium/Greater resources due to above change).
+- Profession recipes for Alchemy, Cooking, and Enchanting/Gear Crafting have been updated to include resources from higher level dimensions.
+- Profession recipes for level 1-20 no longer require a Lesser Resources, to make them streamlined.
+- Quests have been updated to reflect the Profession changes above.
+- New Quest in Professions to further help with learning how to craft.
+- Profession Tool Affix names and descriptions have been updated to be more detailed.
+- Added a blurb about ATMs in the Prologue Quest line.
+- Rings and Necklaces now appear on Inventory HUD GUI by default.
+- Updated Combat Roll UI position.
+- Buffed Souring Winds enchantment substantially.
+- You can now cage Mooblooms.
+- Default dot colours in Xaero's Minimap have been updated. Hostiles are now red, friendlies are green, neutrals are white, items are yellow, and tameables are light blue.
+- Changed default rendering speed for Dynamic Lights to Normal, from Real-Time.
+- Re-enabled Explorer's Compass and Nature's Compass in Blue Skies dimensions... for now.
+- Lowered Quick Stack radius a bit.
+- FTB Right-Click with Hoe/Axe/Harvesting has been enabled.
+- Re-enabled Flying Furball in Doggy Talents.
+- Disabled Lootr chests from spawning outside of world border. Should improve performance.
+- Added a little warning on Open to LAN.
+- Drastically lowered impact and spawn chance of the WTF Boom Creeper. Also, it no longer says WTF.
+- Rebalanced Farming for Blockheads' Market prices to be much more reasonable.
+- Lowered Rune drop rate.
+- Lowered Chocobo sound volume.
+- Auras/Aura Gems have been renamed to Augments.
+- Chunk Loader items have been added. There are 4 types: single, basic, advanced, and ultimate. You can craft these at anytime. A Quest has been added to introduce these.
+- Updated Refined Storage textures - credit goes to BlackAuresArt!
+- Added a Curios slot for M&S Master Bag.
+- Lowered Player starting health a bit to offset new Heart Containers.
+- Updated more loot tables to include Mine and Slash loot - especially in other dimensions.
+- Increased frequency of Lesser/Medium/Greater Crystals from MineColonists Lucky Ore.
+
+### Fixes
+- FIXED A HUGE BUG WHERE MAP AFFIXES AND TIER/RARITY BONUSES WERE NOT APPLYING.
+- Fixed Hammers still requiring Energy.
+- Fixed Bounty Board quest in Act II requiring a quest from Act III.
+- Items previously not viewable in JEI are now viewable in JEI (now EMI).
+- Fixed some missing and broken localizations.
+- Fixed a bug where Nature's Balm was Weapon Scaling cap was too low.
+- Fixed a bug where Minstrel Skills were failing to check for the Charm effect and always applying.
+- Fixed Money Mending costing too little on servers.
+- Implemented some fixes that should hopefully prevent chunk loading issues seen in Blue Skies dimensions.
+- Fixed quest bugs.
+- Fixed Lightman's Persistent Trader issues.
+- Fixed an issue with FTB Teams + Quests where Quests rewards could be earned twice.
+- You no longer get Farming EXP from Potatoes.
+- Fixed Soaring Winds not working in Elytra Slot.
+- Fixed the Curios slots a bit.
+
+### Mod Updates
+- Updated Architectury, Aggro Indicator, Better Archeology, Better Combat, BlockUI, Bookshelf, Canary, Chat Heads, Citadel, Comforts, CraftTweaker, Create Crafts and Additions, Cupboard, Curios, Domum Ornamentum, Embeddium, Embeddium++, FindMe, FTB Quests, Geckolib, JEI, Kobolds, Lightman's Currency, Lootr, MineColonies, Mine and Slash, ModernFix, Moonlight, More Overlays, More Sniffer Flowers, Oculus, Puzzle Dungeon, Puzzles Lib, Resourceful Lib, Showcase Item, Sophisticated mods, Sound Physics, Structurize, Supplementaries, Textrues Embeddium Options, Traveler's Titles, WST, Xaero's, YUNG's API.
+- Added ImmediatelyFast.
+- Added EMI.
+- Added Modern UI - adds improvements to the UI.
+- Added Jade Addons.
+- Added Musical Instrument Minecraft Interface - provides more tools for us to use.
+- Added Chunk Loaders.
+- Added Paraglider.
+- Removed Better Chunk Loading.
+- Removed Reblured - replaced by Modern UI.
+- Removed FPS Reducer - replaced by Modern UI.
+- Removed Ding - replaced by Modern UI.
+- Removed WI Zoom - replaced by Modern UI.
+- Removed Music Maker Mod.
+
 ## [0.4.1] - 2024-01-24
 
 ### Reminders

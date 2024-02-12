@@ -1,5 +1,79 @@
 # Changelog
 
+## [0.5.1] - 2024-02-12
+
+### Reminders
+- Mine and Slash damage code went through a bit of a refactor, so if you notice anything please let us know!
+- Back up your Xaero's folders and your options.txt file just in case!
+
+### Updates
+- Added a new Lv. 1 Augment called Basic Augment which buffs Basic Attacks and Attack/Draw Speed. This Augment has been added to the appropriate Quest rewards.
+- Augments' stat variance has increased. Higher Rarity Augments will be more powerful.
+- Attack Speed sources have been buffed drastically (almost 100% across the board).
+- Increased player base Mana and Energy by 50%.
+- Increased kill experience rewards by 100%.
+- Lowered Campaign Quest experience rewards by 50%.
+- Rested XP death penalty is 25% instead of 50% now.
+- Added more types of weapons to "Your First Weapon" Prologue quest.
+- Doubled duration of Undying Will and Mirror Image. Due to a bug, stat bonuses from effects take a bit of time to apply so these buffs were realistically lasting like 1-2s.
+- Increased Minstrel's Hymn durations by 50%.
+- Increased Prestissimo's duration from 10s to 12s.
+- Buffed Minstrel's Hymns and Prestissimo. Also improved their Skill descriptions.
+- Sharpen has been reworked a bit. It now stacks up to 5 instead of 10, and the Attack Speed buff has decreased by about 33% (max of 30% per stack to 20% per stack). Cooldown and duration of the buff have been reduced to be in line with other stack-based buffs. It was supposed to be a single time use buff, but due to players providing positive feedback regarding the stacks, I've decided to keep it that way.
+- Execute and Snipe damage has increased by about 30%.
+- Double Strike damage scaling has increased slightly. At max level it now does 4% more damage.
+- Flicker Strike damage has increased by about 16%.
+- Whirling Blades damage has increased by 100%.
+- Piercing Dagger Throw damage has increased by about 6%.
+- Ricochet Shot damage has increased by about 5%.
+- Fan of Knives damage has increased by about 16%.
+- Increased Health scaling on Gong Strike and Whirlwind in Defender Stance by about 50%.
+- Profession Armor crafting now also requires a Leather. This also fixes the Gear Crafting issues.
+- Increased Map mob density by about 100%.
+- Removed Master Bag Curios slot.
+- Further increased MineColonies Citizen stats to maybe help with Husbandry.
+- Map drop rate in Maps has been increased SUBSTANTIALLY (about 6x).
+- Reduced Map difficult per Tier by about 50%. Maps at higher difficulties were way too difficult.
+- Since Runes don't have rarity, they now all provide the same stats every time (no range). This is how it worked in D2 as well.
+- Rune drop rate has been reduced.
+- Augment Gems have been rebalanced a bit. In general, their ceiling is higher and floor is lower. This is to give higher rarities more impact.
+- Flat Weapon Damage and Defense from flat Weapon Damage and Defense prefixes has been lowered.
+- Prefix sources of percent Weapon Damage and Defense have been buffed slightly.
+- The prefix that gives flat and percent Weapon Damage has been changed to Accuracy and percent Weapon Damage.
+- Lanterns no longer set fire when they break.
+- Base Stamina, Max Stamina, and Stamina gain per Vessel has been tripled.
+- Mob Rarity weights have been adjusted. Previously, the weights for Common to Mythic were 243:81:27:9:3:1. They are now 1024:256:64:16:4:1 instead.
+- Mob Rarity difficulty scaling has been changed slightly. Uncommon to Rare have slightly less Health, and Legendary and Mythic mobs now have more Health. Mythic mob have about 40% more Health than previously. Stat scaling has also increased slightly, with Mythic mobs now having about 20% more stats than previously. Damage has also been increased very slightly (12.5% by Mythic).
+- Mob Rarity rewards scaling has been increased substantially. Mythic mobs rewards have almost been tripled.
+- The idea with the above Mob Rarity scaling changes is to make them a little more rare and difficult, but much more rewarding. So instead of "dreading" these mobs, one might look forward to the challenge.
+- Gear Rarity Salvage Experience and Output scaling has been increased. Mythic Salvage Experience and Output has increased by 67%.
+- Changed default Chunk Loader keybind to F8.
+- Drastically nerfed sources of Magic Find and Increased Quantity.
+- Lowered particle count of Blizzard, Chilling Field, and Frozen Orb.
+- Doubled Blood per 10 Strength and Health restoration effects on Blood for Blood Mage.
+
+### Fixes
+- Fixed Canary config file.
+- Fixed Leap having incorrect tags.
+- Fixed Main Menu being laggy.
+- Fixed Flame Splash Potion crashing clients.
+- Fixed Inventory functions not being available due to the pause function. Disabled the pause from ModernUI.
+- Fixed Leap shooting you way up.
+- Fixed Battery Fusilade not being learnable and therefore causing NPE issues.
+- Fixed Gateway of Overworldian Nights causing NaN issues.
+- Bows and Crossbows can no longer roll Warlord's prefix which provided Attack Speed.
+- Fixed incorrect quest dialogue in Act V.
+- Fixed some Skills still having only 1s cooldown instead of 2s.
+- Fixed Gear Crafting issues with Armor recipes taking priority.
+- Fixed a bug where Vital Points wasn't working as intended.
+- Fixed a bug where Skills and Summons would hurt Summons.
+- Fixed a bug where you could still cast Skills that cost Energy, even though you were at 0 Energy.
+- Fixed a bug where Weapon Damage stats weren't working as intended.
+- Fixed an issue where Blood Mage's Blood was not regenerating if your Health was full.
+
+### Mod Updates
+- Updated CoroUtil, Crabber's Delight, CraftPresence, CraftTweaker, Create Additions, CreativeCore, EMI, FastWorkbench, Framework, JEI, Lightman's Currency, Mine and Slash, MineColonies, Moonlight, More Sniffer Flowers, Not Enough Animations, PacketFixer, Placebo, Resourceful Lib, Saturn, Showcase Item, Supermartijn's Core Lib, Supplementaries, WATUT.
+
 ## [0.5.0] - 2024-02-08
 
 ### Reminders

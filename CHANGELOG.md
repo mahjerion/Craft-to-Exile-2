@@ -1,5 +1,61 @@
 # Changelog
 
+## [0.5.2] - 2024-02-16
+
+### Updates
+- Undying Will has been reworked completely. Instead of briefly providing large amounts of Damage Reduction and other attack stats, it now increases Damage Taken slightly and grants the user the Berserk effect on kill for a short duration (10s). You can have up to 10 stacks of Berserk, with each stack increasing your Movement Speed, Attack Speed, and Cooldown Reduction.
+- Reduced Quake's explosion damage radius from 3 to 1.5. Quake was unintentionally hitting mobs with every explosion. It can still do that with some investment.
+- Quake now ticks every 4 ticks instead of 3 and travels a little further.
+- Wind Slasher now moves twice as fast but travels half as far.
+- Wind Slasher damage has been reduced by 33%.
+- Leap now uses charges instead. The cooldown and charge regen rate have been modified accordingly.
+- Lowered volume of Sharpen.
+- Piercing Dagger Throw and Puncture Bleed Damage bonuses have been doubled.
+- Reduced the damage of Minstrel skills by about 10-20%.
+- Reduced Mana and Energy Regen from Hymn of Vigor.
+- Reduced Damage Reduction and Health/Magic Shield Regen from Hymn of Perseverance.
+- Changed flat Critical Hit to percent in Hymn of Valor.
+- Increased Player starting health to 100, from 60. Note that this extra 40 health does NOT scale with level.
+- Reduced mob damage scaling by about 33%.
+- A new currency has been added that can increase the rarity of a Map. Maps now also drop as Common rarity only. The idea with this change is so players can essentially "choose" what type of challenge they want rather than be at the mercy of RNG rarity drops. Quest has been updated to reflect this change.
+- Updated Map Affixes to be more in line with Augment and Support Gem variance changes.
+- Some of the more egregious Map Affixes have also been toned down (extra damage, crit).
+- Map Tier Health scaling has increased. Damage remains the same.
+- Sources of flat Magic Shield on gear has been buffed by roughly 100%. Rings and Tomes base values are unchanged.
+- Mana on Basic Attack Hit has been removed from all non-Mage weapons. It has also been reduced slightly on Mage weapons.
+- Full Talent Reset potion recipe now uses Utherium Crystal instead of Blue Skies Sol Nut.
+- Golemancer Game Changer Talent now provides flat Summon Health and flat Golem Damage instead of more.
+- Summoner Game Changer Talent now grants -90% LESS Golem Damage.
+- Mana Battery now applies before Magic Shield. The description has been updated.
+- Rebalanced Spear and Helmet/Boot flat Damage/Defense prefixes. Spears get buffed and Helmets and Boots get nerfed.
+- Passive Block Chance now shows up in the Hub GUI.
+- Some new upgrade paths for Sophisticated Stack Upgrades have been added.
+- Changed Gate of Labyrinth's recipe to use Froststeel Ingots instead of Forgotten Ingots.
+- Completely removed Stamina from the game. Quests have been updated to reflect this.
+- Increased max Skill Level with + Skills. Before it was 21 (+5), now it's 24 (+8). Half of the max Skill level without bonuses seems about right.
+- Removed sources of the Skelewag Skull and Tendon Whip weapons. The Tendon Whip may make a return in the future...
+
+### Fixes
+- Fixed some incorrect Quest dialogue in Professions tab.
+- Fixed Rested Experience death penalty being inverse.
+- Fixed Resource Pack for RS not being on by default.
+- Disabled WSTweaks blades due to a bug.
+- Hopefully fixed an issue where Dimension Runes weren't dropping as frequently as they should have been.
+- Fixed Profession's recipe for level 41-100 Dexterity Potion being broken.
+- Fixed players spawning in bizarre biomes such as the Ocean due to presence of village.
+- Fixed some stat localization errors.
+- Fixed Toq Rune still having range.
+- Fixed Stare of Abyss giving MORE Chaos Resist instead of flat.
+- Fixed Summon Capacity perk accidentally being mislabeled as a Game Changer Talent.
+- A bunch of stat fixes.
+- On Kill effects have been fixed. They were not working when kills were from Basic Attacks.
+- Magic Shield players rejoice! Mobs have a short Basic Attack cooldown now. This should prevent players from being melted from mobs with not cooldown such as Slimes.
+
+### Mod Updates
+- Updated Chunk-Pregenerator, Cuisine Delight, Domum Ornamentum, Embeddium, Kobolds, Lightman's Currency, Mine and Slash, MineColonies, Moonlight, Multi-Piston, Mutant Monsters, Oculus, Puzzles Lib, Sophisticated mods, Supplementaries.
+- Added Biome Spawn Point - prevents players from spawning in the Ocean...
+- Added Fast Paintings - will help with performance.
+
 ## [0.5.1] - 2024-02-12
 
 ### Reminders

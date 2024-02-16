@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.5.2b] - 2024-02-16
+
+### Updates
+- Offset player Health so that instead of having a flat +60 and 40 that scales with level, it's now 50 and 50. This should result in more Health at higher levels.
+- Reduced player Mana and Energy by about 16%.
+- Reduced base flat Magic Shield on Cloth Chest by about 25%. Other sources remain unaffected.
+- Reduced Health and Magic Shield scaling on Gong Strike, Whirlwind, and Blizzard.
+- Increased Golem damage per level.
+- Golems now have some innate Threat Generation.
+- Increased Wind Slash damage by about 20-25%.
+- Increased Quake damage by about 8%.
+- Increased Quake radius from 1.5 to 2.
+- Ghast and Fortified Reflexes penalties are slightly higher (-25% to -33%).
+- Summoner Game Changer Talent now provides -50% Golem Damage instead of -90%.
+
+### Fixes
+- Fixed GMP Barrage having +4 Projectiles instead of +6.
+- Hopefully fixed some server configs not applying (Stamina removal for example). If not, you may need to manually copy the files from defaultconfigs into the serverconfig folder of your world save.
+
 ## [0.5.2] - 2024-02-16
 
 ### Updates

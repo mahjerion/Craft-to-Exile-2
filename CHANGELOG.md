@@ -261,6 +261,7 @@
 - Mending Ostinato is now correctly tagged as a Song.
 - Explode Minions is now correctly tagged as Chaos.
 - Fixed instances of broken MORE stats not doing anything by changing them to FLAT stats.
+- Main Menu changelog no longer gets cut and wraps properly.
 
 ### Official Server Changes
 - Colonies now unload after 2 mins instead of 10 mins.

@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.6.0] - 2024-05-XX
+## [0.6.0] - 2024-06-13
 
 ### Updates
 - New Transmog mod has been added which lets you change the appearance of an item into another item. This will replace Cosmetic Armor by 0.7.0. You can craft the Transmogrification Table to perform this new action.

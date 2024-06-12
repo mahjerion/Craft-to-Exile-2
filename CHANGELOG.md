@@ -6,7 +6,7 @@
 - New Transmog mod has been added which lets you change the appearance of an item into another item. This will replace Cosmetic Armor by 0.7.0. You can craft the Transmogrification Table to perform this new action.
 - New Quest in Act I covering Transmogrification.
 - Modpack stability and performance improvements.
-- Increased EXP gain in Act IV slightly.
+- Increased EXP gain in Acts III, IV, and V. Players were reaching Act V at too low of a level. This should help alleviate.
 - Doubled EXP rewards from Campaign Bosses.
 - Death EXP penalty upped from 5% to 10%. This is partially due to the fixed double death bug.
 - Megatorch and Feral Flare Lantern recipes are slightly more expensive now and require some Mine and Slash components.
@@ -109,7 +109,7 @@
 - Low Energy penalty is no longer a thing.
 - Increased Rune drop rate from 0.15 to 0.25.
 - Oru Rune PERCENT weapon damage has been reduced from 24% to 10%.
-- Refined Taste has been reworked. It now gives 25% Leech Effect instead of 50%. But it now also gives +50% Health Leech Cap instead of 2% and -90% Reduced Health Regen instead of -75%. It no longer affects Magic Shield Leech Cap and Mana Regen.
+- Refined Taste has been reworked. It now gives 25% Leech Effect instead of 50%. But it now also gives +40% Health Leech Cap instead of 2% and -90% Reduced Health Regen instead of -75%. It no longer affects Magic Shield Leech Cap and Mana Regen.
 - Golemancer Gamechanger now gives +35% Golem Spell Chance instead of 25%.
 - Acrobat Gamechanger now gives -20% Dodge MULTI, but instead of giving flat Spell Dodge, it now gives a 50% chance to take half damage.
 - Curse Master Gamechanger now gives 30% MORE Curse Damage instead of 20%.

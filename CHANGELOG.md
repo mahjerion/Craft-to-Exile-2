@@ -57,7 +57,6 @@
 - Updated default Skill keybinds. No longer need to use CAPS LOCK.
 - Disabled Poisoned Blade crafting recipe since it's kinda broken.
 - Re-enabled Straddler spawns.
-- Soul Modifiers have been renamed to Crafted Soul Modifiers to hopefully help with any confusion.
 - Enderman and Warden coin drops have been scaled back.
 
 ### Mine and Slash General Updates

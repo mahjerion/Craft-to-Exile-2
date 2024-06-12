@@ -73,9 +73,9 @@
 - Increased Map drop rate in non-maps from 0.35 to 0.5.
 - Legendary and Mythic maps can drop in Epic maps now instead of one rarity lower. Epic maps can drop in common maps.
 - Gems have been reworked! The level scaling is now linear and goes from 1-60 rather than 1-95. Additionally. the drop chance for higher tier Gems has increased. They were basically impossible to drop before. Gems have also gone through major stat changes. In general, stats from Gems is lower than Runes at the lowest tier, but by mid-tier they're on par, and by high-tier they're better. They also have some different stats not found on Runes.
-- New Stat Type: Chaos/Corrupted Stats! Players from Craft to Exile might be familiar with this. When using an Orb of Chaos, there is a 75% chance to give the gear a powerful Chaos stat. However, there is a 25% chance that the gear will turn into a lump of coal.
+- New Stat Type: Chaos/Corrupted Stats! Players from Craft to Exile might be familiar with this. When using an Orb of Chaos, there is a 75% chance to give the gear a powerful Chaos stat. However, there is a 25% chance that the gear will turn into a lump of coal. Thanks Len for your help!
 - Non-Magic Skills now take into account the Caster's weapon type. So the Skill's damage can benefit from stats like "Sword Damage" if the Caster is holding a sword.
-- New currency which rerolls a random affix. Thanks Len for your help!
+- New currency which rerolls a random affix.
 - Currency Potential has been reworked. Items start with Potential which gets deducted from with each currency. At 0 potential, you can no longer apply currencies.
 - Compatibility between Mine and Slash stats and non-Mine and Slash stats has been added. For example, the vanilla Armor stat now provides a small amount of percent Mine and Slash Armor. Compatibility has also been added for Armor Toughness (same as Armor), Attack Damage from weapons (adds a small amount of Total Damage), Vanilla Health (adds a small amount of percent Magic Shield), and Luck (adds a small amount of Magic Find).
 - Compatibility between Mine and Slash stats and Minecraft Enchantments has been added. For example, Sharpness now increases Physical Damge by 4% per level. Any compat added to Enchantments will be reflected in the descriptions.

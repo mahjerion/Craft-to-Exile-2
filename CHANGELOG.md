@@ -2,6 +2,10 @@
 
 ## [0.6.0] - 2024-06-13
 
+### Reminders
+- TALENT TREE WILL RESET WITH 0.6.0!
+- Back up your Xaero's folders and your options.txt file just in case!
+
 ### Updates
 - New Transmog mod has been added which lets you change the appearance of an item into another item. This will replace Cosmetic Armor by 0.7.0. You can craft the Transmogrification Table to perform this new action.
 - New Quest in Act I covering Transmogrification.

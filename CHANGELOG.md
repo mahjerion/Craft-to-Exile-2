@@ -67,7 +67,7 @@
 - You can no longer enter maps that are 3 levels higher than you.
 - Maps now have some baseline Elemental Resistance requirement to enter, based on their difficult and rarity. Maps that have elemental mob damage affixes require higher resist. The required value isn't too high, this is mostly to help with players novice to ARPGs who are consistently getting one-shot.
 - Maps now have names.
-- Map Affixers now scale based on map rarity.
+- Map Affixes now scale based on map rarity.
 - Maps now contain modded mobs.
 - Increased Map drop rate in non-maps from 0.35 to 0.5.
 - Legendary and Mythic maps can drop in Epic maps now instead of one rarity lower. Epic maps can drop in common maps.
@@ -269,6 +269,7 @@
 
 ### Mod Updates
 - Updated over 160 mods (too many to list).
+- Updated Complimentary Shaders.
 - Added Anvil Never Too Expensive.
 - Added When Dungeons Arise - Seven Seas.
 - Added GeckoLib Oculus Compat.

@@ -1,5 +1,41 @@
 # Changelog
 
+## [0.6.0b] - 2024-06-14
+
+### Updates
+- Mine and Slash Skill keybind style (hold or toggle) is now a toggleable option. The default is the original toggle with 4 slots. If you want to hold, you can rebind Skill slots 5-8 and set the client config to be hold rather than toggle.
+- Halved gear weapon damage and defense scaling for all Uniques and Runewords due to the below fix. Overall, Uniques and Runewords should see a huge buff (of about 30%). For example, a level 80 staff with base of 50 damage would have rolled about 100-150% weapon damage, ending up at around 100-150 weapon damage. A level 80 Mythic would have been at about 92-100 base weapon damage alone, without considering the bonuses from the stats... Now the base weapon damage of Uniques and Runewords will be in line with Mythics.
+- Ascendant Ascendancy Augment buffs have been nerfed.
+- Elemental Resist requirement for maps is not as stringent.
+- On Hit and On Kill perks in the Talent Tree now scale to level.
+- You can now get Impaling enchant on all weapons.
+- At the end of the Prologue chapter, you can now choose another weapon (in case you change your mind or want to dual-wield).
+- Removed Mutant Enderman from Otherwordly Map mob pool.
+- Grapple cooldown is now 5s instead of 6s.
+
+### Fixes
+- Fixed Lightman's Terminal having 2 shops.
+- Fixed Wallet missing from the menu wheel.
+- Fixed some gems providing no stats.
+- Fixed missing enchantment description localization.
+- Fixed existing enchantment descriptions having a weird symbol.
+- Fixed Splinter not working properly.
+- Fixed Map Affix providing negative resists not requiring resists.
+- Fixed a huge bug where Uniques and Runewords base weapon damage and defense stats were at the lowest base possible...
+- Talent Tree search bar is fixed.
+- Fixed Deerstalker Boots and Trolltimber Spire Shield not working.
+- Archmage Support now increases Energy costs too. No more free Mana scaling.
+- Fixed MIMI quest.
+- Fixed pigs spawning in Fire maps.
+- Fixed Feature page showing opposite.
+- Fixed Tourmaline and Emerald gems.
+- Fixed Leech Cap having a cap of 10%. Leech Cap stat now actually does something.
+- Default keybinds should be fixed.
+- Fixed some UI and localization errors.
+
+### Mod Updates
+- Updated Bookshelf, Gateways, ImmediatelyFast, Lightman's Currency, Mine and Slash, Moonlight.
+
 ## [0.6.0] - 2024-06-13
 
 ### Reminders

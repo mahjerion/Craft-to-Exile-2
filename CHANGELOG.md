@@ -1,5 +1,100 @@
 # Changelog
 
+## [0.6.1] - 2024-06-18
+
+### Updates
+- Base Weapon Damage values have increased by 33%. This should translate to a near 33% increase in overall damage.
+- Spears have received a 25% base Weapon Damage increase, on top of the above change.
+- Strength now provides 0.25% Crit Damage instead of 0.5% per point.
+- Strength now provides a flat 2 Health per point. With a moderate investment of 100 Strength, this results in 200 more flat health.
+- Strength now provides 1% Summon Health instead of 0.5% Summon Health per point.
+- Player Health now scales with a base of 80 instead of 50 (scaled) + 30 (flat, non-scaling). By level 100 this results in about 300-400 more flat health.
+- Health Talents now give 3% instead of 2% Health. The big ones are now 8-10% instead of 5%.
+- Intelligence now provides 0.5% Magic Shield instead of 1% per point. Since it is percent, the impact should be relatively minimal, maybe a 5-10% total drop?
+- Critical Hit small nodes now give 12% Critical Hit instead of 15%.
+- Critical Damage big nodes now give 8% Critical Damage instead of 10%.
+- New Gamechanger Talent: Elemental Overload. On Crit, gain an 8s buff that increases Elemental Damage by 30% MORE. The Talent also gives you -100% REDUCED Critical Damage (no Critical Damage). You will find this new node where Defender used to be, between the Staff and the Hammer.
+- Defender has been moved down to the Axe start.
+- True Hit now gives -40% Non-Crit Damage instead of -25%.
+- Ghast now gives 3 Dodge per 10 Magic Shield instead of 5.
+- Stare of Abyss now gives 25% Chaos Resist instead of 75%.	
+- Collateral now gives +30% MORE Weapon Skill Damage and -25% AOE instead of +20% and -50%.
+- Steady Hand now gives +30% MORE Non-crit Damage instead of 25%.
+- Mantra no longer gives a penalty to Crit Chance.
+- Assassin's Cruel Poisoner now also gives 10% Chaos Penetration.
+- Battlemage's Balance now gives 10 Mana per 10 Health instead of 5 per 10.
+- Elementalist's Fire/Cold/Lightning nodes at the top no longer give +25% MORE Ailment Damage. However, they now give +15% MORE Elemental Damage instead of 10%.
+- Gladiator's Violent Outbursts now gives 15% MORE Physical Damage and 20% AOE instead of 12% and 15%.
+- Guardian's Bulward of Flesh now gives 10 Health per 10 Intelligence instead of 5 per 10.
+- Hunter's Multiple Projectiles now gives -30% LESS Projectile Damage instead of -40%.
+- Juggernaut's Unyielding now gives 8% AOE per Endurance Charge instead of 4%.
+- Juggernaut's Unbreaking now gives 15% MORE Health instead of 10%.
+- Raider's Quickness now gives a 40% chance for Double Attack.
+- Trickster's Trickery now gives 1 Dodge per 10 Magic Shield instead of 3 per 10, but now also gives 14% Magic Shield and 14% Dodge.
+- Removed Magic Find Support Gem from drop tables as it doesn't actually work on skills.
+- Added Fire Damage Support Gem now also gives a bit of flat fire damage.
+- Added Cold Damage Support Gem now also gives a bit of freeze chance.
+- Crit Damage Support now gives 15-45% Crit Damage instead of 20-60%.
+- Confident Ruin Support now gives 8-24% MORE Crit Damage instead of 15-45%.
+- Mana Saver Support Gem now gives 5-15% MORE Non-crit Damage instead of 4-12%.
+- Greater Mana Saver Support Gem now gives 6-18% MORE Non-crit Damage.
+- You cannot have more than 1 Conservation Support Gem on a Skill.
+- Mana Saver Support Gems have been renamed to Conservation Support Gem.
+- Multiple Projectiles Support Gems now give a penalty to healing as well.
+- Guardian Augment now gives twice as much Health and Magic Shield.
+- Magic Shield Augment now no longer gives PERCENT Magic Shield and now gives 25% less flat Magic Shield.
+- Armor Augment now gives only MORE Armor, but the value has doubled.
+- Dodge Augment now gives half as much flat Dodge.
+- Dodge Augment MORE multiplier has been changed to PERCENT, and has increased substantially.
+- Runes now roll within a small range. The new range is +/-25% of whatever it was previously.
+- Some Prophecy Uniques have had some stats moved around a bit. Additionally, the weightings on them have decreased which shouldn't really matter except for the random Unique generator in Act V.
+- Dodge Map affix now also gives mobs Spell Dodge in addition to Dodge, similar to the mob affix.
+- Frozen Orb and Cyclone are no longer considered projectiles.
+- Galvanic Blade now allows users to proc Discharge on non-crits as well, at a lower chance.
+- Blood, Ignite, and Profane Explosion cooldowns have been reduced from 1s to 0.25s.
+- Of Brutality suffix can no longer roll on Necklaces.
+- Magic Find stat has been tripled to compensate for previous mechanical changes to Magic Find.
+- Ailments (also known as DoTs) can no longer crit. They already scale off of the initial hit's damage.
+- A new toggle for Summon behaviour has been added to the Hub Feature tab. They can now act aggressively (old function) or defensively (new).
+- Reduced stat requirements of gear by 20%.
+- Added a new Lost Page quest highlighting the above.
+- Stat screen now has a search bar.
+- Disabled Dummy DPS meter since it's inaccurate anyway. Plus we have the M&S damage feature now.
+- Regen Hunger cost doubled.
+- Reduced chance of getting nuggets from Create washing.
+- Updated Farming quest in Profession Chapter.
+- Waystones now cost some coins to use. It's about 5 copper per 100 blocks.
+- Mending enchantment has been reworked. You can now repair equipment with Mending in the Crafting Table using other pieces of gear (similar to Anvil), without paying experience.
+- Increasde drop rate of Uniques by 3x, they are now as frequent as Mythics. But a reminder that Uniques are unaffected by Magic Find.
+
+### Fixes
+- Fixed Backstabbing enchantment unable to apply to Daggers.
+- Fixed Sweeping Edge being disabled.
+- Fixed Uber Fragments only dropping as level 50.
+- Fixed Shatter and Shock doubling up on player stats. So if you got 30x damage, it was more like 30x and then 30x again.
+- Some Map showing command blocks has been fixed.
+- Players no longer benefit in stats from holding a weapon they don't have requirements for.
+- Tooltip fixes.
+- Disabled Create Toolbox due to dupe exploit.
+- Removed Warden and Invoker from the Uber Boss pool.
+- Fixed an issue where some Skills were incorrectly affected by Dodge.
+- Disabled Warp Stone being useable by FTB Ultimine.
+- Fixed Lootr textures.
+- Fixed incorrect Ascendancy information in Quests and UI.
+- Fixed missing enchantments for certain weapon types.
+- Favor gain should be mostly fixed. May still see issues with chests.
+- Map mobs should now be persistent.
+- Summons now get attacked in maps. They were mistakenly considered allies to mobs.
+- Fixed a bunch of Farming foods not giving experience. They should all give experience now. Thanks very much to CreatorBurden and the rest of the official server for the help!
+- Fixed Salvaging not giving any Essences.
+- Salvaging maps should now give Stone appropriately.
+
+### Mod Updates
+- Updated AmbientSounds, CorgiLib, Embeddium++, EMI, Entity Culling, Explorify, FLAN, Inventory HUD, JEI, Kiwi, Lightman's Currency, Macaw's Doors, Mine and Slash, MineColonies, Moonlight, NoFog, NotEnoughAnimations, Shoulder Surfing, Skin Layers 3D.
+- Added Aquaculture's Delight.
+- Added Undergarden's Delight.
+- Added Waystones and Lightman's Compat mod.
+
 ## [0.6.0b] - 2024-06-14
 
 ### Updates

@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.6.X] - 2024-06-XX
+## [0.6.1b] - 2024-06-18
 
 ### Updates
 - Homing Skills now only home if there is line of sight between the projectile and the mob.

@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.6.X] - 2024-06-XX
+
+### Updates
+- Homing Skills now only home if there is line of sight between the projectile and the mob.
+- Quadrupled the time limit for the Invoker wave in the Gateway.
+- Reverted Mending changes.
+- Reduced cost of warping to 1 Copper/100 blocks, capped at 1 Iron.
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [0.6.1] - 2024-06-18
 
 ### Updates

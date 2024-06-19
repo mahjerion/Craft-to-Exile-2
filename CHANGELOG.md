@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.6.1c] - 2024-06-19
+
+### Updates
+- Map and mob Dodge affixes now give mobs half as much Spell Dodge.
+- Mobs now have some innate Spell Dodge. These changes were made so players were made aware that yes, mobs can dodge Spells before they hit maps.
+- Increased Confident Ruin Support Gem's Crit Damage multi slightly.
+- Decreased Added Fire Damage Support Gem's Phys as Fire slightly.
+- Favor no longer passively accumulates above 2500.
+
+### Fixes
+- Fixed Professions.
+- Fixed incorrect Increased/More localization.
+- Ailments can crit again.
+
+### Mod Updates
+- Updated Mine and Slash, FTB Quest Optimizer, Kiwi.
+
 ## [0.6.1b] - 2024-06-18
 
 ### Updates

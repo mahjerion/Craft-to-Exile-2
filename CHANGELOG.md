@@ -1,5 +1,78 @@
 # Changelog
 
+## [0.6.2] - 2024-06-24
+
+### Updates
+- When Dungeons Arise dungeons have had their Enchantment drops reworked. Big thanks to Yiffles for this!
+- Oxygelium can now be dropped from Tortured Souls. Quest description has been updated to reflect this change.
+- Fishing message spam has been removed.
+- Rune reroll chance has increased... a lot. Like you would never guess how much.
+- Tier 4 Runes (incl. Dimension Runes) have had their stat ranges changed. It is not longer 75-125%, it's 100-125%.
+- Oru Rune Weapon Damage has been nerfed from 8-12% to 8-10%.
+- Damage Feature now shows more information.
+- You can no longer use Prophecy Altars if enemies are too close.
+- Mobs in maps still persist, but will now cap at about 30 mobs/map. If you run through a map without killing mobs first then they'll start despawning after 30.
+- Invoker Health has been reduced by 50%. It was increased since it was an Uber boss, but was then removed from the Uber boss pool and forgotten.
+- Master Bag now no longer requires a Sophisticated Backpack to craft. It instead takes a Supplementaries Sack.
+- Ailments have been slightly reworked.
+- Burn has changed from 75% damage over 3 seconds to 100% damage over 3s.
+- Bleed has changed from 75% damage over 5 seconds to 120% damage over 5s. This may be reworked in the future but for now it gets buffed.
+- Poison has changed from 100% damage over 10 seconds to 150% damage over 10s.
+- Freeze/Chill has changed from 100% of damage accumulated to 85% damage accumulated. It still applies a slow.
+- Electrify has changed from 125% of damage accumulated to 100% damage accumulated.
+- Shatter and Shock Proc Support Gems proc chance stat is now 20-60% instead of 25-75%.
+- Ailments can no longer crit (again).
+- Ailment Duration stats have been changed so the math actually adds up and you can get extra ticks of the ailment. Eg. before Bleed Duration on the Talent Tree added up to a measly 8% which wasn't enough to trigger another tick of Bleed.
+- Added some new nodes on the tree with Burn and Bleed Duration.
+- Added some new Poison nodes between the Bow and Dagger starting positions.
+- Steady Hand no longer gives -100% Critical Hit. It still reduces Critical Damage by 100%.
+- Raider Double Damage chance is now 25% instead of 40%. I now know how it actually works.
+- Chieftain's Swift Burn now grants -20% Totem Duration instead of -50%.
+- Wandering Bard Gamechanger now gives -35% Song Duration instead of -50%.
+- Bloody Dance Gamechanger now gives -40% Bleed Duration instead of -50%.
+- Some egregious instances of level VIII or X Vanilla enchantment sources have been culled.
+- Undergarden chests are no longer covered by the spawner, making them accessible without the need to destroy the spawner.
+- Spears should now be throwable and properly take stats into account (unconfirmed).
+- Reverted change to Create Washing. Iron and Gold Nugget rates are back to normal.
+- Strength now gives 5 flat Health per point instead of 2.
+- Strength now gives 0.3% Crit Damage per point instead of 0.25%. The tooltip was misleading because it was rounding the 0.25% to 0.2%.
+- Mobs now have more innate Armor, Dodge, Elemental Resist, and Accuracy.
+- Mob and Map Dodge and Armor affixes have been upped slightly.
+- The goal of the below changes is to offset flat sources crit chance. Right now, there is an over-reliance on getting crit from Dex and Jewels. Ideally, the power of crit should remain relatively the same as it was in the previous patch, but realistically, it will likely drop if most of your crit comes from Jewels/Dex.
+- Player base crit has increased from 4% to 5%.
+- Jewel affix with Critical Hit has been changed from flat to percent. Assuming base crit only (5%), the crit you get should be the same. Obviously if this was your main source of flat crit you will lose some.
+- Crafted Unique Jewel affix with Critical Hit has been changed from percent to flat. Assuming base crit only (5%), the crit you get should be more, AND it's flat.
+- Dexterity Critical Hit has been changed from 0.1% flat to 2% Increased Crit Chance. Assuming base crit only (5%), the crit per point is more. Then, with each additional flat crit this gets compounded.
+- Slightly reduced sources of Dexterity on Uniques.
+- Toq Rune flat Crit Chance stat has increased substantially. It no longer goes from 1-1.25%, it's now 1.5-2.5%. With the changes to other sources of percent this is in practice more than just double.
+- Crit Chance Support Gem flat crit increased from 2% to 2.5%. With the above changes, I wanted to make sure lower leveled players still had an easily accessible source of flat crit if they wanted to go crit. This change should help them a bit.
+- Power Charges now give 25% increased Critical Hit instead of 30% per stack.
+- Affixes Of Brutality and Of Devastation have had their Critical Damage changed from 4-30% to 4-25%.
+
+### Fixes
+- Fixed Bountiful rewards not including some custom rewards. Thanks Arona74 for spotting this.
+- Fixed localization.
+- Rerolling a Rune thats already maxed out will now fail.
+- Food Stat and Augment Effect stat have been fixed.
+- Orb of Imperfection and Orb of Chaos can no longer be used on Corrupted items.
+- Fixed overlapping default keybind.
+- Fixed a bug where a connection between the middle and outer ring was missing between the Bow and Dagger start on the Talent Tree.
+- Fixed quest completion not registering.
+- Fixed Raider's Double Attack Chance proccing 100% of the time.
+- Fixed Runewords not being made.
+- Fixed weapons not able to hit multiple targets when basic attacking.
+- Fixed Sweeping Edge enchantment not being applicable. It also now increases the number of mobs you can hit or something with basic attacks.
+- Null stat errors should be resolved, which should also resolve server disconnect loops.
+- Fixed incorrect localization for Physical Skill Damage.
+
+### Official Server Changes
+- Create Washing no longer gives you Iron or Gold Nuggets.
+
+### Mod Updates
+- Updated Mine and Slash, Amendments, Balm, Collective, Crabber's Delight, CraftPresence, Create Additions, Embeddium, Explorify, FLAN, GeckoLib, Hit Inidication, Jade, Macaw's Lights, MineColonies, ModernFix, Moonlight API, Shoulder Surfing, Supplementaries, Structurize.
+- Added Extreme Sound Muffler. By default the key is unbound, so if you want to use it just bind it.
+- Temporarily removed Waystones and Lightman compat until it's fixed.
+
 ## [0.6.1c] - 2024-06-19
 
 ### Updates

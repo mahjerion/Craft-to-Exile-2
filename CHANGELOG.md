@@ -45,7 +45,6 @@
 - Changed the font used to be more RPG-like.
 - Updated some sound effects and the font. Thanks to Poe for the permission.
 - Updated default keybinds.
-- Pack now ships with shaders on by default. Maybe slightly controversial. If any issues please let me know.
 - General performance and stability improvements.
 
 ### Mine and Slash Class Updates

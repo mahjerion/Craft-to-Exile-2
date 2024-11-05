@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.0b] - 2024-11-05
+
+### Fixes
+- Fixed Ascendancy point capping at 6.
+- Fixed server issue due to Risk of Rain mobs.
+- Fixed legacy Overworld Mirror quest appearing.
+- Fixed inventory sorting issue by removing the mod.
+
 ## [0.7.0] - 2024-11-05
 
 ### General Updates

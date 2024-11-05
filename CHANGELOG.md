@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.7.0c] - 2024-11-05
+
+### Updates
+- Unlimited Mana change has been reverted to 3% Mana per Sec. It now also gives 10% increased Mana Regen.
+- Rebalanced Summons a bit.
+- Should be a substantial performance boost.
+
+### Fixes
+- Fixed Projectile Damage Reduction causing log spam.
+- Fixed Hammer Damage stat not working.
+- Fixed Talent Rewards not being given correctly.
+- Fixed default keybinds so now it's more obvious players need to set the last 4 themselves.
+- Fixed Summons incorrectly stating they deal Fire Damage.
+- Fixed Puncture causing players to enter an infinite animation loop.
+- Fixed some null Quest rewards.
+- Fixed Currencies not going into the Master Bag.
+- Fixed being able to cast some Skills even if you had 0 points in them.
+
+### Mod Updates
+- Updated Farmer's Delight, Mine and Slash, Skin Layers 3D.
+- Removed Stellarity. Came with a bunch of bloat and is also a large source of lag. I've updated related quests.
+
 ## [0.7.0b] - 2024-11-05
 
 ### Fixes
@@ -20,7 +42,7 @@
 - Replaced United server with Super MC Network's server on the server list. Thanks for the continued support!
 - UI update thanks to Skullbushi!
 - Builders rejoice! Chipped and Construction Wand have been added. Chipped adds plenty of options when building and Construction Wand will make things easier when building large structures!
-- New quest chapter: Epilogue! A new challegning way to conclude the campaign series!
+- New quest chapter: Epilogue! A new challenging way to conclude the campaign series!
 - New bosses have been added to the Otherside. Check out the quests in the Epilogue!
 - Switched around the Disenchanter quest with the Imbuing Table quest.
 - Added a quest going over Chipped and Construction Wand.

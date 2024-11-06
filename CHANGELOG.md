@@ -16,7 +16,6 @@
 
 ### Fixes
 - Fixed some Skills showing as level 1 when they weren't.
-- Fixed Gear Crafting Station UI.
 - Fixed Hunter Potion causing players to enter infinite animation loop.
 - Fixed some lang stuff.
 - Fixed M&S Profession Crafting Station UI.

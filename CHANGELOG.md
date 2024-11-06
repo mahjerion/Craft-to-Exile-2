@@ -1,5 +1,43 @@
 # Changelog
 
+## [0.7.1] - 2024-11-06
+
+### Updates
+- You no longer receive Ascendancy Points from leveling. There is now a new Ascendancy Chapter that shows you how to gain Ascendancy Points. For now, these are gained from various tasks in the Campaign. You will cap out at 7 points still. Note that players may have 0 or negative points upon updating - complete the quests and you should be all good.
+- Updated Prologue Quest 9c regarding extractors.
+- Hunter Potion now has a short 5 tick cast time.
+- Set default Jukebox music volume to 35%, in line with game music.
+- Implemented some Map entity spawn restrictions to help with lag a bit.
+- Mob spawns in Maps is now more strict and despawn if you're too far. They will reappear if you come back.
+- Reduced the spawn rate of some Nether structures substantially.
+- Removed the annoying click sound on message send.
+- Lowered Stone Golem spawn rate by 90%.
+- Increased minimum View Distance on servers.
+
+### Fixes
+- Fixed some Skills showing as level 1 when they weren't.
+- Fixed Gear Crafting Station UI.
+- Fixed Hunter Potion causing players to enter infinite animation loop.
+- Fixed some lang stuff.
+- Fixed M&S Profession Crafting Station UI.
+- Fixed Copper Backpacks not being equippable in the Curio slot.
+- Fixed Reward from Overworld Mirror being free.
+- Fixed Unique stats rolling way too high.
+- Fixed Unique stat ranges showing incorrectly.
+- Fixed some Proc Skills not being supported by Support Gems correctly.
+- Fixed Mob HP being way too high.
+- Fixed Mobs having way too much resistance.
+- Fixed Skills respecting mob invulnerability frames.
+- Fixed Infusions not working correctly.
+- Fixed Passive Points showing as Ascendancy Points under list stat sources command.
+- Fixed Imbuing Table being uncraftable.
+- Fixed some Cold Resist stats being invalid.
+- Fixed Curse of Tongues having an invalid stat.
+
+### Mod Updates
+- Updated Mine and Slash, Supp Squared, CreativeCore, MineColonies.
+- Removed Incendium - laggy and didn't offer much for us. Updated Quests accordingly.
+
 ## [0.7.0c] - 2024-11-05
 
 ### Updates

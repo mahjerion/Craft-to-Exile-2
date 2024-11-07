@@ -1,5 +1,55 @@
 # Changelog
 
+## [0.7.2] - 2024-11-07
+
+### Updates
+- Crafting Stations should show items that are missing from the recipe.
+- Casting Skills now costs main hand durability, but will not break the item. At 1 durability the item is considered broken and cannot be used to cast.
+- Archmage Support now scales from 3-9% instead of 5-15%.
+- Increased Black Hole damage scaling by about 10%.
+- Whirling Blades damage scaling per level has decreased very slightly.
+- Quake damage scaling decreased by 20%.
+- Quake projectile explosion AOE decreased by 25%.
+- Improved Whirlwind visuals.
+- Improved Fireball visuals.
+- Buffed Magic Find sources slightly.
+- Buffed Wealth and Azuna's Ring a little more than slightly.
+- Animations to Talent/Ascendancy Tree have been added. Thanks Clefal!
+- Made higher rarity exploration in Maps a little easier to obtain.
+- Decreased Boss Health substantially, but it may be offset by the fix to Boss Rarity.
+- Disabled the Pyramid Map. It's still under construction.
+- Updated Enchant to MNS stat compat to be cap of 6x whatever the Enchant gives per level.
+- Updated LootBeam config.
+- Changed Mutant Skeleton armor set recipe to be more difficult to obtain.
+- Enabled Sky Raiders.
+- Trying some performance enhancements on the Official Server.
+
+### Fixes
+- Hopefully fixed an issue where mobs in Maps could teleport outside of the Map.
+- Fixed a bug where Bosses weren't correctly spawning as Rare rarity.
+- Fixed proc when hit/block effects not working properly.
+- Fixed some Infusion affix IDs being misleading.
+- Fixed Megatorches being uncraftable.
+- Fixed Mutant Skeleton armor set being uncraftable.
+- Fixed Gauntlet drops on death.
+- Fixed BOMD Uber Bosses not doing anything when hit.
+- Fixed an issue where Ascendanancy points were not being given to players. They were all being given to Mahjerion.
+- Crafting Station fix implemented, includes Dissassembler's fix.
+- Fix Uber Bosses not dropping loot.
+- Fixed Boss Arenas not appearing.
+- Fixed Uber Boss Maps allowing you to upgrade to the next Boss Map right away.
+- Fixed Ascendancy points bein unobtainable even through cheats.
+- Inventory Sorter deleting items has been fixed (including Curio slots). Hence, the mod has been re-added.
+- Re-disabled Glares.
+
+### Mod Updates
+- Re-added Inventory Sorter - this is a fork of the original with less issues.
+- Added fix GPU memory leak - client-side helper.
+- Added Client Crafting - client-side helper.
+- Added Fast Async World Save.
+- Added Alternate Current - redstone calculation improvements.
+- Replaced Better Ping Display with PingHUD. Should have better compatibility.
+
 ## [0.7.1] - 2024-11-06
 
 ### Updates

@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.7.2b] - 2024-11-07
+
+### Updates
+- Act Boss rarity has been increased from Rare to Epic. Mini-Bosses remain untouched at Rare.
+- Blast Protection now gives 0.5% Elemental Resist per level instead of 0.75%.
+
+### Fixes
+- Fixed a bugged out datapack for Blast Protection.
+
 ## [0.7.2] - 2024-11-07
 
 ### Updates

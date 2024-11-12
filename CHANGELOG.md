@@ -1,5 +1,137 @@
 # Changelog
 
+## [0.7.3] - 2024-11-12
+
+### Updates
+- Updated Super MC Network IP to cte2.supermcnetwork.com.
+- New Map GUI screen has been added that shows your Map completion % and other information.
+- You now teleport to the Boss through the GUI instead of using an item.
+- Map upgrades are now triggered through the GUI when outside of the Map.
+- Health and Mana Scaling on offensive Skills has been reduced by 25% across the board. This change plus the Weapon Cap fix will result in a lower ceiling.
+- Codex are stronger at higher rarities.
+- Archmage Support has been reworked to only work with Weapon Skills. Might be controversial but the issue with the old implementation of Archmage was that it was essentially a double dip (with a small opportunity cost) for Lightning Skills. I wanted to keep the gem without straight up making it useless for other builds. This change does affect other non-Lightning casters (who also already stack Mana), but the idea is that this gem should provide more diversity for non-caster builds.
+- Archmage Support has been renamed to Mageblade Support.
+- Barrage Support Gems now give 1 less additional Projectile.
+- Non-Weapon Damage Scaling sources on Skills have had their caps reduced drastically. This was sort of a bug where the cap was 3x higher than it should have been.
+- Sources of Energy to Physical Weapon Damage have been nerfed greatly.
+- Resource Leech Cap base is now 5% instead of 10%.
+- Unique Ring that scales with Health has been reworked to give less scaling.
+- New Runeword: Hailstorm! This can only be crafted on Pants. Hailstorm gives the wearer a new Ranged Skill: Hailstorm (see below for details). Additionally, this Runeword provides Phys to Cold conversion and bonuses to Cold Damage.
+- New Skill: Hailstorm! Hailstorm requires a bow/crossbow and fires in rapid succession multiple ice pellets which have increased Freeze Damage.
+- Last Tracker set now provides Weapon Skill Damage bonuses instead of Energy to Phys Wep DMG.
+- New Elemental Attack Damage stat. Currently only found on Jewel, Jewelry, and Weapon prefix "Catalyzing". This stat increases any elemental damage from a source that's not tagged as "Magic", so Weapon Skills and Basic Attacks, mostly.
+- Almost all sources of X per Y stat has been reworked to % of X Gained as Y to be more clear to players, and compatible with other stats.
+- Mana Battery now gives 30% of Damage Absorbed by Mana instead of 35%.
+- Witch's Brew no longer gives any Health Regen penalties.
+- Battlemage Ascendancy that ignores Lightning Resistance now gives a large bonus to Lightning Penetration instead.
+- Battlemage Gained as Mana stats have been reduced in potency.
+- Battlemage Resolve and Battle of Wit now gives bonus Elemental Attack Damage instead of Elemental Weapon Damage.
+- Bulwark of Flesh and Agile Hand Ascendancy nodes now give 25 Health/Accuracy per 10 Strength/Dexterity instead of 10 per, respectively.
+- Almost all Skills have been overhauled, they now have interesting stats associated with them which reward investment. For example, levels into Gong Strike increase your chance of generating Endurance Charges.
+- New Lv. 30 Rogue Skill: Bola! Throw a weighted chain at the enemy, forcing it to succumb to gravity and fall to the ground for a brief moment.
+- Rogue Passive that grants Energy to Phys Wep DMG is now Ailment Damage.
+- Double Strike is now longer incorrectly tagged as Area.
+- New Lv. 10 Warlock Skill: Blade of Desecrated Hallows! Turn your Weapon frost just in time for the Holidays. Converts Phys to Cold and gives a bonus to all Cold Damage!
+- Improved Warlock Skill particles.
+- Explode Minions Weapon Scaling cap is now 3x instead of 5x Weapon Damage for the Summon Health scaling part.
+- Lowered Explode Minions Weapon Scaling by about 10%.
+- Thorn Bush is no longer tagged as a Totem.
+- Putrid Breath projectiles now travel 50% further.
+- Acid Cloud now does double damage on full Soul stacks instead of hitting twice.
+- Acid Cloud no longer generates a Soul stack.
+- Halved Cast Time of Acid Cloud and Black Hole.
+- Black Hole cooldown is now 8s instead of 10s.
+- Soul stacks from Curses, Acid Blast now last 8s instead of 5s. 
+- Greatly reduced Summon Skeletons Summon Damage bonus due to fix regarding Summon Damage stat on Skills.
+- Summon Damage Weapon Scaling has been reduced to 50% from 100% of Weapon Damage. This sounds big but I promise it's not that bad due to the Summon Damage fix.
+- Battery Fusillade Mana Cost has been reduced slightly.
+- Chain Lightning and Lightning Orb Weapon Damage Scaling per level has increased by 50%.
+- Lightning Spear Weapon Damage increased by about 10-15%.
+- Galvanic Blade Weapon Damage Scaling has increased by about 10-20%.
+- Magma Totem has been reworked on the back-end to be more consistent.
+- Magma Totem now ticks twice as often but deals half the damage.
+- Entangling Seed is now properly tagged as Physical instead of Chaos.
+- Increased Explosive Arrow Damage by 25%.
+- Arrow Barrage Weapon Scaling per level has been reduced. 115% instead of 125% Weapon Damage at level 16.
+- Trap Weapon Damage Scaling per level has been reduced by about 17%.
+- Encased and Envenomed damage have been reduced by about 20%.
+- New Lv. 25 Warrior Skill: Incinerating Weapon Toss! Throw out your weapon toss, spinning it rapidly. The weapon will deal damage to enemies caught in it's wake. If in Fighter Stance, teleport to your weapon once it reaches the end. If in Defender Stance, the weapon also explodes at the end, knocking back and dealing damage in an area.
+- Leap has been reworked into Charge. Upon use, rapidly rush forward and deal damage to the first enemy hit.
+- Gong Strike and Whirlwind Weapon Scaling in Defender Stance has decreased to be more in line with the Fighter Stance counterpart.
+- Gong Strike and Grapple are no longer incorrectly tagged as Area.
+- Gong Strike now targets in front of you, and it now reaches further.
+- Grapple range has increased.
+- Fighter's Damage Received passive has been correctly changed to Damage Reduction, and the value per level has decreased from 1.5% to 1%.
+- Ensnaring Melody cooldown reduced by 20%.
+- Ritardando can now be learnt at level 10 instead of 15.
+- Garden of Thorns no longer uses charges.
+- Cyclone now travels 50% further.
+- Cyclone now ticks damage every 4 ticks instead of 5 ticks.
+- Frozen Orb explosion radius is now 3.5 instead of 2.5.
+- Blizzard Weapon Damage Scaling has increased by about 15%.
+- Sources of Damage to Cursed have been brought in line with other stats.
+- Ondal's Wisdom staff now gives +2 All Skill instead of +3 and gives less Cast Speed.
+- Nerfed most sources of Cast Speed.
+- Cooldown Reduction has been buffed slightly.
+- Jewel Corruption affixes have been buffed.
+- Sources of Damage Over Time and Ailment Damage and Chance have been lowered. This includes Burn/Freeze/Electrify/Poison/Bleed. Some of these were affected more than others.
+- Lowered certain item drop rates such as Support Gems, Auras, Uber Fragments, Watcher Jewels.
+- Increased the basic attack range of melee weapons.
+- Gear Crafting Profession has a bit of a cost rework. Higher Rarity crafts now cost more Stones. Starting with Common at 4 Common Stones, to Mythic with 24 Mythic Stones.
+- Profession Recipes on a whole are slightly more expensive, requiring more Gathering Profession materials.
+- Enchantment Compatibility is now also capped per player, not just per item. The cap per player is 3x the cap per item, which is Enchant Lv. 6.
+- Protection and Blast Protection now give percent Armor and Dodge Rating, respectively.
+- Updated Captain Cornelia and Wither Quest to give hints on how to defeat them.
+- Updated some Tag localization. They're properly capitalized now.
+- Construction Wand crafting recipe has been updated to use Mine and Slash Stones. They will also no longer conflict with Mine and Slash Staves.
+- Re-enabled the Accumulator and Large Connector. Don't remember why I disabled them.
+- Added a new Prologue Quest that explains and provides the Master Bag.
+- Removed duplicate quest in Exploration Chapter.
+- Moved Merciless Ascendancy from Dragon Quest to They Knew You Were Coming.
+- Starlit Crusher's Ent Walls no longer drop loot and now give less EXP.
+- Wither Health reduced by 25%.
+- Added Ascendancy icons to the Quests that are related in the Quest rewards.
+- Act Bosses have been downshifted back to Rare from Epic.
+- Experience gain has been reworked slightly. Exp leeway from level difference has changed from 2 to 3, and penalty range is now 6 levels instead of 10. So before, you would get full exp from mobs +/- 2 levels, 70% exp from mobs 3 levels different, and 0% from mobs 10 levels different. Now, you will get full exp from mobs +/- 3 levels, 66% from mobs 4 levels different, and 0% from mobs 6 levels different.
+- Mob experience gain has been reduced.
+- Overall Mob Damage has decreased substantially. Like probably 20-30% or so on top of the other changes below.
+- Reduced Map Mob Damage bonus per Tier from 6% to 4%.
+- Reduced Map Mob Health bonus per Tier from 20% to 15%.
+- Uber Maps are now always Mythic.
+- Upped Boss and Uber rarity static Health.
+- Reduced Uber Boss damage by about 8%.
+- Removed BOMD from Uber Boss pool due to issues with TP and blocks.
+- You can no longer open Dispensers in Maps.
+- Maps no longer drop. You can craft a Common Map instead. This is possible due to Maps always scaling to player level and upgrades being determined by Map success.
+- Map Quests in Act V have been updated.
+- Gear now shows base stat % and value when holding Shift.
+- Updated some localization to be more clear regarding Gained as, Per, Physical Damage as Extra...
+- Added % signs where necessary to help with some stat clarity. Eg. % Damage per Endurance Charge.
+
+### Fixes
+- Fixed an issue where Magic Shield damage from environment was not taking mitigation into account.
+- Fixed a bug where Thorns effect would cap out at 100% of Weapon Damage on consumption when dealing damage. It now correctly caps at 300%. Thorns was basically a dead effect before.
+- Attempt to disable Glares again.
+- LootBeam lag should be fixed.
+- Fixed some incorrect Quest subtitles in Exploration.
+- Fixed Extractor Quest in Act II.
+- Fixed incorrect recipe in Quest description of Taking On Work in Act I.
+- Fixed some missing localization.
+- Map lag from client side should be reduced greatly.
+- Fixed Civilization from the Past referencing Mirror dim.
+- Fixed Blue Skies dimension giving tons of Fishing XP.
+- Hopefully fixed Boss Scroll TP bug.
+- Some null errors on block mining should be fixed.
+- Infusion re-rolling should be fixed.
+- Backpack Fluid GUI is fixed.
+- Omens are now repairable.
+- Fixed an issue where innate Skill stats were not applying to downstream Skills. Eg. Summon Damage on Summon Skills was not working.
+- Fixed Professions being able to overlevel past cap.
+
+### Mod Updates
+- Updated Mine and Slash, Xaero's Minimap, MineColonies, Moonlight, NotEnoughAnimations, Sophisticated Core/Storage, Supplementaries, Immediately Fast.
+- Removed Sound Physics - caused a decent amount of lag.
+
 ## [0.7.2b] - 2024-11-07
 
 ### Updates

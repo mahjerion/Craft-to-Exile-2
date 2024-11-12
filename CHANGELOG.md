@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.7.3b] - 2024-11-12
+
+### Updates
+- Blood Spark was reworked to reduce Weapon Damage instead of Health. The calculations show that this ring is still good if you build Health.
+- Stone of Jordan now gives less Damage.
+
+### Fixes
+- Fixed Arrow Barrage, Ricochet Shot, and Resonance having unknown stats.
+- Fixed some missing localization.
+
+### Mod Updates
+- Updated MineColonies.
+
 ## [0.7.3] - 2024-11-12
 
 ### Updates

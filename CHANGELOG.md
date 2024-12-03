@@ -1,5 +1,33 @@
 # Changelog
 
+## [0.8.0b] - 2024-12-03
+
+### Updates
+- Modified some FE requirements for Refined Storage.
+- Endurance Charges now give 2% Damage Reduction instead of 3%.
+- Changed Act III Gateway so that Forgotten are a separate wave.
+- Lowered Siren spawn rate.
+- Disabled Terra Blade.
+
+### Fixes
+- Fixed an issue where Mobs were casting Black Hole.
+- Fixed Arachnid Inoculation not proccing.
+- Fixed passive mobs spawning Gateways.
+- Removed Siren from Overworld.
+- Fixed an unknown stat under Raider Ascendancy.
+- Fixed incorrect gear compat typo.
+- Fixed missing Tide Pike compat.
+- Fixed missing Botania axe compats.
+- Fixed a Botania Quest auto-completing.
+- Fixed localization.
+- Fixed Arcane Ward and Armor-Clad Faith Uniques with missing stats.
+- Fixed Venom Runeword using incorrect Runes.
+- Fixed Wake of Destruction using incorrect stat.
+
+### Mod Updates
+- Updated Mine and Slash.
+- Removed JadeColonies.
+
 ## [0.8.0] - 2024-12-03
 
 ### General Updates

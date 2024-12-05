@@ -1,5 +1,52 @@
 # Changelog
 
+## [0.8.1] - 2024-12-05
+
+### Updates
+- Updated the modpack landing page on CurseForge: https://www.curseforge.com/minecraft/modpacks/craft-to-exile-2
+- New Lv. 20 Support Gem: Focused Shot! Increases Projectile Damage greatly but prevents you from adding any additional projectiles.
+- Gear rarities incrememnt again instead of all capping at 100. The overlapping stat range amount is larger now, though.
+- Witch Gateway is now spawns much fewer Witches and instead spawns some Zombies as well.
+- Zombies now have innate Move Speed.
+- Husks now have innate increased Health.
+- Reduced Act Gateway proc chance.
+- Disabled Mutant Skeleton Leggings and Boots.
+- Disabled Supplementaries Cannon.
+- If you're banned FLAN deletion time is now 5 days instead of 30.
+- Reduced Zombie fishing rod chance by 20%.
+- Destiny Quest now lets you use command as a reward.
+- You can no longer cage Villagers.
+- Ice and Fire Lich is now level 45 and Frostmaw is now level 50.
+- Pixie and Cyclops have been moved to Everdawn and the End, respectively.
+- Moved Cyclops quest to Act IV.
+- Substantially lowered spawn rates of Ice and Fire mobs/structures, especially in the Overworld.
+- Reduced Umvuthana pack size.
+- Lowered Naga spawn rate in Undergarden.
+- Reduced Vindicator damage by 10%.
+- You can no longer cook babies.
+- Disabled Gorgon.
+- Silver Ore now gives Mining EXP.
+- Tried to address some lag.
+
+### Fixes
+- Removed Warden Legs instead of Chest. Oops.
+- Fixed Act III Gateway spawning the wrong type of Troll.
+- Fixed Act III Gateway Umvuthana wave.
+- Fixed level up sound being used for other activities.
+- Fixed Bestiary III requiring incorrect mob to kill.
+- Hopefully fixed some sources of lag.
+- Fixed Frost and Fire Golem innate Spell Chance not applying.
+- Added a bunch of missing gear compats.
+- Fixed Brigandine Chest having too much Armor.
+- Block now works on bonus damage too.
+- Offhands now correctly drop if requirements are not met.
+
+### Mod Updates
+- Updated Sophisticated mods, some Delight mods, Mine and Slash.
+- Updated Ashen Custom Font.
+- Added Euphoria patches.
+- Removed TownTalk.
+
 ## [0.8.0b] - 2024-12-03
 
 ### Updates

@@ -18,7 +18,7 @@
 - You can no longer cage Villagers.
 - Ice and Fire Lich is now level 45 and Frostmaw is now level 50.
 - Pixie and Cyclops have been moved to Everdawn and the End, respectively.
-- Moved Cyclops quest to Act IV.
+- Moved Cyclops quest to Act V.
 - Substantially lowered spawn rates of Ice and Fire mobs/structures, especially in the Overworld.
 - Reduced Umvuthana pack size.
 - Lowered Naga spawn rate in Undergarden.

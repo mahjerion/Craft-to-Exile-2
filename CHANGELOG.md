@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.8.2] - 2024-12-06
+
+### Updates
+- Added new soul modifier currencies for the hybrid armors.
+- Cleaned up the leech stat descriptors and naming convention.
+- Steal/Spellsteal stats now only apply to HITS. This change does not apply to Elemental Steal, and DoT Steal (obv).
+- Tomes now give a small amount of Physical Resistance.
+- Totems now give some Elemental Resistance.
+- Added 2 new prefixes, one for Totems which provides Move Speed, and one for Shields which provides Knockback Resist.
+- Buffed Dragons.
+- Lowered the volume of the Level Up sound.
+- Lowered positioning of Fighter Stance particles so it's not as in your face.
+- Lowered Hummingbird, Crow, and Cockroach spawns - lots of lag.
+
+### Fixes
+- Players no longer show skulls.
+- Infusions should be fixed.
+- Currency/Socketing is now changed back to ding sound! Level up is still the same.
+
+### Mod Updates
+- Updated Sophisticated Storage, CreativeCore, AmbientSounds, Mine and Slash, EntityCulling, Moonlight.
+
 ## [0.8.1] - 2024-12-05
 
 ### Updates

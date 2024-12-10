@@ -8,7 +8,6 @@
 - Mining Profession no longer drops blocks and instead drops the ores directly.
 - Lowered Structure spawn rate of Bathhouse and Lighthouse.
 - Final wave of Gateway of the Ice Maze now summons an Eel.
-- Blacklisted Ice & Fire Skulls from showing their Health when placed.
 
 ### Quest Updates
 - Epilogue Achievement quest now gives an Epic Hat Bag.
@@ -54,7 +53,6 @@
 
 ### Mine and Slash Mob/Map Updates
 - Increased Anglerfish spawn rate.
-- Lowered spawn rate of Cockatrice and Dragons.
 - Lowered spawn rate of Farseers drastically.
 - Removed Ferrous Wroughnaught and Knight Phantom from the Uber Boss pool.
 
@@ -68,7 +66,6 @@
 - Fixed Lightman's Currency font issues. You'll need to unequip the Redcap_LC_Retexture7.5.zip Resource Pack.
 - Fixed Smoke Runeword giving percent Chaos Resist instead of flat.
 - Fixed Act Gateways not proccing. They also now abide cooldown rules.
-- Fixed Cyclops spawning in the Undergarden.
 - Crafting Stations crafting a few times instead of all has been fixed.
 - Maybe fixed 0 HP mobs.
 

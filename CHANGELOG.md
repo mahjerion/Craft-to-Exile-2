@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.8.4b] - 2024-12-10
+## [0.8.4b] - 2024-12-11
 
 ### Updates
 - Updated links to Discord to use new custom URL: https://discord.gg/craft-to-exile

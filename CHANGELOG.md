@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.8.4] - 2024-12-XX
+
+### Mine and Slash Updates
+- Marauder Gamechanger and Armor-clad Faith Unique now give flat penalty to Attack Speed and Move Speed again.
+
+### Fixes
+- Fixed some quest localization.
+- Fixed Lifestealer stats.
+- Fixed spawn of Lifestealer and Nightmare Stalker.
+
+### Mod Updates
+- Added InControl.
+- Removed Dimension Viewer.
+
 ## [0.8.3] - 2024-12-10
 
 ### General Updates

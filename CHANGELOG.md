@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.8.4] - 2024-12-XX
+## [0.8.4] - 2024-12-10
 
 ### Mine and Slash Updates
 - Marauder Gamechanger and Armor-clad Faith Unique now give flat penalty to Attack Speed and Move Speed again.

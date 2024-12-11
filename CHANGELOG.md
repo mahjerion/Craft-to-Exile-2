@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.8.4b] - 2024-12-10
+
+### Updates
+- Updated links to Discord to use new custom URL: https://discord.gg/craft-to-exile
+- Added a new Plate Chest Unique thats really hard to find.
+- Some Uniques and Runewords have been changed to provide bonuses to Magic Shield instead of, or in addition to Health.
+- Some Uniques and Runewords have been changed to provide bonuses to Energy instead of, or in addition to Mana.
+- Percent Leech stats now trigger off of bonus damage as well.
+- Lowered Wither damage by about 18%.
+- Added some quest descriptions for some of the Fishing Chapter quests.
+- Added a little blurb at the Wither quest about level differentials penalties.
+- Increased spawn rate of Skelewags.
+
+### Fixes
+- Fixed Stormwielder Unique not proccing Chain Lightning.
+- Fixed Revenant Slam not dealing Chaos Damage.
+- Fixed Discharge not playing sound correctly.
+- Fixed missing Discharge tag.
+- Fixed some structures not spawning in Deeper Darker.
+- Fixed Ballista Runeword being unavailable.
+- Fixed Auto Repair Kits not consuming materials.
+- Fixed Stones spamming chat when used on Auto Repair Kits.
+- Fixed weird interaction with Soul Modifiers and offhands.
+- Hopefully fixed keybind issues with Mine and Slash.
+
+### Mod Updates
+- Updated Lightman's Currency, Auto Repair Kits, Mine and Slash.
+- Replaced Loot Beams with Clefal's version for improved performance and compatibility.
+
 ## [0.8.4] - 2024-12-10
 
 ### Mine and Slash Updates

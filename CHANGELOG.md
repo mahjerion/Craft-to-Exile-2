@@ -198,8 +198,8 @@
 - Added 3 new Map Boss Arena layouts!
 - Added 2 new Uber Boss Arena layouts!
 - Maps now have a cooldown of 3 minutes, and downgrading Maps now has a cooldown of 5 minutes. These changes were made in an effort to reduce layout abuse and should not affect genuine gameplay.
-- Mobs in Maps now recive 66% increased bonus Health per tier than previously.
-- Mobs in Maps now recive 50% increased bonus Damage per tier than previously.
+- Mobs in Maps now receive 66% increased bonus Health per tier than previously.
+- Mobs in Maps now receive 50% increased bonus Damage per tier than previously.
 - Raids have been disabled. Any Raid-only items are technically obtainable through Gateways, structures, etc.
 - Added a new Gateway of the Depths which contains Act III Undergarden mobs, including the Umvuthi!
 - Act Gateways now have a cooldown period of 5 minutes instead of 1 minute.

@@ -1,124 +1,323 @@
 # Changelog
 
-## [0.8.4b] - 2024-12-11
-
-### Updates
-- Updated links to Discord to use new custom URL: https://discord.gg/craft-to-exile
-- Added a new Plate Chest Unique thats really hard to find.
-- Some Uniques and Runewords have been changed to provide bonuses to Magic Shield instead of, or in addition to Health.
-- Some Uniques and Runewords have been changed to provide bonuses to Energy instead of, or in addition to Mana.
-- Percent Leech stats now trigger off of bonus damage as well.
-- Lowered Wither damage by about 18%.
-- Added some quest descriptions for some of the Fishing Chapter quests.
-- Added a little blurb at the Wither quest about level differentials penalties.
-- Increased spawn rate of Skelewags.
-
-### Fixes
-- Fixed Stormwielder Unique not proccing Chain Lightning.
-- Fixed Revenant Slam not dealing Chaos Damage.
-- Fixed Discharge not playing sound correctly.
-- Fixed missing Discharge tag.
-- Fixed some structures not spawning in Deeper Darker.
-- Fixed Ballista Runeword being unavailable.
-- Fixed Auto Repair Kits not consuming materials.
-- Fixed Stones spamming chat when used on Auto Repair Kits.
-- Fixed weird interaction with Soul Modifiers and offhands.
-- Hopefully fixed keybind issues with Mine and Slash.
-
-### Mod Updates
-- Updated Lightman's Currency, Auto Repair Kits, Mine and Slash.
-- Replaced Loot Beams with Clefal's version for improved performance and compatibility.
-
-## [0.8.4] - 2024-12-10
-
-### Mine and Slash Updates
-- Marauder Gamechanger and Armor-clad Faith Unique now give flat penalty to Attack Speed and Move Speed again.
-
-### Fixes
-- Fixed some quest localization.
-- Fixed Lifestealer stats.
-- Fixed spawn of Lifestealer and Nightmare Stalker.
-
-### Mod Updates
-- Added InControl.
-- Removed Dimension Viewer.
-
-## [0.8.3] - 2024-12-10
+## [0.9.0] - 2025-01-25
 
 ### General Updates
-- Ice and Fire has been replaced with Born in Chaos. Born in Chaos mobs/structures have been populated Blue Skies to some extent. Their mobs are also found in Maps and have replaced most of the quests.
-- We now have Auto Repair Kits which can help prevent items from breaking unexpectedly! Keep these kits charged and they'll automatically repair your equipment for you. Higher tier kits have more capacity and repair more at a time.
-- Mining Profession no longer drops blocks and instead drops the ores directly.
-- Lowered Structure spawn rate of Bathhouse and Lighthouse.
-- Final wave of Gateway of the Ice Maze now summons an Eel.
-
-### Quest Updates
-- Epilogue Achievement quest now gives an Epic Hat Bag.
-- Added a new quest regarding Auto Repair Kits.
-- Challenge: Nomad now requires only 3 upgrades instead of 5.
-- Advanced Storage no longer references Create and now references Botania.
-- Big Band Player no longer requires impossible items.
-- Quest mistakenly mentioning Zinc has been changed to Silver.
-
-### Mine and Slash Item/Stat Updates
-- Added a new stat: Roll Cooldown which lowered recharge time for Combat Rolls. It currently can appear on Boots and Totems as a suffix.
-- New Unique: Terrablade. Yes, it's that Terrablade. The Terrablade gives bonuses to Melee Damage and Projectiles. Note though that bonuses to projectiles don't actually affect the projectile from Terrablade.
-- Armor-clad Faith now gives - percent instead of flat Attack Speed and Move Speed. The penalty values have been lessened.
-- New Ring Runeword: Destruction. This ring gives the user a bunch of proc stats...
-- New Sword Runeword: Hurricane. Gain Physical to Cold and Lightning Damage conversion stat in addition to bonuses to Whirlwind!
-- New Weapon Runeword: Breath of the Dying. This 6 Rune Runeword gives big bonuses to damage and a chance to cast Putrid Breath on Kill.
-- New Boots Runeword: Lavaspur. This Runeword gives substantial bonuses to Fire Damage mitigation, including Fire Damage Reduction.
-- New Crossbow Runeword: Ballista. Give up bonus mulitiple projectiles and speed for a chance to hit once, and HARD.
-- Nerfed Exile Runeword stats.
-- Venom and The Novice Runewords can now be placed on Axes (forgot).
-- Crossbow basic attack damage increased by 25%.
-- Staves and Daggers can be affected by Attack Damage now.
-- Gateway on death maximum stat cap reduced.
-- Pressing SHIFT now shows you locked sockets.
-- Reduced player base Mana/Energy Regen by 33%.
+- We now have Party GUI! Use /party to create new parties that allow you to view the health of your teammates! Note that the numeric value will be inaccurate, but you can get a percentage idea.
+- New CTE2 Title!
+- UI updates to make the pack feel more coherent, thanks to Poe! Crafting Tweaks, Polymorph, Doggy Talents, Spice of Life are included. This also includes a new loading bar! This also includes new buttons that can be accessed from inventory!
+- Now comes with VR support (albeit a bit primitive atm)! There are integrations with Minecraft mechanics (such as the Crafting Table) and custom bindings! Check out the quest in the Prologue Chapter for more information!
+- Refined Storage energy costs of upgrades have been lowered substantially.
+- Refined Storage External Storage no longer costs energy.
+- Some Refined Storage blocks have had their "Botania" costs shifted up front. For example, External Storage no longer requires energy to run but requires a Elementium Ingot.
+- Botania's Corporea system has been re-enabled.
+- Botania's Drum of the Wild has been re-enabled for the Official Server.
+- Updated the Lightman's shop to include the new MCA villagers. Thanks Poe!
+- MCA Villagers now should be protected by the Friendly Fire mod.
+- You now earn 1% interest on coins in your Bank.
+- Mine and Slash Crafting Profession experience gained has been changed to increase exponentially with rarity of craft, instead of being a linear increase.
+- Backpacks can use upgrades even when not worn now.
+- You can no longer break or steal backpacks in other peoples claims.
+- Unique Prophecy reward is now rarer and much more expensive.
+- Removed Skeleton Demoman from Maps.
+- Monster Flesh is now tagged as a Hammer.
+- Doggy Talents treat recipes have been adjusted to be more difficult.
+- Fishing Profession Loot Crate chance has been lowered from 5% to 2%.
+- Due to new Stardew Fishing minigame, Fishing Profession experience has doubled.
+- Disabled the Eternal Candy.
+- Disabled Sliding Block due to crash.
+- Disabled the Heaume of the Blinding Abyss due to crash.
+- Death Totem from chests has been re-enabled.
+- Elytras can no longer be obtained from Nether Ships.
+- Dummy DPS mode is re-activated and now accurate thanks to passenger!
+- Non-Blue Skies tools will now work in Blue Skies dimensions. Mobs will also be properly damaged now.
+- Cages and Conducting Bones are now disabled in Maps.
+- You will now see what structure you are entering thanks to EC's Structure Credits.
+- More information on tools is now displayed thanks to Tool Stats.
+- The Disassembler's Learning Method now grants x2 EXP instead of x3.
+- Blacklisted some entities from Neat bar config.
+- Think Before Drop has been added and configured to prevent you from accidentally throwing your weapon away in the heat of battle! This mod prompts you to press the drop key twice before the item drops and has been configured to only work with weapons.
+- Re-enabled Botania Rannuncarpus.
+- Added Iron Ingots to higher-tiered Map loot tables.
+- Death EXP penalty now only starts at level 50.
+- Rested EXP death penalty is now 25% instead of 75%.
+- Neat Bars that display health now include Magic Shield in the value.
+- Double Doors now only works with doors.
+- Added disabled text to Divider since it doesn't work.
+- Removed first person overlay from Three-Point Helmet.
 
 ### Mine and Slash Class Updates
-- New Lv. 10 Elementalist Skill: Fire Wall! Spew forth flames on the ground that knockback enemies and keep them away from you.
-- New Lv. 30 Shaman Skill: Chain Lightning Totem! This totem periodically sends out a Chain Lightning projectile that behaves like Chain Lightning. It deals a bit less damage than Chain Lightning, but every level in Chain Lightning increase the damage of Chain Lightning Totem!
-- New Lv. 25 Minstrel Skill: Clamor, Crash, Clatter! Send out a brutal sound wave that hits nearby enemies. Expend an Endurance Charge to also deal Fire Damage and apply Scorched, a Power Charge to also deal Lightning Damage and briefly stun enemies, and/or a Frenzy Charge to also deal Cold Damage and slow enemies. Using this Skill has drawbacks, as it deals Physical Damage to the caster as well.
-- Grand Cross from The Written Word now deals 300% of Weapon Damage instead of 150% each activation, for a total of 900% Weapon Damage instead of 450%, and now deals Lightning Damage to the caster instead of healing nearby allies. The self damage is equal to 20% of the user's Health + Magic Shield, but can be mitigated.
-- Arrow Totem has a cooldown of 2s instead of 1s now. The charge regen time remains the same.
-- Arrow Totem now costs a bit of Energy.
-- Totem Skills have had their Mana Costs increased.
-- Reduced stat bonuses of Sharpen by 50% per level (25% overall).
+- A NEW CLASS HAS ARRIVED: Brawler! This combo-based class utilizes a string of Skills to decimate their foes. Their versatility in effects is unparalleled. Start with basic attacks to gain a Combo Starter stack, which is used to cast Combo Starter Skills. Combo Starter Skills will consume the stack and generate a Combo Linker stack, which is used by Combo Linkers. Similarly, Linkers will consume the Linker stack to generate a Combo Extender stack, which is finally consumed by a Combo Finisher. Explore the different combinations of Skills and create your own playstyle!
+- ANOTHER?! NEW CLASS HAS ARRIVED: Crusader! Harnessing the power of the divine (Fire + Lightning), lay waste to enemies with new Skills or empower nearby allies with Auras. The new holy (Fire + Lightning) Skills can utilize Retribution stacks which are gained from blocking to become more defensive. However, Retribution stacks are optional. Auras are powerful buffs - only one can be equipped at a time. Most Auras empower your allies as well as yourself, but some Auras deal damage to enemies...
+- A-N-O-T-H-E-R?!?!?!? NEW CLASS HAS ARRIVED: Chronomancer! This caster class utilizes the power of time (Cold + Lightning) to warp their enemies out of existence (not really). The Chronomancer utilizes 3 different types of stacks: Alpha, Beta, and Gamma. Depending on the configuration of stacks currently active, the Chronomancer's Skills become augmented. A lot of the Chronomancer Skills employ area control tactics and self-preservation through time manipulation!
+- Added a bunch of new Skill animations. Huge thanks to Poe for these! A few animations have been updated. Arrow Storm, Recoil Shot, Backflip Fire Wall have new animations as well.
+- New Lv. 20 Elementalist Skill: Blood Boil. Deal a small amount of Fire and Cold damage to nearby enemies with an increased chance of Burn and Freeze. Enemies hit are also taunted.
+- New Lv. 10 Hunter Skill: Kick. Knock back and deal a small amount of Physical Damage to enemies right in front of you.
+- New Skill: Bolt. Super basic Physical projectile obtained from Staves.
+- Hybrid-cost Skills now cost less of the minor resource to cast.
+- Arachnid Inoculations is now tagged as Summon.
+- Fighter's Stance Skills have been reworked a bit. The stats they provide have been changed. Fighter Stance no longer gives Critical Hit, and Defender Stance no longer gives Damage Reduction. Defender Stance now gives Knockback Resistance.
+- Fighter's Stance Skills now have a base cooldown of 2s instead of 10s.
+- Fighter's Boomerang Skill has been renamed to Axe Throw.
+- Axe Throw now uses a charge system similar to traps.
+- Charge now provides Knockback Resist during the effect.
+- Whirlwind AOE size has increased from 2 to 3. In Fighter Stance, it has increased from 2.67 to 4.
+- Replaced Fighter's Vampiric Blood buff with a new Skill: Meditate. Recover 10% of your Health every second over a base duration of 8s. During this activation, you are stunned. The max level for this Skill is 1.
+- Increased Taunt AOE radius from 3 to 5.
+- All Elementalist Fire Skills have had their damage increased by 10%, except for Meteor and Steam Cloud which increased by 20%.
+- Refresh is no longer tagged as a Buff.
+- Refresh cooldown is now 90s instead of 180s.
+- Leveling Refresh now gives it Cooldown Reduction and Cast Speed.
+- Heart of Ice radius has been reduced from 4 to 3.
+- Elemental Burst now uses Support Gems from Mage Armor Skill.
+- Lowered Elemental Burst AOE radius from 3.5 to 2.
+- Improved Elemental Burst visuals.
+- Frost Nova heal amount has been lowered by about 33%.
+- Heart of Ice is now correctly tagged as a Buff.
+- Scorched now reduces Elemental Resistances by 10% instead of 25%.
+- Hunter's Mark is now a level 20 Skill instead of 10.
+- Wounds effect now reduces healing received by 50% instead of 25%.
+- Trap Skills now cost Energy instead of Mana.
+- Frost Trap damage at level 1 has been lowered but scaling per level has increased. At max level it's the same, and overleveled it's now stronger.
+- Fire Trap damage has been reduced by 25% at level 1 and 20% at max level.
+- Arrow Totem weapon damage scaling per level has been reduced by about 30%.
+- Fire Totem damage has been redued by about 5%.
+- Frost Totem damage has increased by about 10%.
+- Lightning Totem weapon damage scaling has been reduced by about 10%.
+- Shaman Lightning Skills have had their Weapon Damage scaling reduced by about 10-15%. The Mana scaling remains untouched.
+- Shaman passive that gives Armor based on Mana has been reduced from 2% to 1%.
+- Shaman passive that gives Elemental Penetration has been reduced from 2% to 1%.
+- Whirling Blades has been renamed to Cloak of Hidden Blades.
+- Cloak of Hidden Blades is functionally the same as Whirling Blades but now deals half Physical, half Chaos Damage.
+- Increased the cost of Cloak of Hidden Blades slightly.
+- Venom and Flame Splash Potion Mana costs have been reduced by about 20%.
+- Venom and Cinder now have a 0.25s cooldown, instead of 0.05s.
+- Venom and Cinder now properly have a stat for basic attack hit procs. This means the procs for basic attacking now respect the cooldown period.
+- Revenant Slam is now correctly tagged as a Weapon Skill.
+- Curses have been nerfed, most debuffs have been reduced in effect - especially the penetration stats.
+- Curse visuals have been improved.
+- Curse radius has increased from 2.5 to 4.
+- Summons are no longer tagged as Magic or Ranged.
+- Summon base damage has been tripled, but the Summon Damage stat you get from the Skill itself has halved. Damage increases without any investment. This is a huge buff because it means bonuses to Summon Damage from other sources are also now more effective. This change does not affect Summon Spiders (they don't have innate Summon Damage stat).
+- Summon Spider scaling has increased from 0.5 to 0.8.
+- Summon Spider hitbox is now the size of Cave Spiders instead of normal Spiders.
+- Improved Summon Skeletal Army and Arachnid Inoculation descriptions.
+- Minstrel Healing Skills are now properly tagged with Area and Song.
+- Minstrel offensive Skills have been rebalanced to be in line with other Skills (buff).
+- Clamor, Crash, Clatter sound has been changed to be less obnoxious.
+- Charm effect has been nerfed slightly.
+- Some Skills and effects have received particle and sound updates.
+- Except for Undying Will, all buffs that lasted 1 minute before now last 5 minutes instead.
 
-### Mine and Slash Talent Tree/Ascendancy Updates
-- New Gamechanger: Combat Talent! This node is near the Bow start and grants the player the following: Gain +25% MORE Ranged Skill Damage on Melee Skill Hit, Gain 25% MORE Melee Skill Damage on Ranged Skill Hit.
-- Steady Hand now gives 20% Increased Damage instead of 30% MORE Damage. It now also gives +500% MORE Accuracy (you're not supposed to miss with this).
-- Marauder now gives -20% Reduced Attack Speed instead of -30% Attack Speed. Similarly, it now gives -20% Reduced Move Speed instead of -20% Move Speed.
-- Cruel Ascendancy points are now earned from Steely Resolve in Act III instead of Slippery Swimmer.
-- Added some new Knockback Resist and Move Speed nodes to the Talent Tree.
+### Mine and Slash Item/Stat Updates
+- NEW WEAPON TYPE: Gauntlet! Gauntlets are STR/DEX hybrid weapons with a very high attack speed.
+- NEW WEAPON TYPE: Scythe! Scythes are two-handed STR/INT hybrid weapons.
+- NEW WEAPON TYPE: Greatsword! Gauntlets are two-handed STR weapons which can deal high damage.
+- Staves now grant a new Skill as a base stat: Bolt. Bolt is a basic Physical projectile meant to give casters a "ranged basic attack". This Skill costs no Mana, and has a 1s cooldown.
+- Newly implemented SET BONUSES! Only seen on a few items at the moment - namely the end-game Genji, Oath of Mahj, Last Tracker, and Nebula sets.
+- New PATREON-designed Runeword: Crater! This item was designed by WornWar. Modifies Trap Skills to detonate upon impact! Also grants bonuses to Trap cooldown and Area of Effeect, at the expense of some Trap Damage!
+- New Contributor-designed Unique Totem: Lantern of Lost Ghosts! This item was designed by Poe (the player). When held, gain the benefits of Ghost Shroud and a bonus to Magic Shield. Additionally, when hit, have a chance to proc Smoke Bomb. This item uses a custom model from Poe himself!
+- New Contributor-designed Unique Axe: Sol's Way! This item was designed by councilfarciminis2. This slow axe boasts great range and a chance to proc Frost Nova on Movement Skill hits! Additionally, it makes your basic attacks propel you forward a bit.
+- New Unique Axe: Wither's Flame. This mid-level axe gives your attack hits a chance to proc Armageddon, in addition to receiving bonuses to Fire Damage.
+- New Unique Staff: Poet's Pen. This staff alters the new default Bolt Skill on your staff to proc Kinetic Blast on hit. Kinetic Blast causes a series of explosions in an area upon impact, with each explosion dealing damage.
+- New Prophecy Unique Chainmail Pants: Fracture Splint. This high-level Unique grants you the chance to cast Summon Skeletons on kill! However, this Skill proc does NOT respect cooldown period!
+- New Unique Gauntlet: Facebreaker. This simple Unique gives large bonuses to Weapon Damage!
+- New Unique Greatsword: Shiversting. This Unique gives bonuses to Freeze Resistance!
+- New Unique Greatsword: Starforge. Starforge reduces all Elemental Damage dealt, but also causes all Lightning Damage to always Electrify.
+- New Unique Scythe: The Reaper's Toll. This simple Unique gives large bonuses to Weapon Damage!
+- Genji, Oath of Mahj, Last Tracker, and Nebula have been nerfed. Additionally a portion of their stats have been moved to the new set bonuses.
+- Some Runewords have been updated to allow the new Gauntlet type.
+- Doombolt Chaos Penetration has been reduced from 50-60% to 30-40%.
+- Terra Blade no longer gives -40% Attack Speed. The item base itself however now has a lower Attack Speed.
+- Skin of the Vipermagi now has a custom model.
+- Bulkwark Bleed Resistance has been reduced to 50%.
+- Limbsplit Unique now has a custom model.
+- Bloodspark Health Regen penalty has been increased slightly.
+- Runeword stat variance has been increased (nerf).
+- Flickering Flame Runeword can now only be crafted on Pants.
+- Flickering Flame Runeword now only gives +1 To Fire Skills instead of 1-2.
+- Insight and Plague Runewords no longer give Augment cost reduction. Plague has gained new stats to offset this. Insight bonus to Mana Regen has doubled.
+- Infinity Runeword Lightning Penetration has been reduced from 65-75% to 40-50%.
+- Staves now give Mana on Bolt Hit instead of Mana on Basic Hit. The amount you get is less than before.
+- Restrained Destruction Support Gem now gives 8-24% MORE Magic Skill Damage instead of 9-27%.
+- All Penetration Support Gems (including Armor) have been reduced in effectiveness.
+- Defensive Minions Support Gem has been renamed to Elusive Minions Support Gem to reduce confusion.
+- Mageblade Support Gem now scales from 2-6% instead of 3-9%.
+- Increased Daw Rune drop rate from Arachnarch by 20% (20% -> 25%).
+- End and Wir Rune resistance stats have been nerfed.
+- Steam Cloud on Kill proc now can proc on kills from Steam Cloud. The same is true for Putrid Breath.
+- Max Cooldown Reduction is now 60% instead of 75%.
+- Instances of x per y stat have been changed to percent of x as y stat. This is to fix the problem with stat priority. Eg. The Beast gave 20-30 flat Health for every 10 Strength, but it was not affected by bonuses to Health. Now, it gives 100-150% of Strength as Health, which will be affected by bonuses to Health.
+- Base Gear Armor and Dodge stats have doubled, and Magic Shield stats have increased by 25%. This applies to hybrid armor types as well.
+- Sources of all Elemental Resist have been nerfed.
+- Most sources of Physical Resist have been lowered or removed.
+- Most sources of Damage Reduction have been lowered.
+- Fortify now gives 8% Damage Reduction instead of 10%.
+- Flugel Tiara is now a Unique that gives penalties to combat stats.
+- Elytras are now considered Mine and Slash gear and are level gated.
+- Gear Soul Cleaner can no longer be used on the Terra Blade, Flugel Tiara or Elytra.
+- Mana Cost stat is now called Resource Cost and applies to Energy costs as well.
+- Increased Slice damage from Genji set by 50%.
+- Slice cooldown is now 1s instead of 2s, to be in line with other proc Skills.
+- Level Up Currency Orb is now max 10 uses instead of 5.
+- Nerfed sources of Item Find.
+- Swords and Axes can no longer Dexterity-based stats.
+- Dark War Blade and Nightmare Scythe are re-enabled and given appropriate new weapon types.
+- Some existing weapons have had their types changed (eg. MCA: Reborn Scythe is now a Scythe).
+- End and Sid Rune have been reworked. End Rune now gives Damage Suppression instead of Physical Resistance, and Sid Rune now gives Magic Find instead of Item Find.
+- Ailments now have a visual particle indicator.
 
-### Mine and Slash Mob/Map Updates
-- Increased Anglerfish spawn rate.
-- Lowered spawn rate of Farseers drastically.
-- Removed Ferrous Wroughnaught and Knight Phantom from the Uber Boss pool.
+### Quest Updates
+- Botania Chapter has been revamped thanks to the efforts of FeelingOwl and CreatorBurden.
+- Quests have had a general passthrough and update thanks to CreatorBurden.
+- New quests have been added detailing: Anti Mob Farm, Botania quests, Mega Torch, etc. Thanks again to CreatorBurden.
+- Added some new Professions quests in Act III and IV. These quests should help a bit with the experience gain from level 45-55.
+- Reorganized some Act III quests to make it more clear where you should go.
+- Experience gain from quests starting in Act IV onwards has increased drastically (about 30-50%).
+- Added a new quest type: Repeatable Quests! You'll find some in each Act.
+- Added some quests in the Homestead Chapter going over FramedBlocks.
+- Chipped quest has been moved to the FramedBlocks quest line.
+- Added a new Bestiary IIb quest for Zombie Clowns.
+- Added a 8 new collectible hat rewards in quests.
+- Reduced some requirements in Botania Chapter.
+- Botania Elven Traders quest now reads for tags for the Livingwood.
+- Botania dependencies have been shifted a bit to help newer players more.
+- Added a warning regarding the Wroughtnaut on the Steely Resolve quest.
+- Updated Exploration Chapter.
+- Updated the description for Slippery Swimmer, since you can now encounter Eels in Gateways.
+- Added a blurb about Neptunium in Act III Diving Suit quest.
+- Added a blurb on how to get the Transmuting Elixir in Bestiary VIb.
+- Performed some quest formatting clean-up (up until Storage).
+- Updated earlier quest rewards to include new weapon types.
+
+### Gateway/Mob Updates
+- HUGE Map reworks and rebalancing thanks to DoutingDonut, SelfSlain/Villain, and FeelingOwl. They literally updated almost every map!
+- Added 2 new Maps thanks to DoutingDonut, SelfSlain/Villain! Check out the Watcher and End Maps!
+- Harvest layout has been replaced with a new one thanks to the builders!
+- Added 3 new Map Boss Arena layouts!
+- Added 2 new Uber Boss Arena layouts!
+- Maps now have a cooldown of 3 minutes, and downgrading Maps now has a cooldown of 5 minutes. These changes were made in an effort to reduce layout abuse and should not affect genuine gameplay.
+- Mobs in Maps now recive 66% increased bonus Health per tier than previously.
+- Mobs in Maps now recive 50% increased bonus Damage per tier than previously.
+- Raids have been disabled. Any Raid-only items are technically obtainable through Gateways, structures, etc.
+- Added a new Gateway of the Depths which contains Act III Undergarden mobs, including the Umvuthi!
+- Act Gateways now have a cooldown period of 5 minutes instead of 1 minute.
+- All Act Gateways now have a 1% chance to proc instead of 0.5-3%.
+- Last wave (Eel) in Gateway of the Ice Maze now has a time limit of 90 seconds instead of 50 seconds.
+- Pixies from Botania can no longer spawn Gateways.
+- Added a chance for Anglerfish to spawn a Gateway of the Deep Sea, which can spawn the Maze Mother.
+- Alchemist in Act IV now takes 100% increased damage from Projectiles and Arrows.
+- Starlit Crusher and Arachnarch are now minimum level 50 instead of 55.
+- Ender Dragon is now minimum level 50 instead of 55.
+- Void Worm is now minimum level 55 instead of 60.
+- Warden is now minimum level 60 instead of 65.
+- Zombies, Husks, etc. can no longer spawn with fishing rods.
+- Fisherman Zombie now can spawn with fishing rods, and the chance is much higher than before.
+- Leaping mobs have been changed to only be on Wolf-type creatures. This includes summoned Wolves.
+- Snow Golem damage has been reduced by 90%.
+- All larger-sized spiders (Cave Spider and up) can now spew webs. This does NOT include summoned Spiders and Mother Spider.
+- Void Worm now spawns with half the amount of Health.
+- Ferrous Wroughtnaut can now be damaged regardless of phase.
+- The second version of the Gaia boss now has a high chance of dropping Mine and Slash Runes. This includes the high runes (Oru -> Yun), but does not include Dimension Runes.
+- Vindicators, Pillagers, and Wither Skeleton coin drops have been reduced.
+- Added a bunch of new Map Affixes.
+- You no longer get penalized for having low resistances when going into Maps. I don't believe in hard-gating players out of Maps for lack of resistances, as there are other defensive layers they might have gotten. However, don't expect to survive if you don't have any defensive layers at all. Some of the new Map affixes are particularly nasty.
+- The Mother Spider no longer spawns in Maps EXCEPT for Nature-themed Maps.
+- Mother Spider now only spawns in deeper Y levels in the Overworld.
+- Spiders now web much less often.
+- Seagulls can no longer steal your Sweet Lance.
+- MOST Bosses are no longer affected by Anti-Mob Farm.
+- Some Mob Affixes now come with particle effects. Mostly this is applicable to the Elemental Damage ones for now.
+
+### Mine and Slash Talent/Ascendancy Updates
+- Talent Tree lag has been reduced.
+- Elemental Overload now gives 25% MORE Elemental Damage instead of 30%.
+- Improved Elemental Overload description.
+- Harmony's Magic Shield Heal now works with Increase Healing.
+- Ghast now gives -40% Magic Shield instead of -33%.
+- Reduced Wandering Bard stats.
+- Chieftain Ascendancy's Fire Penetration has been reduced from 25% to 20%.
+- Primordialist Ascendancy's Elemental Penetration has been reduced from 20% to 18%. I've also collapsed the 3 elements into one stat.
+- Necromancer Ascendancy's node which gives Fire and Chaos Penetration has been reduced from 25% to 15%.
+- Trickster MORE Dodge Ascendancy now gives 12% MORE instead of 15%.
+- Ghast and Trickster Ascedancy which gives Magic Shield > Dodge now gives less.
 
 ### Fixes
-- Fixed leech localization, oops.
-- Fixed FLAN config regarding buy/sell.
-- Fixed incorrect information regarding Ascendancies in the bubble.
-- Fixed missing localization for Frenzy Charge When Hit.
-- Gateway of the Raider penultimate wave has been fixed. It was incorrectly spawning the Invoker instead of Inquisitor.
-- Fourth Wave of Gateway of Emerald Grove has been fixed/replaced with a new mob.
-- Fixed Lightman's Currency font issues. You'll need to unequip the Redcap_LC_Retexture7.5.zip Resource Pack.
-- Fixed Smoke Runeword giving percent Chaos Resist instead of flat.
-- Fixed Act Gateways not proccing. They also now abide cooldown rules.
-- Crafting Stations crafting a few times instead of all has been fixed.
-- Maybe fixed 0 HP mobs.
+- Fixed some localization.
+- Fixed Black Hole not playing sound.
+- Fixed Encased not doing damage.
+- Fixed a missing connector on the right side of the Talent Tree.
+- Fixed Cruel Ascendancy not giving the points.
+- Potentially fixed a crash.
+- Disabled Dead Sea Scroll.
+- Title screen no longer refers to Create/Colonies.
+- Fixed a bunch of invalid Skill sound and particles - thanks Margineanu65!
+- Fixed an issue where Gateways were proccing way too often in Act I.
+- Fixed Combat Talent not working.
+- Fixed a prominent duping method.
+- Removed Display Delight quest.
+- Fixed Residents of the Void quest requriing incorrect Stalker.
+- Fixed a bunch of quests showing the wrong location.
+- Fixed some quest not requiring dependencies to be complete.
+- Fixed Map Affix Elemental Resist penalty not being Max Elemental Resist.
+- Fixed some rare crash instances.
+- Fixed Botania flower recipe disablements.
+- Fixed Ritardando description outright lyin'.
+- Fixed an issue where Blue Skies Bosses were not dropping Dimension Runes.
+- Fixed some impossible quests.
+- Map exploration announcements are no longer dimension wide.
+- Boss multiplication in Maps should be fixed.
+- Fixed Attack Speed per Accuracy stat being 10x as strong as it should be.
+- Thorn Bush now correctly does Physical Damage instead of Chaos.
+- Disabled Trident weapon type which was supposed to be deactivated.
+- Fixed some Damage Reduction stats taking into account incorrect health values (target vs. source).
+- Fixed Mind of the Council using the incorrect Mana to Weapon Skill Damage stat.
+- Fixed instances of servers not opening due to CompoundTag.
+- Fixed NaN Health bug.
+- Fixed cases of Maps overriding old Maps, resulting in no mobs.
+- Runed Jewel now correctly adds last affix at Mythic upgrade.
+- Fixed some cases of stats being applied twice.
+- Procced Skills now actually use Mana Cost.
+- Fixed DOTs dealing damage 1 extra time.
+- Loot Chests can no longer be salvaged.
+- Ailment Resistance working incorrectly has been fixed.
+- Block Chance now correctly requires a shield again.
+- Fixed Heart Container drops only dropping from Wither instead of all bosses like stated.
+- Fixed some Blue Skies fishes giving EXP and loot.
+- Properly disabled Cannons.
+- Fixed a few long-standing dupe issues.
+- Sweet Lance is now correctly tagged as a Spear type for Better Combat.
+- Fixed Poison Trap not teleporting units to it correctly.
+- Fixed fixed Leech Cap stat scaling with player level.
+- Fixed Traps triggering on allies under certain circumstances.
+- Spectators no longer count as players.
+- Fixed some structure-related crashes.
+- Removed source of lag on first item pick up.
+- Fixed Rejuvenation effect not buffing itself.
+- Fixed an issue where certain items such as the Watcher Eye Jewel drop rates were lower than they should have been.
+- Fixed a crash that was caused by Snow Golems in the Black Citadel structure.
 
 ### Mod Updates
-- Updated ModernFix, Moonlight, Lightman's Currency, Lootr, ModernUI, Mine and Slash, Sophisticated mods, Doggy Talents.
-- Added Auto Repair Kits.
-- Added YDM's Weapon Master - displays your items on your self.
-- Added Hidden Names - remove player name tags as it interferes with Neat bar.
-- Added Born in Chaos.
-- Removed Display Delight.
-- Removed FindMe due to an exploit.
-- Removed Ice and Fire.
-- Removed Formations due to crash.
+- Updated FLAN, ModernFix, Loot Beams, Xaero's mods, CreativeCore, Moonlight, Oh The Trees You'll Grow, Polymorph, Sophisticated mods, Balm, Fast Aync World Save, Mine and Slash, Citadel, Corgilib, Kiwi, Shoulder Surfing, Amendments, Anti Mob Farm, Auto Repair Kits, Born In Chaos, Connectivity, CraftTweaker, Curios, Doggy Talents, Enhanced Celestials, FTB Library, FTB XMod Compat, Geckolib, InsaneLib, Itemphysic Lite, Lightman's Currency, Lithostitched, Not Enough Animations, Oculus, Oh The Biomes We've Gone, Packet Fixer, Supermartijn Core Lib, Temporary Spawners, U Team Core, Chat Heads, CraftPresence, CTOV, JEI, Smooth Chunk Save, Project Vibrant Journeys, EMI, TrashSlot, UniLib, Friends & Foes, Inventory Sorter, Oh The Biomes We've Gone, Cooking for Blockheads.
+- Updated from Forge 47.2.12 to 47.2.25.
+- Added Armor Set Bonuses.
+- Added KubeJS.
+- Added EntityJS.
+- Added Refined Polymorphism - adds compat between RS and Polymorph.
+- Added SBM Charcoal Block.
+- Added Fzzy Config for Loot Beams.
+- Added Long NBT Killer.
+- Added NaNny.
+- Added Sky Breaker - fixes some compat with Blue Skies.
+- Added Structure Credits - see what structure you've entered!
+- Added Tool Stats.
+- Added ColoredWater.
+- Added Think Before Drop - prevents accidental dropping of weapons.
+- Added some Sky Village compat datapacks.
+- Added ChatPlus.
+- Added Parties.
+- Added RoE Weapons - thanks Poe!
+- Added Stardew Fishing - revamps how fishing is done!
+- Added Vivecraft, ImmersiveMC, VR API.
+- Re-added Pick Up Notifier and removed Loot Journal.
+- Replaced Spice of Life: Apple Pie for Onion edition.

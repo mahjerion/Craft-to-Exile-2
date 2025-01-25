@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.9.0b] - 2025-01-25
+
+### General
+- Moved default chat position to not cover stuff, but at the same time made it obvious to players that they'll need to move it to their own preferred spot.
+- Changed some passive icons that were duplicates of others.
+
+### Fixes
+- Fixed VR Settings button being unclickable.
+- Fixed certain aggressive entities being untargetable due to FriendlyFire.
+- Fixed missing localization for Scythes.
+- Fixed incorrect Stance description.
+- Fixed incorrect Holy Immolation stat description.
+- Fixed some typos in Anti-Gravity Smash and Flowing River Rush.
+- Fixed random tick speed being 0.
+- Fixed First Weapon reward including an obsolete Trident instead of Spear.
+- Fixed some unachievable hat items.
+- Fixed FLAN.
+- Fixed Parallel Convergence healing enemies when used with a Gamma stack.
+
+### Mod Updates
+- Downgraded FLAN.
+
 ## [0.9.0] - 2025-01-25
 
 ### General Updates
@@ -196,7 +218,7 @@
 - Added 2 new Maps thanks to DoutingDonut, SelfSlain/Villain! Check out the Watcher and End Maps!
 - Harvest layout has been replaced with a new one thanks to the builders!
 - Added 3 new Map Boss Arena layouts!
-- Added 2 new Uber Boss Arena layouts!
+- Added a new Uber Boss Arena layout!
 - Maps now have a cooldown of 3 minutes, and downgrading Maps now has a cooldown of 5 minutes. These changes were made in an effort to reduce layout abuse and should not affect genuine gameplay.
 - Mobs in Maps now receive 66% increased bonus Health per tier than previously.
 - Mobs in Maps now receive 50% increased bonus Damage per tier than previously.

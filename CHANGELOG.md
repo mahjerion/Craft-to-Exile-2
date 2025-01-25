@@ -7,6 +7,7 @@
 - New CTE2 Title!
 - UI updates to make the pack feel more coherent, thanks to Poe! Crafting Tweaks, Polymorph, Doggy Talents, Spice of Life are included. This also includes a new loading bar! This also includes new buttons that can be accessed from inventory!
 - Now comes with VR support (albeit a bit primitive atm)! There are integrations with Minecraft mechanics (such as the Crafting Table) and custom bindings! Check out the quest in the Prologue Chapter for more information!
+- Favor system has been reworked to be more achievable and relevant. Instead of capping at 100k, it now caps at 2500. Other changes are included as well.
 - Refined Storage energy costs of upgrades have been lowered substantially.
 - Refined Storage External Storage no longer costs energy.
 - Some Refined Storage blocks have had their "Botania" costs shifted up front. For example, External Storage no longer requires energy to run but requires a Elementium Ingot.

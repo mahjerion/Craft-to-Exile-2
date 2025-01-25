@@ -81,7 +81,7 @@
 - Frost Trap damage at level 1 has been lowered but scaling per level has increased. At max level it's the same, and overleveled it's now stronger.
 - Fire Trap damage has been reduced by 25% at level 1 and 20% at max level.
 - Arrow Totem weapon damage scaling per level has been reduced by about 30%.
-- Fire Totem damage has been redued by about 5%.
+- Fire Totem damage has been reduced by about 5%.
 - Frost Totem damage has increased by about 10%.
 - Lightning Totem weapon damage scaling has been reduced by about 10%.
 - Shaman Lightning Skills have had their Weapon Damage scaling reduced by about 10-15%. The Mana scaling remains untouched.

@@ -112,7 +112,7 @@
 ### Mine and Slash Item/Stat Updates
 - NEW WEAPON TYPE: Gauntlet! Gauntlets are STR/DEX hybrid weapons with a very high attack speed.
 - NEW WEAPON TYPE: Scythe! Scythes are two-handed STR/INT hybrid weapons.
-- NEW WEAPON TYPE: Greatsword! Gauntlets are two-handed STR weapons which can deal high damage.
+- NEW WEAPON TYPE: Greatsword! Greatswords are two-handed STR weapons which can deal high damage.
 - Staves now grant a new Skill as a base stat: Bolt. Bolt is a basic Physical projectile meant to give casters a "ranged basic attack". This Skill costs no Mana, and has a 1s cooldown.
 - Newly implemented SET BONUSES! Only seen on a few items at the moment - namely the end-game Genji, Oath of Mahj, Last Tracker, and Nebula sets.
 - New PATREON-designed Runeword: Crater! This item was designed by WornWar. Modifies Trap Skills to detonate upon impact! Also grants bonuses to Trap cooldown and Area of Effeect, at the expense of some Trap Damage!

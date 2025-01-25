@@ -124,7 +124,7 @@
 - New Unique Gauntlet: Facebreaker. This simple Unique gives large bonuses to Weapon Damage!
 - New Unique Greatsword: Shiversting. This Unique gives bonuses to Freeze Resistance!
 - New Unique Greatsword: Starforge. Starforge reduces all Elemental Damage dealt, but also causes all Lightning Damage to always Electrify.
-- New Unique Scythe: The Reaper's Toll. This simple Unique gives large bonuses to Weapon Damage!
+- New Unique Scythe: The Reaper's Toll. This Unique gives bonuses to Armor Penetration, Lifesteal, and Critical Hit!
 - Genji, Oath of Mahj, Last Tracker, and Nebula have been nerfed. Additionally a portion of their stats have been moved to the new set bonuses.
 - Some Runewords have been updated to allow the new Gauntlet type.
 - Doombolt Chaos Penetration has been reduced from 50-60% to 30-40%.

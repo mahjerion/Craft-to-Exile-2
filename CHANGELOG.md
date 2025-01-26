@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.9.0d] - 2025-01-26
+
+### Updates
+- Self Damaging Skills no longer take into account stats when calculating damage. That means self damage can't crit, it won't receive bonuses to Skill Damage, etc. Resistances still apply.
+- Holy Fire now deactivates if it deals damage to you while below 25% Health + Magic Shield.
+- Eighth Gate now does 50-25% Health self damage instead of 60-30%.
+- Self Damaging Skills have been streamlined to scale with max Health and Magic Shield instead of weapon damage, since the damage is no longer affected by damage stat bonuses. This also means you don't have to do that balancing act of not doing too much damage or you'd kill yourself (except this still applies to Holy Fire).
+- Added names to Classes GUI.
+- Favor is now capped at 2500 instead of going indefinitely.
+
+### Fixes
+- Fixed Holy Immolation proccing Frost Nova.
+- Removed the last source of Scroll of the Dead Sea.
+- Fixed Enchantment system. Should be able to apply more Enchantments to a variety of items now.
+- Fixed players having -25% Resistances at level 1.
+- Fixed crash on world creation.
+- Fixed infusion fails not incrementing uses.
+
+### Mod Updates
+- Updated Shoulder Surfing, Mine and Slash, Library of Exile.
+
 ## [0.9.0c] - 2025-01-26
 
 ### Updates
@@ -23,7 +44,7 @@
 - Fixed Flugel Tiara recipe.
 - Fixed a typo where Fury buff was called Elemental Assault.
 - Fxied Smoked Monster Flesh not being tagged as a Hammer.
-- Fixed an issue in VR where movement was not working due to ShoulderSurfing.
+- Fixed an issue in VR where movement was not working due to Shoulder Surfing.
 - Fixed some passive icons being squares instead of circles.
 
 ### Mod Updates

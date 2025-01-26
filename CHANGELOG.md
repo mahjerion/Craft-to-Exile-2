@@ -9,6 +9,7 @@
 - Self Damaging Skills have been streamlined to scale with max Health and Magic Shield instead of weapon damage, since the damage is no longer affected by damage stat bonuses. This also means you don't have to do that balancing act of not doing too much damage or you'd kill yourself (except this still applies to Holy Fire).
 - Added names to Classes GUI.
 - Favor is now capped at 2500 instead of going indefinitely.
+- Increased Twilight Forest difficulty substantially.
 
 ### Fixes
 - Fixed Holy Immolation proccing Frost Nova.

@@ -1,5 +1,35 @@
 # Changelog
 
+## [0.9.0c] - 2025-01-26
+
+### Updates
+- Chronomancer has had a small redesign. Alpha, Beta, and Gamma stacks are now consumed upon Skill completion. Additionally, they now have a max stack size of 3.
+- Timewinder ground effect's radius is now 1 instead of 1.25, and the effect only lasts for 2s on the ground instead of 3s.
+- Timewinder Beta mode and Alpha + Beta mode have swapped.
+- Chronobreak Cold and Lightning Resistance reduction is now increased from -10-20% to -15-30%.
+- Pulsar Singularity Trap's Gamma mode now also applies negative Lightning and Chaos Resistance in addition to the pull.
+- Crusader Retribution stack size is now capped at 5 instead of 3.
+- Mojang loading screen is now in dark mode.
+- You can now only have one Aura Effect active at a time, meaning two players with different Auras won't be able to stack. This is to prevent groups of 8 people sharing every Aura buff...
+- Added some clarity on Fury and Safeguard buffs.
+- Reduced default Damage Tilt Strength option to 25%.
+
+### Fixes
+- Fixed some unintended behaviour due to Vanilla repairs where you add two of the same item into the Crafting Table. The method is removed now.
+- Should fix server configs not being updated correctly with 0.9.X.
+- Corrected some weapon types.
+- Fixed Maps requiring Resistances again. I mean, technically you need at least -50%...
+- Fixed Void Worm End Rune and Heart Container drop rates.
+- Fixed Flugel Tiara recipe.
+- Fixed a typo where Fury buff was called Elemental Assault.
+- Fxied Smoked Monster Flesh not being tagged as a Hammer.
+- Fixed an issue in VR where movement was not working due to ShoulderSurfing.
+- Fixed some passive icons being squares instead of circles.
+
+### Mod Updates
+- Updated ImmediatelyFast, ModernFix, Vivecraft.
+- Removed Death Backup. The files take up a lot of space and we stable now.
+
 ## [0.9.0b] - 2025-01-25
 
 ### General

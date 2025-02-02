@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.9.1b] - 2025-02-02
+
+### Updates
+- Some Teams UI improvements thanks to Poe!
+- Certain build-enabling buffs have been increased from 30s back to 5 mins like before.
+- Armor and Dodge Talent Nodes have been buffed.
+- Stun effect now also gives -100% Damage.
+- Health from Strength has increased by 25%.
+- Reduced Asura cast time drastically.
+- Refresh cast time has reduced drastically.
+
+### Fixes
+- Fixed some missing weapon compats.
+- Fixed Auras not working.
+- Greatsword range is now 4.5 instead of 3.5, in line with other 2H weapons.
+- Rejuv and Astral Totem are now correctly tagged as magic.
+- Fixed Advance Team crash.
+- Disabled Sack, Urn, and Lunch Baskets due to an exploit.
+
+### Mod Updates
+- Updated Waystones, Doggy Talents Next, Advanced Team.
+
 ## [0.9.1] - 2025-02-02
 
 ### General Updates

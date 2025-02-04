@@ -1,5 +1,67 @@
 # Changelog
 
+## [0.9.1c] - 2025-02-04
+
+### Updates
+- Aura penalty has been lessened. It's now a static -20% instead of going from -40% to -20%.
+- Reverted Target Dummy resistance changes, they were affecting penetration stats.
+- Safeguard and Fury now give more % chance to get their respective stacks per level.
+- Fury and Safeguard now last 5 mins instead of 1.
+- Safeguard max level is now 4.
+- Lowered Tier mob damage scaling by 20%. The previous increase to this in combination with core stat nerfs was too much.
+- Accurate mobs no longer get Critical Hit.
+- Critical mobs no longer get Critical Damage.
+- Penetrating mobs have been nerfed drastically.
+- Lowered Alpha Yeti, Blockchain Goblin, Minoshroom, Minotaur, and Winter Wolf penetration values.
+- Reduced Warped Mosco damage by 25%.
+- Improved Ailment descriptions even more.
+- Modified Repair Kit Stone consumption value and increased Repair Kit repair rate.
+- Proc Skills no longer consume resources.
+- Blizzard has received the same treatment as Gong Strike and Whirlwind, and the amount of MS it scales with is now static instead of increasing per level.
+- Updated Gladiator_5 to use Physical Damage instead of Physical All Weapon Damage - functionally the same, just using an updated stat.
+- Reduced Twilight Forest difficulty by about 12.5% or so.
+- Revisited Prophecy Rewards. Weights have been shifted so you're now more likely to find higher-rarity Prophecies. However, costs have increased as an offset.
+- Scythe of the Harvest has been changed to a Helmet and is now called Bounty of the Harvest. The level to Harvest has also increased from 4 to 12-16.
+- Netherite Bastion now gives 35% Fire Damage Taken instead of 50%.
+- Corporeal Respite now gives 50% Physical Hits Damage Reduction and -60-30% Bleed Resistance instead of -150-100%.
+- Sniper Gamechanger now gives 40% More Basic Attack Damage as well.
+- The description on Projectile Skill Damage stat has been updated.
+- Chronomancer Skills have been changed to consume stacks on use instead of upon completion.
+- Reduced the cost of Turbo.
+- Map Affix nerfs/readjustments (buff for player). Reducing volatility/variance.
+- Chat box is immovable by default now, but there is a message on join showing you how to move it (Right CTRL).
+- Added some Undergarden Delight quests.
+- Added Milady Hat reward to Homestead quests.
+- Upped default Map Gen Mob Radius (doesn't apply to Official Server).
+- Positive Effect Strength nodes have been nerfed.
+- Generosity now gives 20% Positive Effect Strength instead of 25%, and it now also gives 8% Damage Received.
+- Moo.
+
+### Fixes
+- Fixed Krampus still spawning when it shouldn't have been.
+- Fixed Harvest and Boss Map rooms not generating.
+- Fixed Aquaculture fishes not being obtainable via fishing.
+- Fixed Obelisk teleport issue.
+- Fixed Katar not being registered as gauntlets.
+- Fixed some Party stuff.
+- Fixed Prophecy issues in Maps.
+- Fixed Buster Sword unknown stat.
+- Fixed Hyperion Greatsword unknown stat.
+- Fixed Master Backpack recipe.
+- Fixed Self Damage Skill description typo saying the opposite.
+- Fixed Mage Circle missing the Area and Buff tags.
+- Enabled FancyMenu for Advance Team UI.
+- Disabled the crafting of coinpile blocks due to an exploit. Sorry. :(
+- Fixed some Fishing loot tables being broken.
+- Orb of Foolish Risk no longer works on non-Jewels since they're static ranges anyway.
+- Fixed some weapons have incorrect ranges.
+- Quality now shows on gear correctly.
+- Fixed mobs insta-death on spawn bug.
+- Receive Ailment stat is now red when positive.
+
+### Mod Updates
+- Updated Library of Exile, Mine and Slash, Advanced Team, Aggro Indicator, Connectivity, CraftTweaker, EMI Loot, Farmer's Delight, Legendary Tabs, Lithostitched, Undergarden Delight, Waystones, Supplementaries, Sophisticated Mods.
+
 ## [0.9.1b] - 2025-02-02
 
 ### Updates
@@ -178,7 +240,7 @@
 - Nether end room, Stone Brick end room, Mossy Brick 3-way room, Sewers corner room, and Sandstone Boss rooms have been fixed. Thanks Builders!
 - Fixed missing entities from Anti Mob Farm mod blacklist.
 - Fixed certain passive fish giving combat experience.
-- Fixed Prophecy Unique reward being a thing.
+- Fixed Prophecy-specific Unique reward being a thing.
 - Corrected Battle of Wits stat description. It worked as intended but it said Health instead of Strength.
 - Hopefully fixed Runewords failing to craft sometimes.
 - Fixed Illusion of Defense showing as percent instead of on/off.

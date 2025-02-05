@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.9.2] - 2025-02-05
+
+### Updates
+- Chosen of Azuna Runeword has been nerfed.
+- You can now have a max of 5 claims instead of 3.
+- Ice Mazes can now spawn in Deep Cold Oceans as well.
+- Lowered Bonescaller health by 20%.
+- Removed Warped Mosco from Map Boss and Mob pool.
+- Ancient Obelisk difficulty has increased.
+- Magma Orb no longer gives Overheat, since Fire Golems cast it.
+- Updated player GUI a bit. Moved effects down to the center.
+- Updated Repair Kit quest to be a bit more descriptive.
+
+### Fixes
+- Fixed some localization.
+- Fixed Overheat not applying to Blood.
+- Fixed some Teams stuff.
+- Fixed Act II quest requiring materials from Act III.
+- Hopefully fixed some Player Data Error bug due to Connectivity.
+- Fixed a Crafting output exploit.
+- Fixed Elytra and Flugel Tiara not applying stats.
+- Fixed mobs having innate Critical Hit.
+
+### Mod Updates
+- Updated Advanced Team, Ancient Obelisks, Connectivity, Mine and Slash.
+- Downgraded Sophisticated Mods as we're trying to determine the cause of a Player Data Error on join bug.
+
 ## [0.9.1c] - 2025-02-04
 
 ### Updates

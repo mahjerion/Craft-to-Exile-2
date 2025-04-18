@@ -1,5 +1,83 @@
 # Changelog
 
+## [0.9.3] - 2025-04-17
+
+### Updates
+- A bunch of backend refactors for Mine and Slash to improve compatibility and performance. If there are any issues please let us know!
+- Stardew Valley fishing has been improved! Compatibility with Aquaculture bobbers has been implemented.
+- Skill sounds overhaul thanks to Poe! Most Skill have new sound files (over 100 new sounds files!) that should sound way more impactful!
+- Added a bunch of new textures for gear and Mine and Slash items thanks to mscr.!
+- There are 3 new one of a kind Gamechangers locked behind Blood Mage that provide additional interaction with Blood.
+- Blood Mage now gives 60% Health to Blood instead of 50%.
+- Overheat penalty to Mana and Energy has been reduced to 20% from 25% per stack, and the Blood penalty is now 10% per stack.
+- Meditation has been changed to provide bonuses to Blood as well.
+- Auras have been changed to only give -10% penalty to Blood Regen. Mana and Energy remain at 20%.
+- Reworked some sources of Mana and Energy Regen into Resource Regen, which affects Mana, Energy, and Blood.
+- Immolate now uses Support Gems from Holy Immolation and correct tags have been added.
+- Retribution stacks now give 8% Armor per stack instead of 4%.
+- Any Effects that have any negative component are no longer tagged as Positive, even if they're "buffs".
+- Cold Snap and Zap weapon scaling increased by 10%.
+- Timewinder weapon scaling increased by 15%.
+- Phase Dive weapon scaling increased by 20%.
+- Pulsar Singularity Trap scaling increased by 20%.
+- Parallel Convergence scaling increased by 25%.
+- Chronobreak scaling increased by 10%.
+- Fire Wall and Ice Comet can now trigger Elemental Burst.
+- Summon Wisp now summons 2 Wisps at 5 Soul Stacks.
+- Summon Spiders now has a longer cooldown of 2s instead of 0.5s between procs.
+- Summon Spiders damage has been reduced slightly.
+- Combo Starter Skills have had a 5% increase in damage.
+- Attack Speed now affects cast time on Attack Skills in addition to Cooldown Reduction at the same rate (25%).
+- Added connected glass textures.
+- Added Whistleshell Crab to kill list in Act IV quest.
+- Increased difficulty of Ancient Obelisks.
+- Improved Ancient Obelisks loot.
+- Modified Ancient Obelisks spawns to include modded mobs.
+- Map and Mob Affixes that convert Physical to Elemental Damage now have Gain Physical as Elemental Damage instead.
+- New Sculptor mob and Monastery structure in the Undergarden (Act III). A new quest has been added.
+- Lowered spawn rate of Umvuthana and Naga in the Undergarden.
+- Epilogue boss kill quests have been changed task type: Consume Item, and they now require the trophy to be completed. This should make the quests a little more consistent when attempting to complete.
+- Added some conversion recipes for OTBWG Crafting Tables and Beefs. Thanks Sainguin!
+- Tons of quest updates and fixes! Thanks Poe!
+- Sharpening Stone experience has been reworked.
+- Added coin downgrade recipes thanks to CreatorBurden!
+- MCA Villagers no longer take damage or deal damage to players and will lose there aggro apon attacked, they can still be killed by mobs.
+- Boss drop rework, thanks to Poe who made a few custom mods, Runes will now drop at there decided rates these drops will not show up in EMI.
+- Bows are now 2 Handed
+- Added 1 Handed Crossbows
+- Structures now respawn after a long period of time.
+- You can now Sit with Default: Insert.
+- As Illager Invasions are no longer possible, the Gateway will grant the Hero of the Village.
+
+### Fixes
+- Fixed Underminer spawns in Mineshafts.
+- Fix Party GUI overlapping.
+- Fixed Corrupted Jewels' Affixes being rerollable.
+- Fixed impossible to complete High Roller quest.
+- Fixed Assassin's Katar unique not showing up.
+- Fixed Map and Obelisk teleport lag.
+- Fixed Belly of the Beast food stat.
+- Fixed some stat descriptions.
+- Fixed Elven Traders being impossible.
+- Fixed Lootr chest textures.
+- Fixed Endermen spawning even when Mega Torches were placed.
+- Fixed some Boss Runes not dropping.
+- Summon pathing AI has been fixed/improved.
+- Improved Kill Quest detection.
+
+### Mod Updates
+- Updated a bunch of mods.
+- Updated Forge.
+- Added Athena.
+- Added The Harvest.
+- Added Dungeon Realm.
+- Added Blue Skies Delight.
+- Added ROE Sound Effects.
+- Added Loot and Entity Protection mods.
+- Added Sit & Chill.
+- Added Quest Kill Task Tweaks.
+- Added Custom NPCs - mostly to be used for Official Server, but players can still use this as well.
+
 ## [0.9.2] - 2025-02-05
 
 ### Updates
@@ -12,6 +90,7 @@
 - Magma Orb no longer gives Overheat, since Fire Golems cast it.
 - Updated player GUI a bit. Moved effects down to the center.
 - Updated Repair Kit quest to be a bit more descriptive.
+- Common variants of weapons are now craftable.
 
 ### Fixes
 - Fixed some localization.

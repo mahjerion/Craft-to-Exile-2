@@ -4,6 +4,7 @@
 
 ### Updates
 - A bunch of backend refactors for Mine and Slash to improve compatibility and performance. If there are any issues please let us know!
+- New Map League mechanic! Relics drop from Map Bosses and Uber Bosses, and socketing them into the Map Device will boost your Maps, allowing you to either 'juice' them up, or pick what specific content you want to play!
 - Stardew Valley fishing has been improved! Compatibility with Aquaculture bobbers has been implemented.
 - Skill sounds overhaul thanks to Poe! Most Skill have new sound files (over 100 new sounds files!) that should sound way more impactful!
 - Added a bunch of new textures for gear and Mine and Slash items thanks to mscr.!

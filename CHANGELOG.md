@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.9.3] - 2025-04-17
+## [0.9.3] - 2025-04-18
 
 ### Updates
 - A bunch of backend refactors for Mine and Slash to improve compatibility and performance. If there are any issues please let us know!

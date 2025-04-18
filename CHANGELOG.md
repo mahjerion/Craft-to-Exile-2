@@ -42,9 +42,9 @@
 - Sharpening Stone experience has been reworked.
 - Added coin downgrade recipes thanks to CreatorBurden!
 - MCA Villagers no longer take damage or deal damage to players and will lose there aggro apon attacked, they can still be killed by mobs.
-- Boss drop rework, thanks to Poe who made a few custom mods, Runes will now drop at there decided rates these drops will not show up in EMI.
-- Bows are now 2 Handed
-- Added 1 Handed Crossbows
+- Boss drop rework/fix. Dimension Runes are no longer affected by Anti-Mob Farm, but they won't appear in EMI Loot anymore.
+- Bows are now two-handed.
+- Added one-handed Crossbows.
 - Structures now respawn after a long period of time.
 - You can now Sit with Default: Insert.
 - As Illager Invasions are no longer possible, the Gateway will grant the Hero of the Village.
@@ -71,7 +71,6 @@
 - Added Athena.
 - Added The Harvest.
 - Added Dungeon Realm.
-- Added Blue Skies Delight.
 - Added ROE Sound Effects.
 - Added Loot and Entity Protection mods.
 - Added Sit & Chill.

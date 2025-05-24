@@ -1,5 +1,59 @@
 # Changelog
 
+## [0.9.4] - 2025-05-24
+
+### Updates
+- There's a new Potion Quick Consume key that's by default set to Y. This is now mentioned in Taking On Work in Act I.
+- Armor and Armor Toughness vanilla stats now grant 0.1% Gear Defense instead of 0.5% Armor. This is now mentioned in the Lost Page in Act III.
+- Firing Kunai is now instant instead of requiring a charge up.
+- Holy Fire's damage increased from 10% to 11% of your Max Health.
+- Holy Fire's self-damage portion is now 33% of your Max Health instead of 40%.
+- Proc Skills such as Blood Explosion, Cinder, Ignite Explosion, Immolate, Kinetic Blast, Profane Explosion, and Venom now have a built-in cooldown of 10 ticks instead of 5 ticks. This change was made to target the really low cooldown proc Skills which were just too overwhelming in terms of combat power.
+- Reduced Holy Immolation's Immolate proc chance by 20% (40%->80% instead of 50%->100%).
+- Hemmorhage's proc Blood Explosion on crit chance and Critical Damage reduced to 4% per stack, down from 5%.
+- The below changes were made to make the Brawler feel more fluid and more rewarding for pulling off a full combo.
+- Brawler Skills now have a base cooldown of 1.5s instead of 2s.
+- Brawler Finishers have had their Weapon Damage Scaling increased by 50%. For example, Raging Dragon used to scale from 150%->200% with levels, now it scales from 225%->300%. Note that the Energy Scaling on Asura remains untouched.
+- Eighth Gate self damage is now 35%->17.5% instead of 50%->25%.
+- Overheat now grants 25% MORE Spell Damage per stack instead of 20%.
+- Cooling off Overheat now recovers 10% of your Mana instead of 50% of your Weapon Damage.
+- Mage Circle now grants 20%->40% MORE Skill Damage instead of 12.5%->25%.
+- Shaman Lightning projectile Skills have had their damage increased by 5%.
+- Cyclone damage increased by 10%.
+- Hunter's Mark now has a max of 1 stack instead of 10. 
+- Hunter's Mark now causes the enemy to gain 30%->60% Damage Received instead of 10%->25%.
+- Increased Chronomancer damage across the board by approximately 10-20%. This change and the changes below are meant to make the Chronomancer a little more rewarding to use, as the setup is quite lengthy.
+- Timewinder Alpha mode now causes enemies to take 50%->100% more lightning damage taken instead of 25%->50%.
+- Chronobreak Alpha + Beta mode resistance decrease is now 20%->40% instead of 15%->30%.
+- Corporeal Respite Bleed Resistance penalty is now -50%->-25% instead of -60%->-30%.
+- Tome Offhand Physical Resist increased by 33%.
+- Chaos stat which gives Damage Reduction now gives Physical Resist.
+- Added a new suffix that can appear on Jewelry and Offhands that gives Physical Resist.
+- Refined Storage Controller capacity is now 24k instead of 1024k - performance related.
+- Disabled Crow spawns - performance related.
+- Sound fixes for Poison Cloud and Resonance.
+
+### Fixes
+- Fixed an issue where Pink Brewberry was providing 60.07 food diversity instead of 0.07.
+- How Bad Could It Be in Act I now requires kills instead of the Advancement.
+- Dissassembler's Method tooltip now correctly states 2x instead of 3x EXP.
+- Fixed entity level overrides for Harvest and Obelisk Maps.
+- Fixed an issue where Waystones weren't generating correctly.
+- Coin Minting is disabled correctly now, even if the Coin Minter is somehow earned.
+- Fixed Watcher Map end room which was causing crashes.
+- Looting Enchant tooltip now correctly says 1% instead of 2% Item Find.
+- Fixed some log spam from Outer End.
+- Attempt fix at Umvuthana and Monastery natural spawns.
+- Fixed a broken task in Act V.
+- Fixed an issue where you could offhand a weapon while holding a Spear.
+
+### Mod Updates
+- Updated CTOV, Aggro Indicator, AmbientSounds, Balm, Carbon Config, Chloride (Embeddium), CraftPresence, Doggy Talents, Dungeons Enhanced, Ender's Delight, Enhanced AI, Enhanced Celestials, Entity Loot Drops, EntityJS, Euphoria Patcher, Extreme Sound Muffler, FancyMenu, First Join Message, Framework, ImmersiveMC, In Control!, Jade Addons, Kiwi, Legendary Tabs, Lightman's Currency, Lithostitched, Macaw's, Mine and Slash, MCA, ModernFix, Moonlight, More Sniffer Flowers, Mowzie's Mobs, Mysterious Mountain Lib, Nirvana Library, Oh The Tree's You'll Grow, Repurposed Structures, RoE Weapons, Shoulder Surfing, SkyBreaker, Sophisticated mods, Supplementaries, UniLib, U Team Core, Waystones, Xaero's mods.
+- Updated Complementary Shaders.
+- Added Data Anchor.
+- Removed Hidden Names - performance issues.
+- Removed Custom NPCs - was only supposed to be used for Official Server but was causing huge performance issues.
+
 ## [0.9.3b] - 2025-04-22
 
 ### Updates

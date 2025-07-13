@@ -1,5 +1,34 @@
 # Changelog
 
+## [1.0.1] - 2025-07-13
+
+### Updates
+- All Skills no longer knockback enemies except a select few. The proc explosions, Charge, Fire wall, Wind Slasher, Kick, and Snipe. Descriptions have been updated to explicitly state this.
+- Added some new Physical Resist nodes to the Talent Tree in the INT portions.
+- You now get an Iron Backpack from the Prologue instead of a regular Backpack.
+- Updated Bounty Hunting quest from Professions chapter.
+- Reduced base Health and Magic Shield regen to be 3 instead of 5. It's still much great than 0.9.5.
+- Reduced kill experience by 25%, it's still 50% (intead of 100%) more than 0.9.5.
+- Changed cost of Extraction Bottle from More Sniffer Flowers.
+- Reduced the cost of the keys that open chests from fishing from 8 stones to 4 stones.
+- Improved description for Ossukage spawn.
+
+### Fixes
+- Fixed Ancient Structure not spawning the block required to summon Ossukage.
+- Fixed Act Gateways not spawning.
+- Fixed mobs not correctly dropping vanilla materials.
+- Fixed incorrect Bountiful butcher objective entry.
+- Fixed default keybind overlap. Removed hide MnS team GUI, and changed Zoom off Ctrl+C to only Z.
+- Fixed rare Linux-based crash.
+- Fixed Soulfeast Tine unique's invalid stat.
+- Fixed incorrect Jar of Bonmeel quest explanation.
+- Fixed autosalvage, create public team, armor mitigation localization.
+- Fixed Hollowed quest name localization.
+
+### Mod Updates
+- Updated EntityLootDrops, MIMI, Sophisticated Backpacks.
+- Added Doggy Talents Next resourcepack - changes to 16x16 to better fit pack theme.
+
 ## [1.0.0] - 2025-07-12
 
 ### Acknowledgments

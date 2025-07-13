@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2] - 2025-07-13
+
+### Updates
+- I changed my mind regarding some explosive skills. Quake, Fist of Judgment, Meteor, Ice Comet, Revenant Slam (cold portion), Explode Minions, and Noise now have knockback.
+
+### Fixes
+- WOOPS I broke 43 Skills because I forgot a comma. Fixed!
+
 ## [1.0.1] - 2025-07-13
 
 ### Updates

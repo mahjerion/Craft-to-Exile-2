@@ -51,6 +51,7 @@
 - Auto-salvaging no longer gives Rested Combat Experience or use up Rested Profession Experience.
 - Fixed up some Doggy Talent quest descriptions.
 - Fixed an issue where client config for effect bar GUI was incorrectly affecting spell hotbar GUI.
+- Fixed an issue where when in a MnS party, your own damage numbers would be shown in duplicate.
 
 ### Mod Updates
 - Updated Advanced Team, Entity Loot Drops, Lightman's Currency, Mine and Slash, Modern Fix, Shoulder Surfing.

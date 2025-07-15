@@ -26,6 +26,8 @@
 - Improved Crafting Station text and swapped the start and stop icons so it's more intuitive.
 - Salvaging Station no longer shows an empty slot that does absolutely nothing.
 - Changed default keybind for build showcase to Ctrl + I so it doesn't overlap with magnet.
+- Improved Curio slot visibility for Necklaces and Rings.
+- Collapsed Body and Elytra Curio slots.
 
 ### Fixes
 - Fixed Siphoner missing localization and icon.

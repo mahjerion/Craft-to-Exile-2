@@ -5,18 +5,20 @@
 ### Updates
 - Check out the CTE2 equivalent to POB https://cofeiini.github.io/cte2-planner/ by Lunia! It can only do Talent Tree planning, but this is massive! Huge props to Lunia and co.
 - Added an additional Official NA Server Harrogath to the default server list. You'll only see this on a fresh install. For those of you just updating an existing instance, the IP is: crafttoexile2-harrogath.g.akliz.net
+- We now have controller support! Please try it out and let me know how it is. Note that using controllers is NOT compatible with third-person view. https://github.com/mahjerion/Craft-to-Exile-2/wiki/Controller-Support
 - Added a new Lv. 30 Support Gem: Battery! This gem grants Skill Damage based on your Magic Shield but has a higher Mana multiplier.
 - Flicker Strike now targets the nearest enemy. If there are no enemies, it will teleport you straight. I made this change to differentiate it from some other movement skills. Also, it's more like PoE hehe.
 - Corporeal Respite max level is now 8 instead of 16.
 - Corporeal Respite no penalty to bleed damage taken has decreased.
 - Chronomancer skills no longer require Mage Weapons.
+- Arrow Totem arrow stays out 25% less duration - it flies 25% less distance.
 - Brutalizer stat now shows the max amount you can have.
 - Gateways now have a smaller radius for spawning mobs (no more mobs spawning on high ceilings) and will leash mobs back to the Gateway if they go 16 blocks out instead of 32 blocks out (no more witches that run off into the sunset).
 - Added some sus blocks to the map reward rooms.
 - Reduced mob count and rate in Obelisk and Harvest arenas.
 - Act Gateways now have a 2 minute cooldown period, per player.
 - You now get a Small Passive Reset Potion in the Prologue chapter.
-- Iron Backpack reward in Prologue chapter changed back to normal Backpack.
+- Backpack side quest now requires a Diamond Backpack instead of iron.
 - Improved introduction to Runeword in Prologue chapter to clarify requirements.
 - Act III quest where you need to find the Ice Maze no longer requires you to also find the deep frozen ocean biome.
 - Made some hobby quests easier to complete.
@@ -31,6 +33,9 @@
 - Improved Curio slot visibility for Necklaces and Rings.
 - Collapsed Body and Elytra Curio slots.
 - Updated textures for Lightman's Currency wallets that were missing the updated textures.
+- Botania Pixies no longer give experience and loot.
+- Doggy Talents Doggy health increased by 25%.
+- Quiver is now hidden from HUD by default.
 
 ### Fixes
 - Fixed Siphoner missing localization and icon.
@@ -53,9 +58,11 @@
 - Fixed up some Doggy Talent quest descriptions.
 - Fixed an issue where client config for effect bar GUI was incorrectly affecting spell hotbar GUI.
 - Fixed an issue where when in a MnS party, your own damage numbers would be shown in duplicate.
+- Fixed Botania impossible repeatable quest.
 
 ### Mod Updates
-- Updated Advanced Team, Entity Loot Drops, Lightman's Currency, Mine and Slash, Modern Fix, Shoulder Surfing.
+- Updated Advanced Team, Entity Loot Drops, Fzzy Config, Lightman's Currency, Mine and Slash, Modern Fix, Shoulder Surfing.
+- Added Controller Support Mod and Union Lib.
 
 ## [1.0.2] - 2025-07-13
 

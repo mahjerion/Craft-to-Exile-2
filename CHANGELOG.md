@@ -15,6 +15,7 @@
 - Act Gateways now have a 2 minute cooldown period, per player.
 - You now get a Small Passive Reset Potion in the Prologue chapter.
 - Iron Backpack reward in Prologue chapter changed back to normal Backpack.
+- Act III quest where you need to find the Ice Maze no longer requires you to also find the deep frozen ocean biome.
 - Made some hobby quests easier to complete.
 - Improved description for Palette.
 - Added descriptions to all the new compat food buffs that give Mine and Slash stats.

@@ -28,6 +28,7 @@
 - Changed default keybind for build showcase to Ctrl + I so it doesn't overlap with magnet.
 - Improved Curio slot visibility for Necklaces and Rings.
 - Collapsed Body and Elytra Curio slots.
+- Updated textures for Lightman's Currency wallets that were missing the updated textures.
 
 ### Fixes
 - Fixed Siphoner missing localization and icon.

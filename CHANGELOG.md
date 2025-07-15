@@ -13,6 +13,7 @@
 - Brutalizer stat now shows the max amount you can have.
 - Gateways now have a smaller radius for spawning mobs (no more mobs spawning on high ceilings) and will leash mobs back to the Gateway if they go 16 blocks out instead of 32 blocks out (no more witches that run off into the sunset).
 - Added some sus blocks to the map reward rooms.
+- Reduced mob count and rate in Obelisk and Harvest arenas.
 - Act Gateways now have a 2 minute cooldown period, per player.
 - You now get a Small Passive Reset Potion in the Prologue chapter.
 - Iron Backpack reward in Prologue chapter changed back to normal Backpack.

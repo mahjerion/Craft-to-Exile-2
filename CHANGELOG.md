@@ -1,5 +1,48 @@
 # Changelog
 
+## [1.0.3] - 2025-07-15
+
+### Updates
+- Check out the CTE2 equivalent to POB https://cofeiini.github.io/cte2-planner/ by Lunia! It can only do Talent Tree planning, but this is massive! Huge props to Lunia and co.
+- Added an additional Official NA Server Harrogath to the default server list. You'll only see this on a fresh install. For those of you just updating an existing instance, the IP is: crafttoexile2-harrogath.g.akliz.net
+- Flicker Strike now targets the nearest enemy. If there are no enemies, it will teleport you straight. I made this change to differentiate it from some other movement skills. Also, it's more like PoE hehe.
+- Corporeal Respite max level is now 8 instead of 16.
+- Corporeal Respite no penalty to bleed damage taken has decreased.
+- Chronomancer skills no longer require Mage Weapons.
+- Brutalizer stat now shows the max amount you can have.
+- Gateways now have a smaller radius for spawning mobs (no more mobs spawning on high ceilings) and will leash mobs back to the Gateway if they go 16 blocks out instead of 32 blocks out (no more witches that run off into the sunset).
+- Added some sus blocks to the map reward rooms.
+- Act Gateways now have a 2 minute cooldown period, per player.
+- You now get a Small Passive Reset Potion in the Prologue chapter.
+- Made some hobby quests easier to complete.
+- Improved description for Palette.
+- Added descriptions to all the new compat food buffs that give Mine and Slash stats.
+- Summon AI has been further improved. They can now trudge through water and swim.
+- Backpacks now respect the autosalvage rules when using the button that takes from chest into backpack.
+- Improved Crafting Station text and swapped the start and stop icons so it's more intuitive.
+- Salvaging Station no longer shows an empty slot that does absolutely nothing.
+- Changed default keybind for build showcase to Ctrl + I so it doesn't overlap with magnet.
+
+### Fixes
+- Fixed Siphoner missing localization and icon.
+- Fixed Combat Talent missing localization.
+- Fixed some Watcher Eye affixes missing localization.
+- Fixed Bountiful rewards on servers.
+- Fixed a bug where gateways were spawning out the wazoo.
+- Fixed Raging Dragon sound file being incorrect.
+- Fixed Profession crafting quest referencing old recipe.
+- Fixed an incorrect Bountiful objective involving the Bluebright Stick.
+- Fixed a bug with Gear Crafting where Charoite and Diopside were not registering in the recipes.
+- Old Create tip has been removed.
+- Fixed Void Blossom spawning in Overworld.
+- Fixed a spot in one of the Harvest arenas where mobs could get stuck.
+- Fixed an issue where summons would beat everything up.
+- Auto-salvaging no longer gives Rested Combat Experience or use up Rested Profession Experience.
+- Fixed up some Doggy Talent quest descriptions.
+
+### Mod Updates
+- Updated Advanced Team, Entity Loot Drops, Lightman's Currency, *Mine and Slash*, Modern Fix, Shoulder Surfing.
+
 ## [1.0.2] - 2025-07-13
 
 ### Updates

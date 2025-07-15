@@ -28,7 +28,7 @@
 - Fixed Combat Talent missing localization.
 - Fixed some Watcher Eye affixes missing localization.
 - Fixed Bountiful rewards on servers.
-- Fixed a bug where gateways were spawning out the wazoo.
+- Fixed a bug where Gateways were spawning out the wazoo.
 - Fixed Raging Dragon sound file being incorrect.
 - Fixed Profession crafting quest referencing old recipe.
 - Fixed an incorrect Bountiful objective involving the Bluebright Stick.
@@ -39,6 +39,7 @@
 - Fixed an issue where summons would beat everything up.
 - Auto-salvaging no longer gives Rested Combat Experience or use up Rested Profession Experience.
 - Fixed up some Doggy Talent quest descriptions.
+- Fixed an issue where client config for effect bar GUI was incorrectly affecting spell hotbar GUI.
 
 ### Mod Updates
 - Updated Advanced Team, Entity Loot Drops, Lightman's Currency, *Mine and Slash*, Modern Fix, Shoulder Surfing.

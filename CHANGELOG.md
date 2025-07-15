@@ -5,6 +5,7 @@
 ### Updates
 - Check out the CTE2 equivalent to POB https://cofeiini.github.io/cte2-planner/ by Lunia! It can only do Talent Tree planning, but this is massive! Huge props to Lunia and co.
 - Added an additional Official NA Server Harrogath to the default server list. You'll only see this on a fresh install. For those of you just updating an existing instance, the IP is: crafttoexile2-harrogath.g.akliz.net
+- Added a new Lv. 40 Support Gem: Battery! This gem grants Skill Damage based on your Magic Shield but has a higher Mana multiplier.
 - Flicker Strike now targets the nearest enemy. If there are no enemies, it will teleport you straight. I made this change to differentiate it from some other movement skills. Also, it's more like PoE hehe.
 - Corporeal Respite max level is now 8 instead of 16.
 - Corporeal Respite no penalty to bleed damage taken has decreased.
@@ -33,6 +34,9 @@
 ### Fixes
 - Fixed Siphoner missing localization and icon.
 - Fixed Combat Talent missing localization.
+- Fixed Rallying March missing localization.
+- Fixed Infection missing localization and icon.
+- Removed unused Combo Finisher effect.
 - Fixed some Watcher Eye affixes missing localization.
 - Fixed Bountiful rewards on servers.
 - Fixed a bug where Gateways were spawning out the wazoo.
@@ -49,7 +53,7 @@
 - Fixed an issue where client config for effect bar GUI was incorrectly affecting spell hotbar GUI.
 
 ### Mod Updates
-- Updated Advanced Team, Entity Loot Drops, Lightman's Currency, *Mine and Slash*, Modern Fix, Shoulder Surfing.
+- Updated Advanced Team, Entity Loot Drops, Lightman's Currency, Mine and Slash, Modern Fix, Shoulder Surfing.
 
 ## [1.0.2] - 2025-07-13
 

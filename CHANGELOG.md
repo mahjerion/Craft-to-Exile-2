@@ -14,11 +14,13 @@
 - Added some sus blocks to the map reward rooms.
 - Act Gateways now have a 2 minute cooldown period, per player.
 - You now get a Small Passive Reset Potion in the Prologue chapter.
+- Iron Backpack reward in Prologue chapter changed back to normal Backpack.
 - Made some hobby quests easier to complete.
 - Improved description for Palette.
 - Added descriptions to all the new compat food buffs that give Mine and Slash stats.
 - Summon AI has been further improved. They can now trudge through water and swim.
 - Backpacks now respect the autosalvage rules when using the button that takes from chest into backpack.
+- Harvest and Ancient Obelisk maps now go into the Mine and Slash Master Bag.
 - Improved Crafting Station text and swapped the start and stop icons so it's more intuitive.
 - Salvaging Station no longer shows an empty slot that does absolutely nothing.
 - Changed default keybind for build showcase to Ctrl + I so it doesn't overlap with magnet.

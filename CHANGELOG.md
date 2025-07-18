@@ -48,7 +48,7 @@
 - Fixed Dimension Rune drops being bugged.
 - Fixed FancyMenu log spam.
 - Mowzies Mobs Spear can now have proper enchantments.
-- Fixed summon targeting AI.
+- Fixed summon targeting AI - they'll no longer ignore neutral enemies if they're angered.
 - Fixed missing localization.
 - Fixed Cursed Spear not being 2-handed.
 - Fixed Gateway spawns.

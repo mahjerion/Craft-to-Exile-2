@@ -2,6 +2,9 @@
 
 ## [1.0.5] - 2025-07-18
 
+### Reminders
+- Always back up your world saves, Xaero's folders, and your options.txt file just in case!
+
 ### Updates
 - Added Remnant Gateway Pearl. Mentioned it in the quest.
 

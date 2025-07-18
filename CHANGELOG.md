@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.5] - 2025-07-18
+
+### Updates
+- Added Remnant Gateway Pearl. Mentioned it in the quest.
+
+### Fixes
+- Fixed crash.
+- Fixed incorrect lang for Ignite Explosion.
+
+### Mod Updates
+- Downgraded Waystones.
+
 ## [1.0.4] - 2025-07-18
 
 ### Reminders

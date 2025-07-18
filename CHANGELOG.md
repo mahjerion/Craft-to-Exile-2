@@ -1,5 +1,72 @@
 # Changelog
 
+## [1.0.4] - 2025-07-18
+
+### Reminders
+- Always back up your world saves, Xaero's folders, and your options.txt file just in case!
+
+### Updates
+- Minor change but big impact: % x stat gained as y stat now has proper priority in calculations. This means something like Mantra, which grants % Mana gained as Flat Physical Basic Attack Damage no longer is calculated at the same time as % Health gained as Mana (thereby losing out on the bonus from Health). The general order (from first calculated to last) is: stats that scale from or into resources (Health per Mana, Armor per Mana, etc.) > general non-damage stat changes (includes defenses, regen, attributes) > damage stats, even if they scale off of Resources (Skill Damage per Magic Shield, Weapon Damage per Health, etc.) > functional/back-end stats (Draw Speed per Attack Speed, Weapon Skill Cooldown per Attack Speed).
+- Archeology underwent an overhaul thanks to councilfarciminis2. Loot tables now include modded and Mine and Slash materials and should be more rewarding.
+- Added server-side blacklist for summon targeting. Allays and Armor Stands are included.
+- Added recipes for up to rare RoE weapons.
+- Atronach unique is now a Tome instead of a Staff.
+- Corrupted/Chaos stats that convert phys to an element now give gained as element instead.
+- Battery Support Gem now also grants a penalty to leech effects caused by the supported skill.
+- Added 2 new corrupts. Magic Find for rings, and Increased Quantity for necklace.
+- Added 1 new jewel corrupt which gives MF and IQ.
+- Added 2 new Augments: Critical Strikes and Critical Magnitude, which increased Critical Hit and Damage respectively.
+- Most sources of Magic Find have increased.
+- Gear drop rate increased by 25%.
+- Mob despawn range in maps is higher, meaning they won't despawn unless you run further away.
+- Map completion buffer has increased, making it a bit easier to reach 100% completion.
+- Threshold for completion rarities has decreased, making it easier to reach Mythic, etc.
+- Mob damage formula has been changed very slightly, resulting in increased mob damage at lower levels but should be roughly the same at high levels.
+- Increased Obelisk loot rewards
+- Harvest maps drop a bit less frequently.
+- Increased Harvest mob spawns.
+- Increased spawn rate of Woodland Mansions.
+- Made a change that should cap the amount of damage your gear can take per hit, which should alleviate early game armors being blown up in one hit.
+- Clarified Harmony Gamechanger.
+- Frost Trap no longer stuns enemies with each pulse, but still stuns when the enemy is hit after receiving Encased.
+- Frost Trap damage reduced to be more inline with what other traps are dealing.
+- Crusader auras should now show the effect correctly.
+- Juggernaut's Undeniable no longer gives Accuracy > Attack Speed, it now gives the user a chance to proc Grapple on crit.
+- Slowed down Ossukage phase 2 greatly.
+- Added 3 new craftable Waystone variants.
+- Increased Mimi client sound volume.
+- Blood Moon mob spawn rate lowered greatly.
+- Increased kill experience gain by 33%, back to 1.0.0 rates.
+- Increased mob spawns on official servers.
+- Disabled specialized moon events on the official servers.
+
+### Fixes
+- Fixed Tridents sometimes being tagged as Trident type.
+- Fixed the cool armors being soul cleanable.
+- Fixed incorrect lang on foods for real this time.
+- Fixed Lv. 100 jewelry crafting issue.
+- Fixed Dimension Rune drops being bugged.
+- Fixed FancyMenu log spam.
+- Mowzies Mobs Spear can now have proper enchantments.
+- Fixed summon targeting AI.
+- Fixed missing localization.
+- Fixed Cursed Spear not being 2-handed.
+- Fixed Gateway spawns.
+- Fixed Nether Keeper and Awful Ghast drop rates for quest completion.
+- Fixed missing model for Order of Despair unique.
+- Tried fixing some broken line breaks in enchantment descriptions.
+- Fixed Sculptor quest task requirements.
+- Fixed inaccessible chests in the Victory Frigate.
+- Fixed some Food Diversity milestones being wrong or missing.
+- Fixed some stat localization inconsistencies regarding Attack Speed.
+- Fixed potato exp bug.
+- Fixed Remnant Saber not having weapon type.
+
+### Mod Updates
+- Updated Balm, Entity Culling, Entity Loot Drops, Inventory Essentials, Lightman's Currency, Mine and Slash, Packet Fixer, RoE Weapons, Simple Backups, Skin Layers 3D, Waystones.
+- Updated Forge.
+- Removed Controller Support Mod - I'll leave it as optional and keep all the information on setting it up on the wiki.
+
 ## [1.0.3] - 2025-07-15
 
 ### Updates

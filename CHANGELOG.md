@@ -29,7 +29,7 @@
 - Removed Bonwiltia, changed Dyespria Seed drop to Dyescrapia, and moved Dyescrapia + Acidripia Seed drop from Amber to Garnet Block.
 - Revamped the Sniffer Flowers quest line to reflect the above.
 - Added conversion recipes that turn cobble and sand variants to cobblestone/sand. Thanks Sainguin!
-- Disabled Red String and Tiny Planets due to exploit.
+- Disabled Red String Container and Tiny Planets due to exploit.
 - You can now craft normal Waystones and Mossy Waystones with special recipes.
 - Reduced the cost of the craftable Waystone drastically.
 - Increased Bounty Slip rewards by double.

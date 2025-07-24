@@ -1,5 +1,80 @@
 # Changelog
 
+## [1.0.6] - 2025-07-24
+
+### Reminders
+- Always back up your world saves, Xaero's folders, and your options.txt file just in case!
+
+### Updates
+- Added a new useable item that teleports you and your nearest allies to the Boss Teleporter block when in a map. This item is removed when you leave the map dimension. Thanks DubleDice!
+- Increased bonus experience for partying up from 20% to 50%. With 2 players, the old behavior was 120% of experience divided by 2 = 60%. Now, it's 150% split to 2 = 75%.
+- Increased ailment chance on a lot of skills that have it as a stat innately. Especially multi-hit skills.
+- Reduced the area in which each individual ice chunk can hit by 33% for Glacial Phoenix.
+- Ice Comet damage reduced by roughly 5%.
+- Lowered number of heart particle effects on Frost Nova.
+- Phase Dive mana cost reduced.
+- Modified Fury icon to be a little different from Combo Extender icon.
+- Wounds effect now applies +15% chance to receive Bleed effect and -10% Bleed Resistance instead of -50% Heal Effect on self (mobs don't really heal).
+- Hunter's Potion no longer requires ranged weapons to use.
+- Hunter's Potion cooldown reduced from 45s to 20s.
+- Vexes now always spawn at common rarity.
+- Split Defenders of the Nether into 2 quests, one for each boss. Added images to show what the structure looks like (thanks Kythulu!).
+- Added a new quest going over Kobold Armor Trims in Act I.
+- Added a new main-line quest in Act II for the Netherite Upgrade/Remnant Bastion.
+- Quartz now gives more mining exp.
+- Supplementaries Flower Box simple mode has been disabled - it can now contain more than one tall flower item per block.
+- Turned off flower rendering in Xaero's maps by default.
+- Changed weightings of Garnet and Amber blocks so they're a bit less strong.
+- You can no longer get Corrupted Saplings or Corrupted Slime Balls. The Garbush Seed is obtainable through Amber and Garnet blocks.
+- Removed Bonwiltia, changed Dyespria Seed drop to Dyescrapia, and moved Dyescrapia + Acidripia Seed drop from Amber to Garnet Block.
+- Revamped the Sniffer Flowers quest line to reflect the above.
+- Added conversion recipes that turn cobble and sand variants to cobblestone/sand. Thanks Sainguin!
+- Disabled Red String and Tiny Planets due to exploit.
+- You can now craft normal Waystones and Mossy Waystones with special recipes.
+- Reduced the cost of the craftable Waystone drastically.
+- Increased Bounty Slip rewards by double.
+- Nerfed map salvaging output.
+- Reduced cost of Kami Treat.
+- Removed ALL ALLIES option in MNS Features hub as it doesn't accomplish what we wanted it to and it causes a ton of confusion.
+- Updated MCA guard list so they target Born in Chaos mobs as well. Thanks Kuktar!
+- Official servers now wipe the map/Harvest/Obelisk dimensions on a daily basis thanks to Poe.
+
+### Fixes
+- Fixed an issue where buttons and such were not interactable in Should Surfing mode. The camera now also properly decouples itself from the player unless holding a weapon or throwable.
+- Fixed an issue where the chaos/corrupt stats that give phys as extra elemental damage change was not implemented correctly.
+- Fixed an issue where Awful Ghast would sometimes not drop anything.
+- Removed remnant button in settings menu.
+- Unbound ChatPlus peek key due to conflict.
+- Removed erroneous command block in Sewer2 map.
+- Fixed a spot in Mansion map where mobs were getting stuck.
+- Moved Harvest spawner in Aztec which was causing mobs to spawn in the wall.
+- Fixed innate golem spell chance not working.
+- Fixed Daw and Bri Rune drops in Blue Skies dims.
+- Ferrous Wroughtnaut quest should be more consistent to complete now.
+- Caught in the Web quest should be more consistent to complete now.
+- Fixed missing Hemorrhager icon.
+- Fixed level 80-99 jewelry profession recipes containing air.
+- Fixed Windfury Runeword Cyclone being cast by enemies instead of user.
+- Fixed no food stats on Cabbage Wrapped Elder Guardian.
+- Disabled some MCA customization which was causing issues.
+- Fixed a bug where Night Lich tower wasn't spawning.
+- Fixed a bug where Unique drops were not respecting the minimum level requirement.
+- Fixed Phase Dive knocking back (it should not).
+- Fixed incorrect naming for Leech gems in Campaign Shop and rewards.
+- Removed Offensive tag from Blessed Aim (shouldn't be there).
+- Made some changes to the Obsidilith Arena that should alleviate some pain points on generation.
+- Hopefully reduce Talent Tree lag.
+- Fixed Nature Dungeon Uber Arena spawn.
+- Removed incorrect Sharpening Stone gear crafting recipe.
+- Fixed incorrect quest description for Harvest event.
+- Fixed Lightning Golem casting Frost Nova.
+- Fixed some vector stuff still happening even when KB was disabled.
+
+### Mod Updates
+- Updated Crafting Tweaks, Default Options, Dungeon Realms, EnhancedAI, EntityJS, FancyMenu, GeckoLib, Inventory Essentials, MCA, Mine and Slash, More Sniffer Flowers, Remnant Bosses, RoE Weapons, Sophisticated Backpacks, Xaero's.
+- Added EMI Ores.
+- Added Dimensional Threading.
+
 ## [1.0.5] - 2025-07-18
 
 ### Reminders

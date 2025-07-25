@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.0.7] - 2025-07-25
+
+### Reminders
+- Always back up your world saves, Xaero's folders, and your options.txt file just in case!
+
+### Updates
+- Added a new large Obelisk arena thanks to councilfarciminis2. This arena is inspired by the PoE trials.
+- Added food + Mine and Slash compat with a wide variety of foods (including Cuisine Delight). Thanks Helester and councilfarciminis2!
+- Changed Night Lich and Obsidilith spawns to be in The End rather than The Otherside.
+- Drastically lowered Rat and Skeleton Minion spawn rates.
+- Increased Bountiful experience rewards by 50%.
+
+### Fixes
+- Fixed Awful Ghast granting drops for Nether Keeper.
+- Fixed an issue where the teleporter item wasn't being granted in maps unless OP.
+- Fixed Cyclone on Crit being cast from mob for real this time.
+
+### Mod Updates
+- Updated EnhancedAI, FTB Library.
+
 ## [1.0.6] - 2025-07-24
 
 ### Reminders

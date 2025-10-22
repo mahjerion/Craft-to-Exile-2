@@ -52,7 +52,7 @@
 - Orb of Colors - Upgrade common item to a random rarity.
 - Orb of Ascension - Upgrade rarity +1.
 - Orb of Revelation - Randomize implicit stat.
-- Orb of Reflection - Creates a mirror of an existing item that cannot be modified through almsot all currencies.
+- Orb of Reflection - Creates a mirror of an existing item that cannot be modified through almost all currencies.
 - Orb of Introspection - Rerolls the base stats.
 - Orb of Runic Invocation - Turns a common rarity item into runed, with a 25% chance of breaking.
 

@@ -6,7 +6,7 @@
 ## [1.1.0] - 2025-10-22
 
 ### WARNING
-- WARNING! UPDATING TO THIS VERSION WILL WIPE YOUR EXISTING JEWELS, PLEASE UNEQUIP THEM BEFORE UPDATING!
+- WARNING! JEWEL GUI UPDATE! Back up your world just in case!
 - WARNING! Botania spreaders and red string blocks will need to be picked up and placed again.
 
 ### General Updates

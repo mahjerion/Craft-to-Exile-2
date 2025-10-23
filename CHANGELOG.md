@@ -9,6 +9,7 @@
 - Updated Jewel GUI textures.
 - Updated some food compat.
 - Added Summon Duration on tooltip.
+- Potential cost for Orb of Runic Invocation increased from 20 to 40.
 
 ### Fixes
 - Fixed summons not working.

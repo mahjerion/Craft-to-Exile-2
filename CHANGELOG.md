@@ -3,6 +3,28 @@
 ### Reminders
 - Always back up your world saves, Xaero's folders, and your options.txt file just in case!
 
+## [1.1.1] - 2025-10-23
+
+### Updates
+- Updated Jewel GUI textures.
+- Updated some food compat.
+- Added Summon Duration on tooltip.
+
+### Fixes
+- Fixed summons not working.
+- Fixed Master Bag in curio slot not functioning correctly.
+- Fixed localization.
+- Fixed strength and dexterity jewel affixes.
+- Fixed overleveled mob skull icon being yellow instead of red.
+- Fixed health bar shader compat.
+- Fixed only Prismarine Obelisk Arena spawning.
+
+### Mod Updates
+- Updated Mine and Slash, Collective.
+
+### Reminders
+- Always back up your world saves, Xaero's folders, and your options.txt file just in case!
+
 ## [1.1.0] - 2025-10-22
 
 ### WARNING

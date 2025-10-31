@@ -3,6 +3,41 @@
 ### Reminders
 - Always back up your world saves, Xaero's folders, and your options.txt file just in case!
 
+## [1.1.2] - 2025-10-31
+
+### Updates
+- Added a new M&S feature that forces auto-salvaged stones to drop on the ground instead of auto-pickup.
+- Increased master bag size and stack counts.
+- Map layouts are now permanent on item creation rather than randomized upon load. You can now see which map it is on the tooltip.
+- Botania Corporea Index has been re-enabled.
+- Removed mention of Umvathana Grove in Act III to reduce confusion.
+- Refined Cooking kitchen stuff no longer requires power.
+- Increased currency drop rate from mobs by 60%.
+- Reduced M&S loot gen from chests through my custom loot table drastically.
+- Updated some M&S item texures thanks to mscr.!
+- Added an additional check to Hidden Depths in Act III.
+
+### Fixes
+- Fixed crash due to Cerbon's API.
+- Fixed multiple instances of an effect appearing in skill tooltips.
+- Fixed an issue with summon aggro support gem.
+- Fixed uncraftable Uber currency.
+- Fixed an issue where map progression wasn't being calculated and shown.
+- Fix Team UI showing a bunch of numbers for infinite effects.
+- Fixed hitching when getting hit with 100%+ KB resist.
+- Fixed Botania floating flowers.
+- Fix unequippable unique jewels.
+- Fix skill key press priority when a button is held down.
+- Gear that is force-dropped due to requirements is no longer auto-salvaged.
+- Fix crash from Void Blossom.
+- Hopefully fixed issue with custom keybinds resetting or not applying correctly.
+
+### Mod Updates
+- Updated Advanced Team, Aquamirae, Collective, CraftPresence, Double Doors, Dungeon Realm, EntityLootDrops, Entity Culling, Flan Fixes Botania, Inventory Essentials, Mine and Slash, Moog's Nether Structures, More Sniffer Flowers, Mysterious Mountain Lib, Obscure API, Simple Backups, Sophisticated mod, UniLib.
+- Added Cerbon's API Fix.
+- Added Tooltip Scaler by Altimor - tooltips should no longer be cut off!
+- Downgraded BOMD, Cerbon's API.
+
 ## [1.1.1] - 2025-10-23
 
 ### Updates
@@ -134,7 +169,7 @@
 - Cursed Unique Zazzith's Cursed Zombies now last 20s instead of 30s, but don't count towards Summon Capacity. The damage on these summons has also been increased by 33%.
 - Elemental Aegis now grants less elemental resistances and grants Max Lightning Resistance instead of Chaos. The gear defense value has also been lowered slightly.
 - Azurewrath no longer grants a chance to cast Blade of Desecrated Hallows and no longer grants 40-50% Phys gained as Cold Damage. Instead, it now grants the ability for your cold hits to ignore resistances, and grants some Phys -> Cold conversion.
-- Hollow Palm Dex scaling reduced to 50-60%, from 75-100%.
+- Hollow Palm Dex scaling reduced to 40-55%, from 75-100%.
 - Autumn Harvest no longer grants Fire and Cold Resists.
 - Mjolner now grants +1 Chain Count.
 - Chained Oak now grants +2 Chain Count.

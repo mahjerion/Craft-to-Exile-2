@@ -3,6 +3,39 @@
 ### Reminders
 - Always back up your world saves, Xaero's folders, and your options.txt file just in case!
 
+## [1.1.3] - 2025-11-06
+
+### Updates
+- We now have a client-side DPS overlay you can toggle with "Shift + \]" and move by entering edit mode with "Shift + \["! With this new tool, I've disabled the somewhat unreliable DPS meter on the dummy.
+- New Patreon-designed Unique Tome: Chaotic Spark! This item was designed by Sparkz. The offhand grants the user a way to convert chaos resistance and max chaos resistance into elemental resistance!
+- New Patreon-designed Unique Chainmail Helmet: Crown of Heresy! This item was designed by ErinExDeus. This helmet is the first item to have the max magic shield per second stat found on Heart of Ice and Ghost Shroud. It gives bonuses to Holy Fire and magic shield, but reduces health and fire resistance!
+- New Patreon-designed Unique Ring: The Mageblade's Lost Ring! This item was designed by K1ngSpad3z. This ring grants the user elemental attack damage based on how much strength they have! The design behind this ring was to give an additional way to scale elemental attack damage skills - especially those that proc off of weapon hits.
+- New Patreon-designed Unique Vest Boots: Harikkite Ikou! This item was designed by Pannyx. These boots were designed for support/healers who wanted to zoom around! Increases to movement speed also increase heal strength, in addition to other stats!
+- Mjolnir unique has been changed to cast the new Blessed Hammer on hit instead of Fist of Judgment.
+- Ghost Shroud magic shield per second is increased from 5% to 10% of your max magic shield per second for 3 seconds.
+- Changed Chieftain resist conversion stats to be percent conversion for more consistency with how the rest of the stats work.
+- Wounds effect (from curse) bleed resistance is now -20% instead of -10%.
+- New Crusader Skill: Blessed Hammer! Fire out a projectile that spirals around you, piercing enemies and dealing lightning damage.
+- Fan of Knives now fires the projectilesin a nova around the user.
+- Fan of Knives projectile count has increased by 50%.
+- Fan of Knives weapon damage scaling increased from 20%->30% to 140%->200%.
+- Map kill progression has been changed to updated dynamically like loot.
+- Reduced boss and uber health by about 20-25%.
+
+### Fixes
+- Ricochet Shot now correctly does more damage with a crossbow.
+- Fixed Obelisks and Harvests not dropping their respective items.
+- Fixed torches not blocking Ender Wyrms.
+- Handle unexpected NaN in entity delta movements (affects Mutant Creepers).
+- Fix crash when unlearning summon.
+- Map scoreboard should only appear for the player now.
+- Fixed an issue where hardcore worlds couldn't be made.
+- Fixed missing lore on Golden Hoe from tutorial.
+
+### Mod Updates
+- Updated All The Leaks, Ancient Obelisk, EntityJS, Euphoria Patches, Global Game Rules, Jauml, JEI, Lightman's Currency, ModernFix, Moonlight Lib, Nirvana Lib, Obscure API, Simple Backups, The Harvest, Vivecraft.
+- Added Mine and Slash Damage Tracker by Dawn.
+
 ## [1.1.2] - 2025-10-31
 
 ### Updates
